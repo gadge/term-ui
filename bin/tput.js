@@ -1,16 +1,14 @@
 #!/usr/bin/env node
 
-var blessed = require('../')
-  , argv = process.argv.slice(2)
-  , cmd = argv.shift()
-  , tput;
+const
+  blessed = require('../'),
+  argv = process.argv.slice(2),
+  cmd = argv.shift()
 
-tput = blessed.tput({
+const tput = blessed.tput({
   terminal: process.env.TERM,
   termcap: !!process.env.USE_TERMCAP,
   extended: true
-});
+})
 
-if (tput[cmd]) {
-  process.stdout.write(tput[cmd].apply(tput, argv));
-}
+if (tput[cmd]) process.stdout.write(tput[cmd].apply(tput, argv))

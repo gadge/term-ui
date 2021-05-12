@@ -8,7 +8,8 @@
   "bin": "./bin/tput.js",
   "dependencies": {
     "@typen/enum-data-types": "^0.1.16",
-    "@texting/enum-chars": "^0.0.9"
+    "@texting/enum-chars": "^0.0.9",
+    "@ject/mixin": "^0.0.11"
   },
   "preferGlobal": false,
   "repository": "git://github.com/chjj/blessed.git",

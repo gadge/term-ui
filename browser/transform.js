@@ -27,14 +27,14 @@ function transformer(code) {
 }
 
 /**
- * Explicitly require all widgets in widgets.test.js
+ * Explicitly require all components in components.test.js
  */
 
-var widgets = fs.readdirSync(__dirname + '/../lib/widgets');
+var widgets = fs.readdirSync(__dirname + '/../lib/components');
 
 var requireWidgets = widgets.reduce(function(out, name) {
   name = path.basename(name, '.js');
-  out += '\nrequire(\'./widgets/' + name + '\');';
+  out += '\nrequire(\'./components/' + name + '\');';
   return out;
 }, '');
 
@@ -95,7 +95,7 @@ function end(file, offset) {
  */
 
 module.exports = function(file) {
-  if (end(file, 2) === 'lib/widgets.test.js') {
+  if (end(file, 2) === 'lib/components.test.js') {
     return transformer(requireWidgets);
   }
   if (end(file, 2) === 'lib/tput.js') {

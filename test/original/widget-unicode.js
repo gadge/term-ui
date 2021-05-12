@@ -3,7 +3,7 @@ var fs = require('fs')
   , unicode = blessed.unicode;
 
 var screen = blessed.screen({
-  dump: __dirname + '/logs/unicode.log',
+  dump: __dirname + '/logs/unicode.logs',
   smartCSR: true,
   dockBorders: true,
   useBCE: true,

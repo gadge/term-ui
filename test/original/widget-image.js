@@ -2,7 +2,7 @@ var blessed = require('../../lib/blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/logs/image.log',
+  dump: __dirname + '/logs/image.logs',
   smartCSR: true,
   warnings: true
 });

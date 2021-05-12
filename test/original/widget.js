@@ -2,7 +2,7 @@ var blessed = require('../../lib/blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/logs/widget.log',
+  dump: __dirname + '/logs/widget.logs',
   title: 'widget test',
   resizeTimeout: 300,
   dockBorders: true,
@@ -18,7 +18,7 @@ screen = blessed.screen({
 
 screen.debugLog.parseTags = true;
 var logs = '';
-require('./tail')(__dirname + '/logs/widget.log').on('line', function(line) {
+require('./tail')(__dirname + '/logs/widget.logs').on('line', function(line) {
   // if (!screen.debugLog.hidden) return;
   logs += line + '\n';
 });

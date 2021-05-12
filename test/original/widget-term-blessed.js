@@ -1,7 +1,7 @@
 var blessed = require('../../lib/blessed');
 
 var screen = blessed.screen({
-  dump: __dirname + '/logs/termblessed.log',
+  dump: __dirname + '/logs/termblessed.logs',
   smartCSR: true,
   warnings: true
 });
@@ -33,7 +33,7 @@ terminal.focus();
 var term = terminal.term;
 
 var screen2 = blessed.screen({
-  dump: __dirname + '/logs/termblessed2.log',
+  dump: __dirname + '/logs/termblessed2.logs',
   smartCSR: true,
   warnings: true,
   input: term,

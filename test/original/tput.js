@@ -133,20 +133,20 @@ if (argv[0] === 'rand') {
   return;
 }
 
-// console.log('Max colors: %d.', tput.colors);
+// console.logs('Max colors: %d.', tput.colors);
 
-// console.log(tput.strings.acs_chars.split('').map(function(ch) { return ch.charCodeAt(0); }));
-// console.log(JSON.stringify(tput.strings.acs_chars));
+// console.logs(tput.strings.acs_chars.split('').map(function(ch) { return ch.charCodeAt(0); }));
+// console.logs(JSON.stringify(tput.strings.acs_chars));
 
 // process.stdout.write(blessed.tput.sprintf('%-10s\n', 'hello'));
 
 // tput._compile({ name: 'xterm' }, 'set_attributes',
 //   '%?%p9%t\u001b(0%e\u001b(B%;\u001b[0%?%p6%t;1%;%?%p2%t;4%;%?%p1%p3%|%t;7%;%?%p4%t;5%;%?%p7%t;8%;m');
 
-// console.log(tput.setaf(4) + 'foo' + tput.sgr0());
-// console.log(tput.setaf(4) + 'foo' + tput.sgr(0));
+// console.logs(tput.setaf(4) + 'foo' + tput.sgr0());
+// console.logs(tput.setaf(4) + 'foo' + tput.sgr(0));
 
 // tput.padding = true;
-// tput._print('hello$<1000/>world', console.log, function() {
-//   tput._print('$<1000/>foo$<1000/>bar', console.log, process.exit);
+// tput._print('hello$<1000/>world', console.logs, function() {
+//   tput._print('$<1000/>foo$<1000/>bar', console.logs, process.exit);
 // });

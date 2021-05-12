@@ -2,7 +2,7 @@ var blessed = require('../../lib/blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/logs/textarea.log',
+  dump: __dirname + '/logs/textarea.logs',
   fullUnicode: true,
   warnings: true
 });

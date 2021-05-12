@@ -2,7 +2,7 @@ var blessed = require('../../lib/blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/logs/listtable.log',
+  dump: __dirname + '/logs/listtable.logs',
   autoPadding: false,
   fullUnicode: true,
   warnings: true

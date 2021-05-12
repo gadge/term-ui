@@ -2,7 +2,7 @@ var blessed = require('../../lib/blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/logs/dock.log',
+  dump: __dirname + '/logs/dock.logs',
   smartCSR: true,
   dockBorders: true,
   warnings: true

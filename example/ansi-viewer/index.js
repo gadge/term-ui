@@ -10,8 +10,8 @@ var blessed = require('blessed')
   , singlebyte = require('./singlebyte')
   , fs = require('fs');
 
-// $ wget -r -o log --tries=10 'http://artscene.textfiles.com/ansi/'
-// $ grep 'http.*\.ans$' log | awk '{ print $3 }' > ansi-art.list
+// $ wget -r -o logs --tries=10 'http://artscene.textfiles.com/ansi/'
+// $ grep 'http.*\.ans$' logs | awk '{ print $3 }' > ansi-art.list
 
 var urls = fs.readFileSync(__dirname + '/ansi-art.list', 'utf8').trim().split('\n');
 

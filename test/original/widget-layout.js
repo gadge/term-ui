@@ -2,7 +2,7 @@ var blessed = require('../../lib/blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/logs/layout.log',
+  dump: __dirname + '/logs/layout.logs',
   smartCSR: true,
   autoPadding: true,
   warnings: true

@@ -27,7 +27,7 @@ function transformer(code) {
 }
 
 /**
- * Explicitly require all widgets in widget.js
+ * Explicitly require all widgets in widgets.test.js
  */
 
 var widgets = fs.readdirSync(__dirname + '/../lib/widgets');
@@ -95,7 +95,7 @@ function end(file, offset) {
  */
 
 module.exports = function(file) {
-  if (end(file, 2) === 'lib/widget.js') {
+  if (end(file, 2) === 'lib/widgets.test.js') {
     return transformer(requireWidgets);
   }
   if (end(file, 2) === 'lib/tput.js') {

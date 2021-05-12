@@ -1,239 +1,253 @@
-const
-  blessed = require('../index'),
-  fs = require('fs')
-// Screen
-const screen = blessed.screen({
-  smartCSR: true,
-  title: 'Blessed form'
-})
-// Form
-const form = blessed.form({
+var blessed = require('../../lib/blessed')
+  , screen;
+
+screen = blessed.screen({
+  dump: __dirname + '/logs/form.logs',
+  warnings: true
+});
+
+var form = blessed.form({
   parent: screen,
-  width: '90%',
-  left: 'center',
+  mouse: true,
   keys: true,
-  vi: true
-})
-// Text boxes
-const label1 = blessed.text({
-  parent: screen,
-  top: 3,
-  left: 5,
-  content: 'FIRST NAME:'
-})
-const firstName = blessed.textbox({
-  parent: form,
-  name: 'firstname',
-  top: 4,
-  left: 5,
-  height: 3,
-  inputOnFocus: true,
-  content: 'first',
-  border: {
-    type: 'line'
-  },
-  focus: {
-    fg: 'blue'
-  }
-})
-const label2 = blessed.text({
-  parent: screen,
-  content: 'LAST NAME:',
-  top: 8,
-  left: 5
-})
-const lastName = blessed.textbox({
-  parent: form,
-  name: 'lastname',
-  top: 9,
-  left: 5,
-  height: 3,
-  inputOnFocus: true,
-  content: 'last',
-  border: {
-    type: 'line'
-  },
-  focus: {
-    fg: 'blue'
-  }
-})
-// Check boxes
-const label3 = blessed.text({
-  parent: screen,
-  content: 'What are your favorite editors?',
-  top: 14,
-  left: 5
-})
-const vim = blessed.checkbox({
-  parent: form,
-  name: 'editors',
-  content: 'Vim',
-  top: 16,
-  left: 5
-})
-const emacs = blessed.checkbox({
-  parent: form,
-  name: 'editors',
-  content: 'Emacs',
-  top: 16,
-  left: 20
-})
-const atom = blessed.checkbox({
-  parent: form,
-  name: 'editors',
-  content: 'Atom',
-  top: 16,
-  left: 35
-})
-const brackets = blessed.checkbox({
-  parent: form,
-  name: 'editors',
-  content: 'Brackets',
-  top: 16,
-  left: 50
-})
-// Radio buttons
-const label4 = blessed.text({
-  parent: screen,
-  content: 'Do you like Blessed?',
-  top: 19,
-  left: 5
-})
-const radioset = blessed.radioset({
-  parent: form,
+  vi: true,
+  left: 0,
+  top: 0,
   width: '100%',
-  height: 5,
-  top: 21
-})
-const yes = blessed.radiobutton({
-  parent: radioset,
-  name: 'like',
-  content: 'Yes',
-  left: 5
-})
-const no = blessed.radiobutton({
-  parent: radioset,
-  name: 'like',
-  content: 'No',
-  left: 15
-})
-// Text area
-const label5 = blessed.text({
-  parent: screen,
-  content: 'Your comments...',
-  top: 24,
-  left: 5
-})
-const textarea = blessed.textarea({
-  parent: form,
-  name: 'comments',
-  top: 26,
-  left: 5,
-  height: 7,
-  inputOnFocus: true,
-  border: {
-    type: 'line'
-  }
-})
-// Submit/Cancel buttons
-const submit = blessed.button({
-  parent: form,
-  name: 'submit',
-  content: 'Submit',
-  top: 35,
-  left: 5,
-  shrink: true,
-  padding: {
-    top: 1,
-    right: 2,
-    bottom: 1,
-    left: 2
-  },
+  //height: 12,
   style: {
-    bold: true,
-    fg: 'white',
     bg: 'green',
-    focus: {
+    // border: {
+    //   inverse: true
+    // },
+    scrollbar: {
       inverse: true
     }
+  },
+  content: 'foobar',
+  scrollable: true,
+  // border: {
+  //   type: 'ch',
+  //   ch: ' '
+  // },
+  scrollbar: {
+    ch: ' '
   }
-})
-const reset = blessed.button({
+  //alwaysScroll: true
+});
+
+form.on('submit', function(data) {
+  output.setContent(JSON.stringify(data, null, 2));
+  screen.render();
+});
+
+form.key('d', function() {
+  form.scroll(1, true);
+  screen.render();
+});
+
+form.key('u', function() {
+  form.scroll(-1, true);
+  screen.render();
+});
+
+var set = blessed.radioset({
   parent: form,
-  name: 'reset',
-  content: 'Reset',
-  top: 35,
+  left: 1,
+  top: 1,
+  shrink: true,
+  //padding: 1,
+  //content: 'f',
+  style: {
+    bg: 'magenta'
+  }
+});
+
+var radio1 = blessed.radiobutton({
+  parent: set,
+  mouse: true,
+  keys: true,
+  shrink: true,
+  style: {
+    bg: 'magenta'
+  },
+  height: 1,
+  left: 0,
+  top: 0,
+  name: 'radio1',
+  content: 'radio1'
+});
+
+var radio2 = blessed.radiobutton({
+  parent: set,
+  mouse: true,
+  keys: true,
+  shrink: true,
+  style: {
+    bg: 'magenta'
+  },
+  height: 1,
   left: 15,
+  top: 0,
+  name: 'radio2',
+  content: 'radio2'
+});
+
+var text = blessed.textbox({
+  parent: form,
+  mouse: true,
+  keys: true,
+  style: {
+    bg: 'blue'
+  },
+  height: 1,
+  width: 20,
+  left: 1,
+  top: 3,
+  name: 'text'
+});
+
+text.on('focus', function() {
+  text.readInput();
+});
+
+var check = blessed.checkbox({
+  parent: form,
+  mouse: true,
+  keys: true,
+  shrink: true,
+  style: {
+    bg: 'magenta'
+  },
+  height: 1,
+  left: 28,
+  top: 1,
+  name: 'check',
+  content: 'check'
+});
+
+var check2 = blessed.checkbox({
+  parent: form,
+  mouse: true,
+  keys: true,
+  shrink: true,
+  style: {
+    bg: 'magenta'
+  },
+  height: 1,
+  left: 28,
+  top: 14,
+  name: 'foooooooo2',
+  content: 'foooooooo2'
+});
+
+var submit = blessed.button({
+  parent: form,
+  mouse: true,
+  keys: true,
   shrink: true,
   padding: {
-    top: 1,
-    right: 2,
-    bottom: 1,
-    left: 2
+    left: 1,
+    right: 1
   },
+  left: 29,
+  top: 3,
+  shrink: true,
+  name: 'submit',
+  content: 'submit',
   style: {
-    bold: true,
-    fg: 'white',
-    bg: 'red',
+    bg: 'blue',
     focus: {
-      inverse: true
+      bg: 'red'
     }
   }
-})
-// Info
-const msg = blessed.message({
-  parent: screen,
-  top: 40,
-  left: 5,
+});
+
+submit.on('press', function() {
+  form.submit();
+});
+
+var box1 = blessed.box({
+  parent: form,
+  left: 1,
+  top: 10,
+  height: 10,
+  width: 10,
+  content: 'one',
   style: {
-    italic: true,
-    fg: 'green'
+    bg: 'cyan'
   }
-})
-const table = blessed.table({
-  parent: screen,
-  content: '',
-  top: 40,
-  left: 'center',
+});
+
+var box2 = blessed.box({
+  parent: box1,
+  left: 1,
+  top: 2,
+  height: 8,
+  width: 9,
+  content: 'two',
   style: {
-    fg: 'green',
-    header: {
-      bold: true,
-      fg: 'white',
-      bg: 'blue'
-    }
+    bg: 'magenta'
+  }
+});
+
+var box3 = blessed.box({
+  parent: box2,
+  left: 1,
+  top: 2,
+  height: 6,
+  width: 8,
+  content: 'three',
+  style: {
+    bg: 'yellow'
+  }
+});
+
+var box4 = blessed.box({
+  parent: box3,
+  left: 1,
+  top: 2,
+  height: 4,
+  width: 7,
+  content: 'four',
+  style: {
+    bg: 'blue'
+  }
+});
+
+var output = blessed.scrollabletext({
+  parent: form,
+  mouse: true,
+  keys: true,
+  left: 0,
+  top: 20,
+  height: 5,
+  left: 0,
+  right: 0,
+  style: {
+    bg: 'red'
   },
-  hidden: true
-})
-// Event management
-submit.on('press', function () {
-  form.submit()
-})
-reset.on('press', function () {
-  form.reset()
-})
-form.on('submit', function (data) {
-  const editors = [ 'Vim', 'Emacs', 'Atom', 'Brackets' ].filter(function (item, index) {
-    return data.editors[index]
-  })
-  msg.display('Form submitted!', function () {
-    let summary = ''
-    summary += data.firstname + ' ' + data.lastname + '\n'
-    summary += '------------------------------\n'
-    summary += 'Favorite editors: ' + editors + '\n'
-    summary += 'Likes Blessed: ' + data.like[0] + '\n'
-    summary += 'Comments: ' + data.comments
-    fs.writeFile('form-data.txt', summary, function (err) {
-      if (err) throw err
-    })
-  })
-})
-form.on('reset', function () {
-  msg.display('Form cleared!', function () {})
-})
-// Key bindings
-screen.key('q', function () {
-  this.destroy()
-})
-// Render everything!
-screen.render()
+  content: 'foobar'
+});
+
+var bottom = blessed.line({
+  parent: form,
+  type: 'line',
+  orientation: 'horizontal',
+  left: 0,
+  right: 0,
+  top: 50,
+  style: {
+    fg: 'blue'
+  }
+});
+
+screen.key('q', function() {
+  return screen.destroy();
+});
+
+form.focus();
+
+form.submit();
+
+screen.render();

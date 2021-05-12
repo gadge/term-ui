@@ -3,7 +3,7 @@ var blessed = require('../../lib/blessed');
 var screen = blessed.screen({
   tput: true,
   smartCSR: true,
-  dump: __dirname + '/logs/obscure-sides.log',
+  dump: __dirname + '/logs/obscure-sides.logs',
   autoPadding: true,
   warnings: true
 });

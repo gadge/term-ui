@@ -1,13 +1,12 @@
-var blessed = require('../../lib/blessed')
-  , screen;
+const blessed = require('../lib/blessed')
 
-screen = blessed.screen({
+const screen = blessed.screen({
   dump: __dirname + '/logs/scrollable-boxes.logs',
   smartCSR: true,
   warnings: true
-});
+})
 
-var box = blessed.box({
+const box = blessed.box({
   parent: screen,
   //padding: 2,
   scrollable: true,
@@ -27,9 +26,9 @@ var box = blessed.box({
     ch: ' ',
     inverse: true
   }
-});
+})
 
-var text = blessed.box({
+const text = blessed.box({
   parent: box,
   content: 'hello1\nhello2\nhello3\nhello4',
   padding: 2,
@@ -40,9 +39,9 @@ var text = blessed.box({
   top: 30,
   width: '50%',
   height: 6
-});
+})
 
-var text2 = blessed.box({
+const text2 = blessed.box({
   parent: box,
   content: 'world',
   padding: 1,
@@ -53,9 +52,9 @@ var text2 = blessed.box({
   top: 50,
   width: '50%',
   height: 3
-});
+})
 
-var box2 = blessed.box({
+const box2 = blessed.box({
   parent: box,
   scrollable: true,
   content: 'foo-one\nfoo-two\nfoo-three',
@@ -83,9 +82,9 @@ var box2 = blessed.box({
   // scrollbar: {
   //   ch: ' '
   // }
-});
+})
 
-var box3 = blessed.box({
+const box3 = blessed.box({
   parent: box2,
   scrollable: true,
   //content: 'foo1\nfoo2\nfoo3\nfoo4\nfoo5\nfoo6\nfoo7\nf008',
@@ -117,12 +116,12 @@ var box3 = blessed.box({
   // scrollbar: {
   //   ch: ' '
   // }
-});
+})
 
-screen.key('q', function() {
-  return screen.destroy();
-});
+screen.key('q', function () {
+  return screen.destroy()
+})
 
-box.focus();
+box.focus()
 
-screen.render();
+screen.render()

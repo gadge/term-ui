@@ -14,7 +14,7 @@ var blessed = require('blessed')
 
 screen = blessed.screen({
   smartCSR: true,
-  log: process.env.HOME + '/blessed-terminal.log',
+  log: process.env.HOME + '/blessed-terminal.logs',
   fullUnicode: true,
   dockBorders: true,
   ignoreDockContrast: true

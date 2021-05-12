@@ -1,4 +1,4 @@
-var blessed = require('../../lib/blessed')
+var blessed = require('../lib/blessed')
   , screen;
 
 screen = blessed.screen({

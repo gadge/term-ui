@@ -21,7 +21,7 @@ process.argv = process.argv.map(function(arg, i) {
 var screen = blessed.screen({
   tput: true,
   smartCSR: true,
-  dump: __dirname + '/logs/png.log',
+  dump: __dirname + '/logs/png.logs',
   warnings: true
 });
 

@@ -5,7 +5,7 @@ var blessed = require('../../lib/blessed')
   , program;
 
 program = blessed.program({
-  dump: __dirname + '/logs/mouse.log'
+  dump: __dirname + '/logs/mouse.logs'
 });
 
 // program.setMouse({

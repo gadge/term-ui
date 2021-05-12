@@ -1,10 +1,10 @@
-var blessed = require('../../lib/blessed')
-  , screen;
+var blessed = require('../lib/blessed')
+  , screen
 
 screen = blessed.screen({
   dump: __dirname + '/logs/form.logs',
   warnings: true
-});
+})
 
 var form = blessed.form({
   parent: screen,
@@ -34,22 +34,22 @@ var form = blessed.form({
     ch: ' '
   }
   //alwaysScroll: true
-});
+})
 
-form.on('submit', function(data) {
-  output.setContent(JSON.stringify(data, null, 2));
-  screen.render();
-});
+form.on('submit', function (data) {
+  output.setContent(JSON.stringify(data, null, 2))
+  screen.render()
+})
 
-form.key('d', function() {
-  form.scroll(1, true);
-  screen.render();
-});
+form.key('d', function () {
+  form.scroll(1, true)
+  screen.render()
+})
 
-form.key('u', function() {
-  form.scroll(-1, true);
-  screen.render();
-});
+form.key('u', function () {
+  form.scroll(-1, true)
+  screen.render()
+})
 
 var set = blessed.radioset({
   parent: form,
@@ -61,7 +61,7 @@ var set = blessed.radioset({
   style: {
     bg: 'magenta'
   }
-});
+})
 
 var radio1 = blessed.radiobutton({
   parent: set,
@@ -76,7 +76,7 @@ var radio1 = blessed.radiobutton({
   top: 0,
   name: 'radio1',
   content: 'radio1'
-});
+})
 
 var radio2 = blessed.radiobutton({
   parent: set,
@@ -91,7 +91,7 @@ var radio2 = blessed.radiobutton({
   top: 0,
   name: 'radio2',
   content: 'radio2'
-});
+})
 
 var text = blessed.textbox({
   parent: form,
@@ -105,11 +105,11 @@ var text = blessed.textbox({
   left: 1,
   top: 3,
   name: 'text'
-});
+})
 
-text.on('focus', function() {
-  text.readInput();
-});
+text.on('focus', function () {
+  text.readInput()
+})
 
 var check = blessed.checkbox({
   parent: form,
@@ -124,7 +124,7 @@ var check = blessed.checkbox({
   top: 1,
   name: 'check',
   content: 'check'
-});
+})
 
 var check2 = blessed.checkbox({
   parent: form,
@@ -139,7 +139,7 @@ var check2 = blessed.checkbox({
   top: 14,
   name: 'foooooooo2',
   content: 'foooooooo2'
-});
+})
 
 var submit = blessed.button({
   parent: form,
@@ -161,11 +161,11 @@ var submit = blessed.button({
       bg: 'red'
     }
   }
-});
+})
 
-submit.on('press', function() {
-  form.submit();
-});
+submit.on('press', function () {
+  form.submit()
+})
 
 var box1 = blessed.box({
   parent: form,
@@ -177,7 +177,7 @@ var box1 = blessed.box({
   style: {
     bg: 'cyan'
   }
-});
+})
 
 var box2 = blessed.box({
   parent: box1,
@@ -189,7 +189,7 @@ var box2 = blessed.box({
   style: {
     bg: 'magenta'
   }
-});
+})
 
 var box3 = blessed.box({
   parent: box2,
@@ -201,7 +201,7 @@ var box3 = blessed.box({
   style: {
     bg: 'yellow'
   }
-});
+})
 
 var box4 = blessed.box({
   parent: box3,
@@ -213,7 +213,7 @@ var box4 = blessed.box({
   style: {
     bg: 'blue'
   }
-});
+})
 
 var output = blessed.scrollabletext({
   parent: form,
@@ -228,7 +228,7 @@ var output = blessed.scrollabletext({
     bg: 'red'
   },
   content: 'foobar'
-});
+})
 
 var bottom = blessed.line({
   parent: form,
@@ -240,14 +240,14 @@ var bottom = blessed.line({
   style: {
     fg: 'blue'
   }
-});
+})
 
-screen.key('q', function() {
-  return screen.destroy();
-});
+screen.key('q', function () {
+  return screen.destroy()
+})
 
-form.focus();
+form.focus()
 
-form.submit();
+form.submit()
 
-screen.render();
+screen.render()

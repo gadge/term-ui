@@ -7,6 +7,7 @@
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
   "dependencies": {
+    "@geia/enum-signals": "^0.0.19",
     "@typen/enum-data-types": "^0.1.16",
     "@texting/enum-chars": "^0.0.9",
     "@pres/enum-control-chars": "^0.1.8",

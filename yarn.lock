@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@geia/enum-signals@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@geia/enum-signals/-/enum-signals-0.0.19.tgz#d65540129c69a167ffc93bb79f1f8c3bcd08a987"
+  integrity sha512-o5KLm9Kd3STMyapWQUF7wiUwp2VDskvO3byUzNC2yfJ9oAibAI0+HGMN6pmb+tS9dST4en6opv1CUZi0hu1ShQ==
+
 "@ject/mixin@^0.0.11":
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@ject/mixin/-/mixin-0.0.11.tgz#27461e0e03b5f6ea13c5cd07e4b535480fed57ff"
@@ -15,6 +20,21 @@
   resolved "https://registry.yarnpkg.com/@ject/rename/-/rename-0.0.11.tgz#de60072220fa3ea26a714bd73fb365d34b29cdd0"
   integrity sha512-/pSUBTs6l6JdxQoVx2xSqzSlSfiYC/JTx0lmskUwkrhhQfKxdArLIccM9JrJj7X4mu2fuEgYEPQeTq5zXG/zVw==
 
+"@pres/enum-control-chars@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@pres/enum-control-chars/-/enum-control-chars-0.1.8.tgz#dc943be4013082bc968a680f45c1bfb659e3c7ed"
+  integrity sha512-RZkL0I9jlp7I+O1rm5QIBmBG+dbpEeuWsdXQh4qad4eOhercB/X+2na8kYLParKVxUzm6yyvg/qkOZVtt56MWg==
+
+"@pres/enum-csi-codes@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@pres/enum-csi-codes/-/enum-csi-codes-0.1.8.tgz#a8748b649655b89bf41cea251416cb54dcc5d190"
+  integrity sha512-2w/2r16FRswS1F59oZxlSMSyAGV1IJL1TRYkBMlsa6muxWXJ9PUsc8wxn4tfhWA0992HkZIImG2vdCisDXJ1lQ==
+
+"@pres/enum-events@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@pres/enum-events/-/enum-events-0.1.8.tgz#1a17200f55f5ef92b316c91ba0e61684c5dd7b51"
+  integrity sha512-R3Lu4DhB9UQnJi2T+ZC+N8A3JsEXTiH/rQP4nkJCiHvZVkJwmj6qa+zR8tIpVEgbBvlk/rMljuo/Daey26BU6g==
+
 "@texting/enum-chars@^0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@texting/enum-chars/-/enum-chars-0.0.9.tgz#7babb7acfb63e00008c89c8f06d972e166078da0"
@@ -24,6 +44,13 @@
   version "0.1.16"
   resolved "https://registry.yarnpkg.com/@typen/enum-data-types/-/enum-data-types-0.1.16.tgz#4825753adec95b2c9eb71887ef812b299b5f76f7"
   integrity sha512-G/HEtSJPQcFyYnx05pWqV9Mt8JtriMt+bTSrinOfzmLOQeuf/AreojJn5c9raEuhTfzS3VRvGCMbBI1vJXYbEw==
+
+"@vect/vector-index@^0.3.9":
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/@vect/vector-index/-/vector-index-0.3.9.tgz#4a7002b0540c0e406d8f4cee6bf3ebfb16c3d33e"
+  integrity sha512-xFshlfigEVloFzjKv8KQwfIevlq5TfWaqG3fuesS5DDZmYY2is53/Jf+WH9AH1raibRlDlAn21nKD5ou8jnmMw==
+  dependencies:
+    "@vect/vector-mapper" "^0.3.9"
 
 "@vect/vector-mapper@^0.3.9":
   version "0.3.9"

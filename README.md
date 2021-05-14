@@ -253,7 +253,7 @@ The base node which everything inherits from.
 - __insertAfter(node, refNode)__ - Insert a node from node after the reference
   node.
 - __detach()__ - Remove node from its parent.
-- __emitDescendants(type, args..., [iterator])__ - Emit event for element, and
+- __emitDescendants(type, sources..., [iterator])__ - Emit event for element, and
   recursively emit same event for all descendants.
 - __get(name, [default])__ - Get user property with a potential default value.
 - __set(name, value)__ - Set user property to value.
@@ -411,9 +411,9 @@ The screen on which every other node renders.
 - __onceKey(name, listener)__ - Bind a keypress listener for a specific key
   once.
 - __unkey(name, listener)__ - Remove a keypress listener for a specific key.
-- __spawn(file, args, options)__ - Spawn a process in the foreground, return to
+- __spawn(file, sources, options)__ - Spawn a process in the foreground, return to
   blessed app after exit.
-- __exec(file, args, options, callback)__ - Spawn a process in the foreground,
+- __exec(file, sources, options, callback)__ - Spawn a process in the foreground,
   return to blessed app after exit. Executes callback on error or exit.
 - __readEditor([options], callback)__ - Read data from text editor.
 - __setEffects(el, fel, over, out, effects, temp)__ - Set effects based on

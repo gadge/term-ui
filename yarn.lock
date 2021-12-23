@@ -374,7 +374,7 @@
     "@vect/vector-merge" "^0.3.8"
     "@vect/vector-zipper" "^0.3.8"
 
-"@aryth/bound-matrix@^0.3.16":
+"@aryth/bound-matrix@^0.3.19":
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/@aryth/bound-matrix/-/bound-matrix-0.3.19.tgz#c17e8f0067d095e96ccf995263ab05fc231c5a0f"
   integrity sha512-sUa4HuNHEzmXj5+wDhgcWtmby8HzdOflwYgvAUTXVzQiT19xOKr5vd1toI4gakgR4lteBQR4EESf3g6rgeS2eA==
@@ -390,7 +390,7 @@
     "@vect/matrix-mapper" "^0.3.9"
     "@vect/matrix-size" "^0.3.9"
 
-"@aryth/bound-vector@^0.3.16", "@aryth/bound-vector@^0.3.19":
+"@aryth/bound-vector@^0.3.19":
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/@aryth/bound-vector/-/bound-vector-0.3.19.tgz#60fbe80616a461a6a07cce3e36908a407c075727"
   integrity sha512-V7mqAAqHLnpg3VVEnoOlRywcZ4ze0FHShcEgIWScEpn8PegDAiGR9zEUdVnDZ+K14/0+ku7z4Zr6kpXZsVnILw==
@@ -402,7 +402,7 @@
     "@typen/literal" "^0.1.16"
     "@typen/numeral" "^0.1.16"
 
-"@aryth/comparer@^0.3.15", "@aryth/comparer@^0.3.16", "@aryth/comparer@^0.3.19":
+"@aryth/comparer@^0.3.15", "@aryth/comparer@^0.3.19":
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/@aryth/comparer/-/comparer-0.3.19.tgz#35037c1072a7566fc21465c5af325a6e68fb4e07"
   integrity sha512-qBHkFDOnGQpn/+z9SNspMzNrHZV6158RvE+z6aOdLQ0oKs88mtJ/wuRmUWiIycoIf+h+YeXzPsgJJ+WcEL+sUQ==
@@ -415,12 +415,12 @@
     "@aryth/util-distinct" "^0.3.19"
     "@vect/column-mapper" "^0.3.9"
 
-"@aryth/math@^0.3.15", "@aryth/math@^0.3.16":
+"@aryth/math@^0.3.19":
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/@aryth/math/-/math-0.3.19.tgz#2940e4b058316a4619e422f51e45bd413478b7c5"
   integrity sha512-RibAJXu9qiCWAQoawYwrUh9tOVfMsCyqSZFbNTcjO9wnKVlGDIw9BONuKeOamDzA7D00/u/76eM9IX5JCWdzuw==
 
-"@aryth/rand@^0.3.15", "@aryth/rand@^0.3.16":
+"@aryth/rand@^0.3.15", "@aryth/rand@^0.3.19":
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/@aryth/rand/-/rand-0.3.19.tgz#9dae9a4462774ae3f875393f80907faf17556d7c"
   integrity sha512-MbGYF6SYQRME4YunC59WKbTGL6IQwoey6ToSpe/7AXjPZXHjnvgP6Or25PmyQI6b7CQ0kMJIW4OSb953LX/M1w==
@@ -455,7 +455,7 @@
     "@vect/vector-algebra" "^0.3.9"
     "@vect/vector-mapper" "^0.3.9"
 
-"@aryth/rank@^0.3.16":
+"@aryth/rank@^0.3.19":
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/@aryth/rank/-/rank-0.3.19.tgz#fca9ba095c19983a0ee9cbaceeff849da07dccd2"
   integrity sha512-3MF/8eYfpku8LMUQKpxmXjXyk6KMDHJfQZ4vct6BZ0M7ayo6AyNMeisACUfAoe6IO/cbUFbnJZ4bFRiWftI9/A==
@@ -495,810 +495,844 @@
     "@ject/rename" "^0.0.11"
     "@vect/vector-mapper" "^0.3.9"
 
-"@ject/noop@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@ject/noop/-/noop-0.0.11.tgz#3f6cf43bca473fa47330d846dbebc6ab5c97f28b"
-  integrity sha512-vY2aLimSsdZN33tdzaVS5l/1H4CjPIhgHEbN9zSp7eYuFJs4qeMvf8yWoYFLN2KlbuJMPZCIP0clO3RHQ6FuCQ==
-
-"@ject/oneself@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@ject/oneself/-/oneself-0.0.10.tgz#6823d816e242540dc4d5c929783a73c918dfab65"
-  integrity sha512-hqHGZX9T/1+taXhZFQF+tsupZgClaqNdwiPbuCvrpyeiQddG0UY9+zeWaqwdwkbNHhZP45n81qPVZQNsefdWzg==
+"@ject/noop@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@ject/noop/-/noop-0.0.12.tgz#154796ca5019baebc220990f4d8690d76fc92cc9"
+  integrity sha512-5Rb7eS2mEEiFrfMRfVan/jsAxqlCbLvSDCESKTSk8Kglt4oXaOW/qZXpziHqWz9xa4X/MkqUY4orYv+E3Zte+Q==
 
 "@ject/oneself@^0.0.11":
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@ject/oneself/-/oneself-0.0.11.tgz#0c96be2dac67a5dfa235711b6ae1b582e30ccefa"
   integrity sha512-3ygnfX+EE2ObiDpQQ6d+LHdpnEfOdDoQ1Py1vrqPta9K9/D31tKRkstLevqtIIBb6mxnUUtKI0x+NmJ3zvYkMw==
 
+"@ject/oneself@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@ject/oneself/-/oneself-0.0.12.tgz#773edc914365eb1b158da93586ef16f074054430"
+  integrity sha512-81IJ6iEiefvHM8MxlNx/9g44j/5AalQQAXtnRG61oVcwpOzgu4+aCvPU8N8X4s8pY82YVYl5OXTHOhl05FIHfA==
+
 "@ject/rename@^0.0.11":
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@ject/rename/-/rename-0.0.11.tgz#de60072220fa3ea26a714bd73fb365d34b29cdd0"
   integrity sha512-/pSUBTs6l6JdxQoVx2xSqzSlSfiYC/JTx0lmskUwkrhhQfKxdArLIccM9JrJj7X4mu2fuEgYEPQeTq5zXG/zVw==
 
-"@palett/cards@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/cards/-/cards-0.7.7.tgz#8a3d99a1b1e2b735f8f5113789daa746dcf32e88"
-  integrity sha512-n0cNtYaYt+L06v8KMpFgOPpA8PJ5O4pxq0YtxGjPBI38NmIKwv75TA0BUTgXAzbHCa9T/yjjrMlvp8J3IZZ7vw==
+"@palett/cards@^0.8.1", "@palett/cards@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/cards/-/cards-0.8.3.tgz#d0fc764e370764c7e3901ee839c76f84a828a46e"
+  integrity sha512-ftu8Q8h2aH5vBZh+DbkyfALG1OJvQr9oPyhrdjLrQ16OXwlrQVJQO/i5HngM7ZnLRcA5FHpaZCcXOGMwP3XNVg==
   dependencies:
     palett-presets "^0.1.1"
 
-"@palett/convert@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/convert/-/convert-0.7.7.tgz#8fac1dba8f4f146055463a03c97890ec49b54a2e"
-  integrity sha512-qrYP+dtX3eaoSb68Tajs0O/+vFZXnfTrVX6YvwyOPDH3+CsFWpEEj1ZxVc9x9qJEZEIgOFiFU4uuwa+bGqvA4Q==
+"@palett/convert@^0.8.1", "@palett/convert@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/convert/-/convert-0.8.3.tgz#17e72963c896545d76dd2bffa0b369c116d510f5"
+  integrity sha512-n4kTViWu8ByPMQ2x2JThecY2boWM7lixmw2ab7EhCBZ8m6iJGQ9okHKJUxGM/1yH00G4V1dSDLLDdiVgQPxqXQ==
   dependencies:
-    "@aryth/math" "^0.3.16"
+    "@aryth/math" "^0.3.19"
+    "@ject/oneself" "^0.0.12"
 
-"@palett/dye-factory@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/dye-factory/-/dye-factory-0.7.7.tgz#d154234ea5ca343a827392838c4c0ae50c9730a6"
-  integrity sha512-CyiBu+SQXcdO/bPcYZ39Zf9QarBAmAYZvAT3qd44hH+hba3rmCq+Ff/m8uMdTYQLzbfzUDRvHY0XhRkm0AuAWg==
+"@palett/dye-factory@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/dye-factory/-/dye-factory-0.8.3.tgz#f5a1f88317972ea80204215364c6ee7a3fd3e4aa"
+  integrity sha512-ZhecRThTPMGeRDhO8pc/qaPbarK8+pbQx3QoyXyIWqGftEu34BFa033zuQJKqDgDp1quELiIdXjnDW5qkjo6Wg==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@palett/dye" "^0.7.7"
-    "@palett/enum-color-space" "^0.7.7"
-    "@palett/util-ansi" "^0.7.7"
+    "@ject/oneself" "^0.0.12"
+    "@palett/enum-color-space" "^0.8.3"
+    "@palett/util-ansi" "^0.8.3"
 
-"@palett/dye@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/dye/-/dye-0.7.7.tgz#a807042a036fa1a2abe44253aad678605d2ba398"
-  integrity sha512-FF0yMz41yzZlXUvN7KPmODNFkYSgj3asYRt6TA0L9Jl7jilzkbT5F6Md/Kdq67WXtuQKfqZKDkb8aQU9XGe92w==
+"@palett/dye@^0.8.1", "@palett/dye@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/dye/-/dye-0.8.3.tgz#b36c0b2bfad82d56da78e4adc25f750401114006"
+  integrity sha512-/C6LHoCxII8AeHFZNq7txUAJ4N6qdTV1gLEv5UAYiTgkQ1jnHJTxCiq2Fj15jepGUcZ08LFiSdQnuNDv6HfUnA==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@palett/enum-color-space" "^0.7.7"
-    "@palett/util-ansi" "^0.7.7"
+    "@ject/oneself" "^0.0.12"
+    "@palett/dye-factory" "^0.8.3"
+    "@palett/enum-ansi-codes" "^0.8.3"
+    "@palett/enum-color-space" "^0.8.3"
+    "@palett/enum-font-effects" "^0.8.3"
+    "@palett/util-ansi" "^0.8.3"
 
-"@palett/enum-color-cards@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/enum-color-cards/-/enum-color-cards-0.7.7.tgz#ae5ceaadd36351dc3c2c411ad22b392cda5bb4ae"
-  integrity sha512-0x59AeO7o9InfqRmG+pLFfwq9F7uQgfBDPcadk9e/1gfSMyu3+18CBQr+I8A0y0Gq08yGeLlr3GaZnz/QmRFHw==
+"@palett/enum-ansi-codes@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/enum-ansi-codes/-/enum-ansi-codes-0.8.3.tgz#11345614b9dbf280668031db04c62c5b577d9ef3"
+  integrity sha512-wq8adul577p3qp433auNN2+gwcGR7QBr1bScqLS1sA1bdMn8z2PnA4Jgp+++uQ+MOCW+IHKtrkPXhTTkdk+txQ==
 
-"@palett/enum-color-space@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/enum-color-space/-/enum-color-space-0.7.7.tgz#d6e3b7c04d5df3c3f1860b09269a784cc9d452aa"
-  integrity sha512-L4bde4hJMW5GNJGeixBNW2GLIjx/Uu6veoe7A9kqEzshSZwieCh+3Jp0qnTcTdHrXIUDBwwN1cFUxvmkrvk4mA==
+"@palett/enum-color-cards@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/enum-color-cards/-/enum-color-cards-0.8.3.tgz#3edeaebf16fc97fe22272615190f78ad4218bc2a"
+  integrity sha512-Xy2VAmXfqhPbt9+4wSWnm8k6KK4FG7FTA+AyJE5HQ441ac3DGHfDcdvmbUJ+Ye9arY3+ETw5C3ZUtsRQjBxexg==
 
-"@palett/enum-colorant-modes@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/enum-colorant-modes/-/enum-colorant-modes-0.7.7.tgz#e0edde1e8961d2bc1d4254b2b7d5120608c05947"
-  integrity sha512-QzN8lA78Lzi1O6/KbKzch41LwaSkmOxZlmuaj/hpEECgqcgTvFsZ+JPhBs6g8jSvHAoMDFowoMfPULvlQ3TWWQ==
+"@palett/enum-color-space@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/enum-color-space/-/enum-color-space-0.8.3.tgz#41e008e1634e0cef6a74a715990467ac58fa966c"
+  integrity sha512-0y6eym6NuHztvBNuUgJ1LVMOqz5DZQxCk7y8xq0rK+8A/Tod2Q38a+mmA7LRI+oyaAnCB/M4PwbaDnVPmIyiTA==
+
+"@palett/enum-colorant-modes@^0.8.1":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/enum-colorant-modes/-/enum-colorant-modes-0.8.3.tgz#be968205ab363b8a539f727551093084b6a5fda1"
+  integrity sha512-5Ye5QsUF2sfk4CeiSTyRFSejn5NgBboDU7TTSZFCf7ooBN79O/jzi9aqeU/PMWrIpWVLEyNqJ/CN9Mc9gdUh+w==
   dependencies:
-    "@palett/enum-color-space" "^0.7.7"
+    "@palett/enum-color-space" "^0.8.3"
 
-"@palett/enum-font-effects@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/enum-font-effects/-/enum-font-effects-0.7.7.tgz#fb9e8380f8824f8f1997e2020c2e80598ff0674c"
-  integrity sha512-clRuPZJWfPdIT8zHtPl1rXc+quYZWg9lwJG+DRENm6LqmqdzKU81cIVa1P8S+Gd6qiX3TSSHHj3PN9nSPkdjyw==
+"@palett/enum-font-effects@^0.8.1", "@palett/enum-font-effects@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/enum-font-effects/-/enum-font-effects-0.8.3.tgz#cae9c65d80753e1b4f1b3c86645c03516e7e3b0a"
+  integrity sha512-n2qmV/A4BFm/GJ1YpFjgn4qipE3woMHinxW3P0OlAieDzQOXGNji2TX1D3imgsdMQtWhnIH1XlEOeZTxn0vbZw==
 
-"@palett/flopper@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/flopper/-/flopper-0.7.7.tgz#e59976e1c7a41aeb8cdd9dd9956c40c468163d08"
-  integrity sha512-UWeHOPmBcyiY9z81BzmUezWRyyodhOWmBh40I52C8loRDdglMBXg7HYPtZp/DnLvAqVDfFOS5xUWFOvnxzajCQ==
+"@palett/flopper@^0.8.1":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/flopper/-/flopper-0.8.3.tgz#c6918650396d7d34df3822e7ce7b0fb6a730a8a7"
+  integrity sha512-cGTmu/rF8tzD4+AA+nntku6TL/O8ZRdTSVig+2p7VUlm5G0PUjCInYfAppanAmdsqcDOr84mASvge+mc9WozEw==
   dependencies:
-    "@aryth/comparer" "^0.3.16"
-    "@aryth/rand" "^0.3.16"
-    "@aryth/rank" "^0.3.16"
-    "@palett/cards" "^0.7.7"
-    "@palett/enum-color-space" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@palett/table" "^0.7.7"
-    "@vect/swap" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
+    "@aryth/comparer" "^0.3.19"
+    "@aryth/rand" "^0.3.19"
+    "@aryth/rank" "^0.3.19"
+    "@palett/cards" "^0.8.3"
+    "@palett/enum-color-space" "^0.8.3"
+    "@palett/presets" "^0.8.3"
+    "@palett/table" "^0.8.3"
+    "@vect/swap" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@palett/fluo-entries@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/fluo-entries/-/fluo-entries-0.7.7.tgz#f9bd5539e9ba5559eb97ee3a2cdaf5588b4d26ad"
-  integrity sha512-tSdfD7Zhdwv/eWx5QSaEHEnZI8KD0UkLJGiFLkUFD8f8bGuI5OUSykp1Ee5CQBdy7rGZ7kRac0z5Gm09+B23BA==
+"@palett/fluo-entries@^0.8.1", "@palett/fluo-entries@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/fluo-entries/-/fluo-entries-0.8.3.tgz#fb39330ea197aaa7891993d970c533e8740ef158"
+  integrity sha512-10ns15wXNYzrRsQgtyq7xmLnlValp2RN+C85mKOsZcinuWELas4gF4IuV3v3h6xWMTWvh9GS6y2+/7/C/TNEGw==
   dependencies:
-    "@palett/fluo-vector" "^0.7.7"
-    "@vect/entries-init" "^0.3.9"
-    "@vect/entries-unwind" "^0.3.9"
-    "@vect/entries-zipper" "^0.3.9"
+    "@palett/fluo-vector" "^0.8.3"
+    "@vect/entries-init" "^0.3.10"
+    "@vect/entries-unwind" "^0.3.10"
+    "@vect/entries-zipper" "^0.3.10"
 
-"@palett/fluo-matrix@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/fluo-matrix/-/fluo-matrix-0.7.7.tgz#25ae6fb1c80d0c141515a4fc2195a0227e656d0e"
-  integrity sha512-3r0gUC7oHhWbHP2x9kdOLKvHvXpkXPsKHmSt4lioLCTM4TG6RXjKG/PIUUt9GOcOkCp5Db1Dhrro4n5NZgdwwA==
+"@palett/fluo-matrix@^0.8.1", "@palett/fluo-matrix@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/fluo-matrix/-/fluo-matrix-0.8.3.tgz#e255e82f845735b4e7da99cef8645724d24d5ce7"
+  integrity sha512-t9Ad0gJIdzZ3ZWwPksHO1pr7IS0m0AiUgMhSQEXNxUJvepvGt2o3bIL02kwEyenn0BFxA+FzyDMUSuCzn1+ZYQ==
   dependencies:
-    "@aryth/bound-matrix" "^0.3.16"
-    "@palett/fluo-vector" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@palett/projector-factory" "^0.7.7"
+    "@aryth/bound-matrix" "^0.3.19"
+    "@palett/fluo-vector" "^0.8.3"
+    "@palett/presets" "^0.8.3"
+    "@palett/projector-factory" "^0.8.3"
     "@typen/nullish" "^0.1.16"
-    "@vect/enum-matrix-directions" "^0.3.9"
-    "@vect/matrix" "^0.3.9"
-    "@vect/object-select" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
+    "@vect/enum-matrix-directions" "^0.3.10"
+    "@vect/matrix" "^0.3.10"
+    "@vect/object-select" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@palett/fluo-vector@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/fluo-vector/-/fluo-vector-0.7.7.tgz#174cf4a64f43162640d4fe704c2548b7bbfcc3c7"
-  integrity sha512-JZCkLXW9bA3tFTCNJthz9V9kobJOxesO6f/RCTb0IYBxx0G9B9FLkv8x+nk5fjwDbf8gp0CqoOeL/0lnO/u5+A==
+"@palett/fluo-vector@^0.8.1", "@palett/fluo-vector@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/fluo-vector/-/fluo-vector-0.8.3.tgz#25ba990dcee3d0f332bfff6c525b7b20669e4ae5"
+  integrity sha512-K5FTtXV0xsQ7xA4TiDlbLLhFDT8bAe8QHwzJIfJnKuNI/olW7bmk91I/1I03X4KHBN7t8niApIr7Zi0Blvfpmg==
   dependencies:
-    "@aryth/bound-vector" "^0.3.16"
-    "@palett/presets" "^0.7.7"
-    "@palett/projector-factory" "^0.7.7"
+    "@aryth/bound-vector" "^0.3.19"
+    "@palett/presets" "^0.8.3"
+    "@palett/projector-factory" "^0.8.3"
     "@typen/nullish" "^0.1.16"
-    "@vect/vector-mapper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@palett/fluo@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/fluo/-/fluo-0.7.7.tgz#838408b1d623508e125a20d7e8fb59ac0d249e01"
-  integrity sha512-r11VIREVaRPevvGy5mAgaY/jfdfU96MtnITXrGRDxKT6sBNCNv7AS+A2j2Faui91CdRMi3913hJd11MjMY+7uA==
+"@palett/fluo@^0.8.1":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/fluo/-/fluo-0.8.3.tgz#00d847f88f8170d3e89ed6cc6a194d3634fba2bd"
+  integrity sha512-zYvXeTDRKavIjNVf0A8L9Fq0ATnPKgj+au91P/8Bc5JYFHXU+65lvs20kW51a0glwOyzBuiiisEKhRkoIKfdhA==
   dependencies:
-    "@palett/fluo-entries" "^0.7.7"
-    "@palett/fluo-matrix" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@palett/projector-factory" "^0.7.7"
-    "@spare/string-value" "^0.11.13"
-    "@texting/charset-fullwidth" "^0.0.6"
-    "@texting/charset-halfwidth" "^0.0.6"
+    "@palett/fluo-entries" "^0.8.3"
+    "@palett/fluo-matrix" "^0.8.3"
+    "@palett/fluo-vector" "^0.8.3"
+    "@palett/presets" "^0.8.3"
+    "@palett/projector-factory" "^0.8.3"
+    "@spare/string-value" "^0.11.16"
+    "@texting/charset-fullwidth" "^0.0.10"
+    "@texting/charset-halfwidth" "^0.0.10"
     "@typen/literal" "^0.1.16"
     "@typen/nullish" "^0.1.16"
-    "@vect/object-update" "^0.3.9"
+    "@vect/object-update" "^0.3.10"
 
-"@palett/presets@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/presets/-/presets-0.7.7.tgz#d7c88172a22870c382915251430c2f715b5a9e71"
-  integrity sha512-gg2EkhmCJkbD/CRN63o3UilZULxV02a+pJROmEzM4zt8DNByNBADqCVkNsRbw9LMdVC7s0czYyYlu4Es2Fxhdw==
+"@palett/presets@^0.8.1", "@palett/presets@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/presets/-/presets-0.8.3.tgz#d4464d7cd0ce87f3504ff7bbc25d3d523ef47e6b"
+  integrity sha512-gwh/XQ+hP10Gd20vfI4oCx2tV4jzfQqzVOLh/3ck5gD9rlMs48s9VMSrGiOFvjFasciimx9+rMZRaJKBuX2GXw==
   dependencies:
-    "@aryth/rand" "^0.3.16"
-    "@ject/oneself" "^0.0.10"
-    "@palett/cards" "^0.7.7"
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@palett/toner-hsl" "^0.7.7"
+    "@aryth/rand" "^0.3.19"
+    "@ject/oneself" "^0.0.12"
+    "@palett/cards" "^0.8.3"
+    "@palett/convert" "^0.8.3"
+    "@palett/dye" "^0.8.3"
+    "@palett/toner-hsl" "^0.8.3"
     "@typen/enum-data-types" "^0.1.16"
 
-"@palett/projector-config@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/projector-config/-/projector-config-0.7.7.tgz#dcf8806d88fb8ab55b93acc45b9230b9078404b1"
-  integrity sha512-VEe12g2oJBSXaYn9geFJ4oa1mLuk0L5TZOt5pNDVo7SpacwJ7xXXV0QnR9Y8e0M8TGc91M39Mg5RGLO6aJ2G7g==
+"@palett/projector-config@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/projector-config/-/projector-config-0.8.3.tgz#f6463fa7e3cbf9e8c8871fe80a87001d594918e8"
+  integrity sha512-Yj2w2DfzSjOmLFFsO42VQp6urPcOhTqgVIH2d//a9ZVB9V+ZGi9Ah2z2245Sx+jMhNzIxK5pLz2/eJ4fWpMBrQ==
   dependencies:
-    "@aryth/comparer" "^0.3.16"
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@palett/dye-factory" "^0.7.7"
-    "@palett/enum-color-space" "^0.7.7"
+    "@aryth/comparer" "^0.3.19"
+    "@palett/convert" "^0.8.3"
+    "@palett/dye" "^0.8.3"
+    "@palett/dye-factory" "^0.8.3"
+    "@palett/enum-color-space" "^0.8.3"
     "@typen/nullish" "^0.1.16"
 
-"@palett/projector-factory@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/projector-factory/-/projector-factory-0.7.7.tgz#373dee16c795fb27eff0125bc15470e243e8f6a7"
-  integrity sha512-Olrlq1zGKaholpDaJvZyy64h49xS2rDC+EWrSixTrBVfOXB2yORhb43OqzOULBNqOiR/nSMJVog7UlNqOHp++A==
+"@palett/projector-factory@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/projector-factory/-/projector-factory-0.8.3.tgz#8f7a81c3d3104f6b9df8ecf0182db32dc48b9f6d"
+  integrity sha512-U3v8fekiGfmjbKVJdOZNZprnovdVs2CSOl5S+/l/tOVgla5RicfegxkRqRkon0RDM+Ay4G8XNf5fxHrgyFjQGQ==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@palett/projector-config" "^0.7.7"
+    "@ject/oneself" "^0.0.12"
+    "@palett/projector-config" "^0.8.3"
 
-"@palett/projector@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/projector/-/projector-0.7.7.tgz#bf4a7ec95c8789da0cf469ef36e1ca3d416df558"
-  integrity sha512-YoXG/L8OWI6GW7SDgmi8kXfkHFMf1g6WFwuuIHL8VoQ4hMIYt6Wk2YXd5nYDn/P7ZaH28aAOWpDhyjqFQ/4C8w==
+"@palett/projector@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/projector/-/projector-0.8.3.tgz#6792aeee80bdc9581fc6857ac70c6b6c765b253a"
+  integrity sha512-X5kn4SQhgnTBm4CLKqN4CHseEvz7CIClgPFnSu/pHvy65+CglzwFTl5hcs88WnO42nE2dwqOyzncuDOAJhsipA==
   dependencies:
-    "@aryth/comparer" "^0.3.16"
-    "@palett/dye" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@palett/projector-config" "^0.7.7"
+    "@aryth/comparer" "^0.3.19"
+    "@palett/dye" "^0.8.3"
+    "@palett/presets" "^0.8.3"
+    "@palett/projector-config" "^0.8.3"
+    "@palett/projector-factory" "^0.8.3"
     "@typen/nullish" "^0.1.16"
     "@typen/num-strict" "^0.1.16"
 
-"@palett/table@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/table/-/table-0.7.7.tgz#197193319556eafb13eb53eae923f2e31d0fbdf2"
-  integrity sha512-oPjMrgwlf67UJVKdSqfjIjqTSMGZaeB3UAoWfzpCHY7bmFTtQBU/TXKlpPHY7ihKMBs273gePWZhblwcxrgUgw==
+"@palett/table@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/table/-/table-0.8.3.tgz#1acdadb791d2a9421fff8d9b8c1b3f4cec8a98ac"
+  integrity sha512-Ope1kaFOBTrMt+5Vpi8nZdwwkEZzcpodZJjC3S+d5QMKQrMVV7vlmTKP/2ONjAlH61zsNLjEDO2HQCrWe9sxbQ==
   dependencies:
     "@analys/convert" "^0.5.0"
     "@analys/crostab" "^0.5.0"
-    "@aryth/math" "^0.3.16"
-    "@ject/oneself" "^0.0.10"
-    "@palett/cards" "^0.7.7"
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@palett/enum-color-cards" "^0.7.7"
-    "@palett/enum-color-space" "^0.7.7"
-    "@palett/enum-font-effects" "^0.7.7"
-    "@spare/string" "^0.11.13"
-    "@spare/translator" "^0.11.13"
-    "@vect/columns-mapper" "^0.3.9"
-    "@vect/matrix-mapper" "^0.3.9"
-    "@vect/matrix-transpose" "^0.3.9"
-    "@vect/object-select" "^0.3.9"
-    "@vect/vector-indicator" "^0.3.9"
-    "@vect/vector-init" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-stat" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@aryth/math" "^0.3.19"
+    "@ject/oneself" "^0.0.12"
+    "@palett/cards" "^0.8.3"
+    "@palett/convert" "^0.8.3"
+    "@palett/dye" "^0.8.3"
+    "@palett/enum-color-cards" "^0.8.3"
+    "@palett/enum-color-space" "^0.8.3"
+    "@palett/enum-font-effects" "^0.8.3"
+    "@spare/string" "^0.11.16"
+    "@spare/translator" "^0.11.16"
+    "@vect/columns-mapper" "^0.3.10"
+    "@vect/matrix-mapper" "^0.3.10"
+    "@vect/matrix-transpose" "^0.3.10"
+    "@vect/object-select" "^0.3.10"
+    "@vect/vector-indicator" "^0.3.10"
+    "@vect/vector-init" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-stat" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@palett/toner-hsl@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/toner-hsl/-/toner-hsl-0.7.7.tgz#697a64b78f46dc5205cfe7ee88980b339bca5cde"
-  integrity sha512-4OlQ29UVRcZt1SyNN8sQBEDpNu3QHeozFawNEThsK0UAeb2i/fnl684OG7sAtxx/x32xNzi0uaWbPWXYgq+KLw==
-
-"@palett/util-ansi@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@palett/util-ansi/-/util-ansi-0.7.7.tgz#dda1c5c5454bf779f870ee72bdd24070d3bdc17d"
-  integrity sha512-NAD3JdUjsM7H8gmWtKXwzzdI0l5HDn4JjDX4SOWUEcSY+QrnEy1GervP7XofwfefmMOQVQWpdD96+VGlSfQpxw==
+"@palett/toner-hsl@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/toner-hsl/-/toner-hsl-0.8.3.tgz#a8d696634f8dd27d1bc732f7bd50a65a12b8529e"
+  integrity sha512-QtUMriAkxSP2PHZLAORrJRv6g+y9B3UMXkL6tJPWR47c+rJrHuy9Dyp+MvoZWsjYN8AGWKvfjizQwpNYs5OiKA==
   dependencies:
-    "@palett/convert" "^0.7.7"
+    "@aryth/math" "^0.3.19"
 
-"@pres/components-node@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/components-node/-/components-node-0.1.8.tgz#646b6fd073390c92750682166cfacc1368080171"
-  integrity sha512-XtQrsJBzugdpPdj4l3Ir6ZUp1y86MfoV2jTOmpQlmbMIwYMs4guAmAKlxNwDBJ3+UnbrvoFqKfDcu9aRs6D3Kw==
+"@palett/util-ansi@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@palett/util-ansi/-/util-ansi-0.8.3.tgz#4066c3ab5bebc715c1b37fb67e89f9c8010ca56b"
+  integrity sha512-HDnG6DyZYtsjnlResvnpgo9d/cNrbRFFni9Lmx25t/lHn99iRvHPhUKBHSaG0EqyYX5pDXjM3PB4vlW0Nx3h4A==
   dependencies:
-    "@pres/enum-events" "^0.1.8"
-    "@pres/events" "^0.1.8"
+    "@palett/convert" "^0.8.3"
+
+"@pres/components-node@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/components-node/-/components-node-0.1.20.tgz#0c015be4b6e9eaa580bf450b9852bf4946aaa803"
+  integrity sha512-ytoYZzErOwDlovbkycQ8xWuNr2BGF/VTcHU4eMEZFMlGNZUJNHXmiDvICbPfM3zRjY4An8RCHGqK5/qmacXbiw==
+  dependencies:
+    "@pres/enum-events" "^0.1.20"
+    "@pres/events" "^0.1.20"
     "@typen/enum-data-types" "^0.1.16"
     "@vect/vector-index" "^0.3.9"
 
-"@pres/enum-control-chars@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/enum-control-chars/-/enum-control-chars-0.1.8.tgz#dc943be4013082bc968a680f45c1bfb659e3c7ed"
-  integrity sha512-RZkL0I9jlp7I+O1rm5QIBmBG+dbpEeuWsdXQh4qad4eOhercB/X+2na8kYLParKVxUzm6yyvg/qkOZVtt56MWg==
+"@pres/enum-control-chars@^0.1.20", "@pres/enum-control-chars@^0.1.8":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/enum-control-chars/-/enum-control-chars-0.1.20.tgz#eae001adce5c5334cd31a9e3711247b8bd2ee527"
+  integrity sha512-Nm42BsmT013+6kxsT5VkkbaA9V3WtejuTtc4LLL4QeEy/Zg5PpJAY7TENVHg3tIdlodL9AhgB4T/7fDIyJsJrw==
 
-"@pres/enum-csi-codes@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/enum-csi-codes/-/enum-csi-codes-0.1.8.tgz#a8748b649655b89bf41cea251416cb54dcc5d190"
-  integrity sha512-2w/2r16FRswS1F59oZxlSMSyAGV1IJL1TRYkBMlsa6muxWXJ9PUsc8wxn4tfhWA0992HkZIImG2vdCisDXJ1lQ==
+"@pres/enum-csi-codes@^0.1.20", "@pres/enum-csi-codes@^0.1.8":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/enum-csi-codes/-/enum-csi-codes-0.1.20.tgz#bd1fddea30406eb786f160d513343fa464137e4f"
+  integrity sha512-RQBZJHzl4Tww/epYgLZsTm59ffyhTAgnMu6mpBBBZ/OP0Ar/ezEqc0fa4LHq1jk/V/AJDMzeMAXEHdySTDVTrw==
 
-"@pres/enum-events@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/enum-events/-/enum-events-0.1.8.tgz#1a17200f55f5ef92b316c91ba0e61684c5dd7b51"
-  integrity sha512-R3Lu4DhB9UQnJi2T+ZC+N8A3JsEXTiH/rQP4nkJCiHvZVkJwmj6qa+zR8tIpVEgbBvlk/rMljuo/Daey26BU6g==
+"@pres/enum-events@^0.1.20", "@pres/enum-events@^0.1.8":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/enum-events/-/enum-events-0.1.20.tgz#967beb2a136bad4d015324bdebf4d069bb57cb68"
+  integrity sha512-+UtkxubUhsl2pPVxAEwl+/o6dnlB5LaSTlE2enGx5HGjA+lNB1NBf47b1KlTHXApVC/7BbbZOssMHbVjCsTPig==
 
-"@pres/enum-key-names@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/enum-key-names/-/enum-key-names-0.1.8.tgz#7d2ef43e2841419edd81cef068462599d19cd6c1"
-  integrity sha512-08P13+Gxp94FZPSEKtAmv4AYZ4lonliyolMRIaNYaDZoaS6P3nnKgzFYk/seQ8TLNUCcPbsk/mpEPNk+UJVGAw==
+"@pres/enum-key-names@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/enum-key-names/-/enum-key-names-0.1.20.tgz#f93b0c729601f96cc4ceb930a1a02efcd36cdb79"
+  integrity sha512-6v/cVfXiHSut+xVdNw7mE/EFnSe6nqM5juxa+CWB+uRIJH5BtjRR7lKGvLPN5wheQw4ZGE9Qx4Dyaw5IrIfSQQ==
 
-"@pres/enum-terminfo-alias@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/enum-terminfo-alias/-/enum-terminfo-alias-0.1.8.tgz#3a0494b919a2430fb9377977874743ea0e2bd108"
-  integrity sha512-oZEwYCigKvhz93oOE/CyiGbiKsCERhswRCvQFWzaSTdE1oKKPR4Wvxje3OrwuX39IYvu16BAP+etN3fT0ARnUw==
+"@pres/enum-terminfo-alias@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/enum-terminfo-alias/-/enum-terminfo-alias-0.1.20.tgz#6d4a7e6fbf76f314c7f8ee9917064586d24ea5aa"
+  integrity sha512-pYjw1tLSSM5KcYN+3Bs0X0OQs4XI0vd7kYC77Ov/72Q1R6zHdyCQ0Cww6qhuAdSv8qm1Fbp3c0RD9QjmEytJFg==
 
-"@pres/events@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/events/-/events-0.1.8.tgz#ee0bd4ce90e59f1431d1b9344af6943a37484a9f"
-  integrity sha512-3ZdeJvYkMqvYWnF4KdARa5O3aGMYAoe7jdtJaEatUcKbcjFoKsWGx6zzR6s9Zp8CcjTrk30YH0vTngAoV6ZC2g==
+"@pres/events@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/events/-/events-0.1.20.tgz#3537afd1facc409f4e2753ac732f76ced8e16033"
+  integrity sha512-pWtrF3r+Lf8at4o13mrOVvPVbk/DI8gjG9mc5LZrAbLJk7Y10bQTbUhCtWrVQ6IU4YTjhGkWBdOo7VeYMCrvuw==
   dependencies:
-    "@pres/enum-events" "^0.1.8"
+    "@pres/enum-events" "^0.1.20"
+    "@pres/enum-key-names" "^0.1.20"
     "@typen/enum-data-types" "^0.1.16"
 
-"@pres/program@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/program/-/program-0.1.8.tgz#0bfe37e89689c9b5acc430f4a19efdba09e34ce2"
-  integrity sha512-0t/2JUUM8/cxUk28BJWM8Rl4W+kCt1cgR6hIhdS+82wfmSEx0s2wEK+LMotL7+yBrAFBKCHULvRKE/rcGx2IHQ==
+"@pres/gpm-client@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/gpm-client/-/gpm-client-0.1.20.tgz#bffb068679650ea973e7a93ecc0847c2b380539f"
+  integrity sha512-lfKBozpjBImAGWDRRYUryhrJq3A7n8cthwNDatlKgVJtvZMOsFiIXfQ7f2UTJWtjBNZtVAcfjfoauC4e++vTbQ==
   dependencies:
     "@geia/enum-signals" "^0.0.19"
-    "@ject/noop" "^0.0.11"
-    "@pres/enum-events" "^0.1.8"
-    "@pres/enum-key-names" "^0.1.8"
-    "@pres/events" "^0.1.8"
-    "@pres/terminfo-parser" "^0.1.8"
-    "@pres/util-colors" "^0.1.8"
-    "@pres/util-helpers" "^0.1.8"
-    "@spare/logger" "^0.11.14"
+    "@ject/noop" "^0.0.12"
+    "@pres/enum-control-chars" "^0.1.20"
+    "@pres/enum-csi-codes" "^0.1.20"
+    "@pres/enum-events" "^0.1.20"
+    "@pres/enum-key-names" "^0.1.20"
+    "@pres/events" "^0.1.20"
+    "@pres/terminfo-parser" "^0.1.20"
+    "@pres/util-colors" "^0.1.20"
+    "@pres/util-helpers" "^0.1.20"
+    "@spare/logger" "^0.11.15"
     "@texting/enum-chars" "^0.0.9"
     "@typen/enum-data-types" "^0.1.16"
 
-"@pres/terminfo-parser@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/terminfo-parser/-/terminfo-parser-0.1.8.tgz#e54eae285ffad24da4f3e1d15d48b4200f26f9a7"
-  integrity sha512-5fKwVciTGqupD67foV7rfpXVbTatD5khDTfKMtqvhlBAe/EZ0p9A6+Xo0mmY7ZWwzMxBvj2jAmtHYHxi6CNxwQ==
+"@pres/program@^0.1.8":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/program/-/program-0.1.20.tgz#a09ccba31ffe8a4788d18678c072cc938f768896"
+  integrity sha512-vcRELR8RCpQXZ3vsylJUTDf6AW+oS07YrPliU65gpi8krUsENFvNU43KVRKrzBgj3Q/VH3S4dq9onSzO6VhLkw==
   dependencies:
-    "@pres/enum-terminfo-alias" "^0.1.8"
-    "@pres/util-helpers" "^0.1.8"
+    "@geia/enum-signals" "^0.0.19"
+    "@ject/noop" "^0.0.12"
+    "@pres/enum-control-chars" "^0.1.20"
+    "@pres/enum-csi-codes" "^0.1.20"
+    "@pres/enum-events" "^0.1.20"
+    "@pres/enum-key-names" "^0.1.20"
+    "@pres/events" "^0.1.20"
+    "@pres/gpm-client" "^0.1.20"
+    "@pres/terminfo-parser" "^0.1.20"
+    "@pres/util-colors" "^0.1.20"
+    "@pres/util-helpers" "^0.1.20"
+    "@spare/logger" "^0.11.15"
+    "@texting/enum-chars" "^0.0.9"
     "@typen/enum-data-types" "^0.1.16"
 
-"@pres/util-colors@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/util-colors/-/util-colors-0.1.8.tgz#ac81d8dc4bc273a6277cffe924be9a6670051337"
-  integrity sha512-Mit/c/ryc+TZt2yl6sIut0VN1p0v4iaq/5AS/s7IL0bizJPDSR3BqKE0OQ08+dDPV9p9rpjcTFc1JHECabZa0A==
+"@pres/terminfo-parser@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/terminfo-parser/-/terminfo-parser-0.1.20.tgz#be97c732367528860a5650062d0ae676250c79f3"
+  integrity sha512-m4oIMLFTVH8MR3EwWyAbgbkt1o/KV4+eLReq34U7E3U9TVSZeX9i4nbY25HtDOm0s195xZM4vyZzT6KCWX2VyQ==
+  dependencies:
+    "@pres/enum-terminfo-alias" "^0.1.20"
+    "@pres/util-helpers" "^0.1.20"
+    "@typen/enum-data-types" "^0.1.16"
+
+"@pres/util-colors@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/util-colors/-/util-colors-0.1.20.tgz#42a781bcf219d07f437ac8359f54c13bbc1ac3ee"
+  integrity sha512-12WAGdJPH/3flekjrV9aY7mtilimr7+ghqEE0GMCzGA0hAHwxhphYIAYiyBXRbczi3F6H5GDQD4QnbfgUEATPA==
   dependencies:
     "@typen/enum-data-types" "^0.1.16"
     "@typen/nullish" "^0.1.16"
 
-"@pres/util-helpers@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/util-helpers/-/util-helpers-0.1.8.tgz#f17c7451e395a81f8b5b0420eb6b39f88d106f58"
-  integrity sha512-n7fFYB/KxBTsowehbXAuF5vjAZ1PpSUBhAKMLh1PZXA+A7vvSIz/LUg6+h3wonY/DLaALPBCV+9t0tNXxIH7SA==
+"@pres/util-helpers@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/util-helpers/-/util-helpers-0.1.20.tgz#7926c85e25ea61483de1647a62e61b79d3e494c0"
+  integrity sha512-T8MtyDXwZ9MmO8J+PUFOImGGh8zG511nlw+r/NAc+gl3mL/7O005+VDDKMjUdoVqRbAnP4ORCtFuNhfW7z2hAw==
   dependencies:
-    "@pres/util-colors" "^0.1.8"
-    "@pres/util-unicode" "^0.1.8"
+    "@pres/util-colors" "^0.1.20"
+    "@pres/util-unicode" "^0.1.20"
     "@texting/enum-chars" "^0.0.9"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/nullish" "^0.1.16"
     x256 "^0.0.2"
 
-"@pres/util-unicode@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pres/util-unicode/-/util-unicode-0.1.8.tgz#ead4404636b82db5a92e99b1e4fcd2c814573231"
-  integrity sha512-Et/iGgBr+ki4IV5hXDy0TgPJ3DfAX7NlRSFpxoLA57iQIBu599x7PEeaHQPBBuZetnqVZhw+2VmGcdmCQSe1tQ==
+"@pres/util-unicode@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@pres/util-unicode/-/util-unicode-0.1.20.tgz#c9a3c41485cdebc57a2bc38bad36cd8bd96644f7"
+  integrity sha512-WkKlXkzsJZQRDtOmOHit2ZUDwFhNY5eb2iqaTpwChvK1I8tVbDM0/k7z5dyEk1iMr9ys7QnY2NBUOHPIDeN+oA==
   dependencies:
-    "@pres/components-node" "^0.1.8"
+    "@pres/components-node" "^0.1.20"
 
-"@spare/bracket@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/bracket/-/bracket-0.11.14.tgz#40d77eff8a0c7c43fd22d817e22e9f50cc499579"
-  integrity sha512-nCrqglZx0LgXk74cvnf3zud3EDO8C6FasNInyL9pn/8oDOreyWXPb/1NiYF8aWcMxg5aZW3S1nyDqYQa0bHPxw==
+"@spare/bracket@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/bracket/-/bracket-0.11.16.tgz#5abb2ed41302bb3fd15105d414dba363bcb5b0be"
+  integrity sha512-/EPzcJjEypZoUQGPsBWLbHZESR06KtuehCWHohaSLmC/Dh5Hbx3QLIp5y1DBfAYctjqvtf5moeiUDBzGdsX7Dg==
   dependencies:
-    "@spare/enum-brackets" "^0.11.14"
+    "@spare/enum-brackets" "^0.11.16"
 
-"@spare/charset@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/charset/-/charset-0.11.14.tgz#e0b6b339c6454e69187a531a7c7cd9e6fbfb0fd8"
-  integrity sha512-CghE72tGawbNoTXlhIkbkxZ4/hAz7mlynfjsmJ1XIa31zzBlYJ8gQxYEanO1oiLCRC+CSODE3sJIuwDEeIxVbQ==
+"@spare/charset@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/charset/-/charset-0.11.16.tgz#4c641d031e434f4bc4b7abe21b3e99250dced6cf"
+  integrity sha512-W4hguUwmB3GsVYQzLZ/hsE+RdQ+VBb4IdWxNuOqbFg+i6jSR0oKNDmUrpf78ekXHYsclfcKQrsM6tQP+d74fyA==
   dependencies:
-    "@spare/regex-charset" "^0.11.14"
+    "@spare/regex-charset" "^0.11.16"
 
-"@spare/cite@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/cite/-/cite-0.11.14.tgz#5a5e44cf065b94bc7ebbe4174eb3b65a043012ad"
-  integrity sha512-POL6lxSdGUUJDS2Z06O1znw3MNtEjHgbnf/Noii3r3pKch8Xw0/pHlkMBUYi2+9KaIz8KaBipAb/pBdSnbaktw==
+"@spare/cite@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/cite/-/cite-0.11.16.tgz#dd79ce76cb9bad3e3893e1e854d8d596c77371d2"
+  integrity sha512-CYzeVJ6QVcAVRT1qBYuYneJ3D6bNG7gIqM6iaQyFMJY872xgLwFfo9dX3toFXzHnPwiVFNCvBP0beHJJaeoF/Q==
   dependencies:
-    "@spare/quote" "^0.11.14"
-    "@spare/translator" "^0.11.14"
+    "@spare/quote" "^0.11.16"
+    "@spare/translator" "^0.11.16"
 
-"@spare/crostab-margin@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/crostab-margin/-/crostab-margin-0.11.14.tgz#7ffb4fbbf7b80db290b24e8c9d3c009368428289"
-  integrity sha512-IPJSs+4JzxcO/MTpY168j0EPVflgQ6AKBRtnipX2Uv6lvVfeWCIiUJfHGSkAWiEHVRJb/vybvkHBvu7ojxCWcg==
+"@spare/crostab-margin@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/crostab-margin/-/crostab-margin-0.11.16.tgz#804e7659e552a1a33fcac72359215b53e0b947a8"
+  integrity sha512-rBQfL+OH1SJVexnk55mKChuL5JiTrcGiFH+Rn3ypNhHiXR4/ZlATTMZWE/bgIxOGze8r8HCCZAWYnetnD43h/g==
   dependencies:
-    "@spare/matrix-margin" "^0.11.14"
-    "@spare/vector-margin" "^0.11.14"
+    "@spare/matrix-margin" "^0.11.16"
+    "@spare/vector-margin" "^0.11.16"
 
-"@spare/crostab-padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/crostab-padder/-/crostab-padder-0.11.14.tgz#5086380558e9065586563e129ee510c0e65dd895"
-  integrity sha512-zfNy7Tqxv2ryamsSwmwa44YtTyG4Bj9Psm56KUlUnw8Kqt2kZPkvDqFFYY9PVO3zBC4QGMYYlXaKMQR/cmZdwg==
+"@spare/crostab-padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/crostab-padder/-/crostab-padder-0.11.16.tgz#74cbae936ace741d49f0ce6c382b0dd2841dcfca"
+  integrity sha512-HFloPabrLjSW6f1OIJ7Da1kVXRecoQrJgIY2UN+IdBLK3m4sXRclOWllf/Y+4Wzd1eQ8Qtcq+SptzBMvJA3GpA==
   dependencies:
-    "@spare/field-padder" "^0.11.14"
-    "@spare/table-padder" "^0.11.14"
-    "@vect/vector-merge" "^0.3.9"
+    "@spare/field-padder" "^0.11.16"
+    "@spare/table-padder" "^0.11.16"
+    "@vect/vector-merge" "^0.3.10"
 
-"@spare/deco-colors@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-colors/-/deco-colors-0.11.14.tgz#bb6e9bb20a8bf8745bcaa9c894e22ba1600a92f2"
-  integrity sha512-J7cTdM4onqH+To6pRIymdX9aNsMsfxaWWfy+VgtQlKxE3u4yB0rBb17L/BX7rrzG+Tvru5YFbESv6JUg+WnoJg==
+"@spare/deco-colors@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-colors/-/deco-colors-0.11.16.tgz#b7e906347f3ebbb25e05a32b87534736a7e3473c"
+  integrity sha512-xHDO+KoepsKv6BS9D5psq2SAKr8nfWhL+K/iTiIPqbXYSF947nnCNnwRN0ExJhEbh8XVBtxTzF+tZ3VZ8deqqg==
   dependencies:
-    "@palett/cards" "^0.7.7"
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@spare/preset-deco" "^0.11.14"
-    "@vect/object-mapper" "^0.3.9"
+    "@palett/cards" "^0.8.1"
+    "@palett/convert" "^0.8.1"
+    "@palett/dye" "^0.8.1"
+    "@spare/preset-deco" "^0.11.16"
+    "@vect/object-mapper" "^0.3.10"
 
-"@spare/deco-config@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-config/-/deco-config-0.11.14.tgz#1c0f606c5fa6b799b8e636cd6aeb8bdef803b0a7"
-  integrity sha512-rs+AVUBQowf69K/+FH7Cvb3TVGhRcrWKxAALad5kvnnzN01RAPwwO5pF/5lvtLmZKqPV/8t7vwwuVpUmFeP3Iw==
+"@spare/deco-config@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-config/-/deco-config-0.11.16.tgz#c399c5fa50f35254a7452164b262099f69a7f0b1"
+  integrity sha512-pzZzRjOXzxErOLXsXglKX56nXX6oIHsWPyMK1Yb46foGhCOxp9pL5wMBzHXcYxIqv2y7xZTt/fOXBxtqoNLV+A==
   dependencies:
-    "@palett/fluo" "^0.7.7"
-    "@spare/preset-deco" "^0.11.14"
+    "@palett/fluo" "^0.8.1"
+    "@spare/preset-deco" "^0.11.16"
     "@typen/nullish" "^0.1.16"
-    "@vect/object-update" "^0.3.9"
+    "@vect/object-update" "^0.3.10"
 
-"@spare/deco-crostab@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-crostab/-/deco-crostab-0.11.14.tgz#da41646fb0de7ff9e48b687770f288ca8300cdcb"
-  integrity sha512-msua2obtFzOZShdvjtO6nQxPA/I+c/xHrbOLQacf2n84LSyOxtDEdKUPrrg9k2QMhYjkWZ97aon8Qlzn4Ojn6A==
+"@spare/deco-crostab@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-crostab/-/deco-crostab-0.11.16.tgz#69c8876415033a685b46ed331b2b27f63079920e"
+  integrity sha512-TA4QTuJ1YE0WQSKaIx/2tulFmgmqF7oXk0y0O4Vy9s/wd8HPLXApo43BeHZKZOM69iHe5amOUUXhn6+ESrHAXw==
   dependencies:
-    "@palett/fluo-matrix" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@spare/crostab-margin" "^0.11.14"
-    "@spare/crostab-padder" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@vect/enum-matrix-directions" "^0.3.9"
-    "@vect/matrix" "^0.3.9"
-    "@vect/vector-merge" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@palett/fluo-matrix" "^0.8.1"
+    "@palett/fluo-vector" "^0.8.1"
+    "@spare/crostab-margin" "^0.11.16"
+    "@spare/crostab-padder" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@vect/enum-matrix-directions" "^0.3.10"
+    "@vect/matrix" "^0.3.10"
+    "@vect/vector-merge" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@spare/deco-date@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-date/-/deco-date-0.11.14.tgz#5c8a31f32e4a7dea6201e6f8eb879a03ace9d09b"
-  integrity sha512-Y3kOTilSDhRTaFiVe66GyZH1EqxRsgHu1fjoutZ/Zq352J5Z3s8MAUojWPbpLCEGf8z10UOq1P5IjPCbcilh5A==
+"@spare/deco-date@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-date/-/deco-date-0.11.16.tgz#e091e231ca0b686c84b84765ef53f02647d48848"
+  integrity sha512-AEg9Xq2xJztFLZ2tis94GP600CeGNh6mpnMRQwvl73CO0sYYIGta8EyoGWtHczDhODkqikrSGUjXfgxmQZq97A==
   dependencies:
-    "@spare/deco-config" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@valjoux/timestamp-pretty" "^0.2.7"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@valjoux/timestamp-pretty" "^0.2.10"
 
-"@spare/deco-entries@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-entries/-/deco-entries-0.11.14.tgz#ae69166416c583a5a745e692cb2cf3beac4925b6"
-  integrity sha512-rydQ2Jt51WmZx77jtMX+6/WI/liD7oMiO+BTYJ6dAREEsJFi8mD2oq30XFMZHVH2v18J1ybx8XEXwB9oxF0dkA==
+"@spare/deco-entries@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-entries/-/deco-entries-0.11.16.tgz#579a701793a4251896ded57d9854fdb8395f7618"
+  integrity sha512-wVwtWmNcMBA1d6v6xWZYDAYNaxJOKHPUFfDwCKowxNqngpAkqEWcdzrKk0Pmh9SCyx7o0IJ6tVtF5sTUF6VI+g==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@palett/fluo-entries" "^0.7.7"
-    "@spare/bracket" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/entries-margin" "^0.11.14"
-    "@spare/entries-padder" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
+    "@ject/oneself" "^0.0.12"
+    "@palett/fluo-entries" "^0.8.1"
+    "@spare/bracket" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/entries-margin" "^0.11.16"
+    "@spare/entries-padder" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
 
-"@spare/deco-flat@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-flat/-/deco-flat-0.11.14.tgz#c341f31cdf625abe640a5e06bdef7711f6bd5422"
-  integrity sha512-0+puOZ4sXUt75Tv3jjvWuya1lHcN41JQYq0rV5K42kIHzsopo8uKZ9+8e7UGWOH0G6/ZAVWWMiCj1zQrg+DgWQ==
+"@spare/deco-flat@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-flat/-/deco-flat-0.11.16.tgz#850c39b81b59c264fab3fad86517e7b68e409bb3"
+  integrity sha512-43Meqol9rXcE6KmfHg4aDx9WqQGLLn1JCQDZhEhfK+bEV2J4X8aEYfUccluZvQKqVUJQitSJSZswGjee35jdJw==
   dependencies:
-    "@palett/enum-colorant-modes" "^0.7.7"
-    "@palett/fluo-entries" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@spare/deco-colors" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-date" "^0.11.14"
-    "@spare/deco-func" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
+    "@palett/enum-colorant-modes" "^0.8.1"
+    "@palett/fluo-entries" "^0.8.1"
+    "@palett/fluo-vector" "^0.8.1"
+    "@palett/presets" "^0.8.1"
+    "@spare/deco-colors" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-date" "^0.11.16"
+    "@spare/deco-func" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/enum-object-types" "^0.1.16"
     "@typen/num-loose" "^0.1.16"
     "@typen/typ" "^0.1.16"
-    "@vect/column-mapper" "^0.3.9"
+    "@vect/column-mapper" "^0.3.10"
 
-"@spare/deco-func@^0.11.11", "@spare/deco-func@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-func/-/deco-func-0.11.14.tgz#ac8ed89ce3175f80c2131aa70b2125f97671b1ac"
-  integrity sha512-T9TJNcAPnQQ6g+N6WoUNGlKYBVNjTHNpAEygIj0NOVI6XLQkpwUyXK8e8cDJnd/RQg612TVGJ/Ye3tOm+fnKrw==
+"@spare/deco-func@^0.11.11", "@spare/deco-func@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-func/-/deco-func-0.11.16.tgz#0f39d8efd8f208a5bd838783790c2b65f390a833"
+  integrity sha512-tq/t7wQAmQ9sXcWKf8udNQzGBbdygR+w34u39qHnqpp78KDKIbB/bAJFNXZVH2QvK6d7NWFUcB675hw5gKU3Ew==
   dependencies:
-    "@palett/cards" "^0.7.7"
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@spare/bracket" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/lange" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@spare/translator" "^0.11.14"
+    "@palett/cards" "^0.8.1"
+    "@palett/convert" "^0.8.1"
+    "@palett/dye" "^0.8.1"
+    "@spare/bracket" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/lange" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@spare/translator" "^0.11.16"
 
-"@spare/deco-matrix@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-matrix/-/deco-matrix-0.11.14.tgz#999bfdc2a57d5598303d6191c064c99cfa18fa7e"
-  integrity sha512-n0VVfyslkvtO5ixT79F2X8mEbYbyG4f4igbkPEHap3/6Jhh7dUrqua1H7WcmScv7+neP0YOzCMB99LVnMv8Mqg==
+"@spare/deco-matrix@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-matrix/-/deco-matrix-0.11.16.tgz#2a2846443689969bc6045ea1951a543c8333107f"
+  integrity sha512-+Ns6Abn0lIeDvT/H9XA93E1wmCdOj2B4AH9yRuZJ2DpnFRoXspGjz9nhdsLJAfn42r5AkJlB8Hh7gbOyF9T5zw==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@palett/fluo-matrix" "^0.7.7"
-    "@spare/bracket" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/matrix-margin" "^0.11.14"
-    "@spare/matrix-padder" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@texting/charset-fullwidth" "^0.0.6"
+    "@ject/oneself" "^0.0.12"
+    "@palett/fluo-matrix" "^0.8.1"
+    "@spare/bracket" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/matrix-margin" "^0.11.16"
+    "@spare/matrix-padder" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@texting/charset-fullwidth" "^0.0.10"
     "@typen/num-strict" "^0.1.16"
-    "@vect/enum-matrix-directions" "^0.3.9"
-    "@vect/matrix" "^0.3.9"
+    "@vect/enum-matrix-directions" "^0.3.10"
+    "@vect/matrix" "^0.3.10"
 
-"@spare/deco-object@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-object/-/deco-object-0.11.14.tgz#64541e011a3415a7b1cab96ff148dacb2ce146b9"
-  integrity sha512-bZZgpVuj2KLfQ780ZH81NUqzkI+Ttm+zP95hW37c/qtAgBrC7K1iCEUidBJ+0qYwOcUXxhYGzGZhBbBEJwfebw==
+"@spare/deco-object@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-object/-/deco-object-0.11.16.tgz#6cd2f7f0e1999532e2f111da34b5f790893fbe59"
+  integrity sha512-t6jztZLxTHGujuu5BoRmLzvqDdJ94/VMZlXpelWqQLMHZ/loGbL5e/lafjxYXxPP0fJaVaxtseKmCT34qDJ61A==
   dependencies:
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-entries" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-entries" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
 
-"@spare/deco-pale@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-pale/-/deco-pale-0.11.14.tgz#58b4f8fd7bf74b7bfd7af63b85d533643cc08a9f"
-  integrity sha512-YIpUrAF4RZxlercZS51dfBsOmEmfZvgygtnEx6bPu9wLoOxCYedYgp04I2mkAMu9SqwIi44bA6wZCmM7RbS2qQ==
+"@spare/deco-pale@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-pale/-/deco-pale-0.11.16.tgz#0a589989ab7098a6c1a0b7ad3003855c3767b7fb"
+  integrity sha512-Lz7Ghe84Nn297Ra7Hbws5t0u7r0P+asD6vWymFpsIkMtlImK68eRK8iBwlRNYlRzpyS79JTRFIklrlrgNbuF8w==
   dependencies:
-    "@spare/bracket" "^0.11.14"
-    "@spare/cite" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-func" "^0.11.14"
-    "@spare/deco-object" "^0.11.14"
-    "@spare/deco-util" "^0.11.14"
-    "@spare/deco-vector" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@spare/quote" "^0.11.14"
+    "@spare/bracket" "^0.11.16"
+    "@spare/cite" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-func" "^0.11.16"
+    "@spare/deco-object" "^0.11.16"
+    "@spare/deco-util" "^0.11.16"
+    "@spare/deco-vector" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@spare/quote" "^0.11.16"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/enum-object-types" "^0.1.16"
     "@typen/num-strict" "^0.1.16"
     "@typen/typ" "^0.1.16"
-    "@valjoux/format-date" "^0.2.7"
-    "@valjoux/format-time" "^0.2.7"
-    "@vect/entries-mapper" "^0.3.9"
+    "@valjoux/format-date" "^0.2.10"
+    "@valjoux/format-time" "^0.2.10"
+    "@vect/entries-mapper" "^0.3.10"
 
-"@spare/deco-samples@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-samples/-/deco-samples-0.11.14.tgz#3b679ff0c555b518ea4c6e0dfc796dc7857b5a8d"
-  integrity sha512-D2QABtKz/i/sE4VNcwG5k4l+1yVp7RivRMwPQneiDxrOxMc5YGSjeubClZUIO+3X+yO8NdphWRjtnro+Qr0jBQ==
+"@spare/deco-samples@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-samples/-/deco-samples-0.11.16.tgz#24b1091c5ef64281a579c35560e2f638d221c8e1"
+  integrity sha512-0eml9corP4HwPy2jLU+N2ZaAVP3zFx0CwbIdH5jq/7UZiNXg+3bMfmOb/KwEv+vk6DrsQ4/shW+ufvjjpGF9Ow==
   dependencies:
     "@analys/convert" "^0.5.0"
     "@analys/samples-select" "^0.5.0"
-    "@palett/enum-colorant-modes" "^0.7.7"
-    "@palett/fluo-matrix" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/deco-vector" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/matrix-padder" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@spare/table-margin" "^0.11.14"
-    "@spare/vector-padder" "^0.11.14"
-    "@vect/enum-matrix-directions" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@palett/enum-colorant-modes" "^0.8.1"
+    "@palett/fluo-matrix" "^0.8.1"
+    "@palett/fluo-vector" "^0.8.1"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/deco-vector" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/matrix-padder" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@spare/table-margin" "^0.11.16"
+    "@spare/vector-padder" "^0.11.16"
+    "@vect/enum-matrix-directions" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@spare/deco-string@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-string/-/deco-string-0.11.14.tgz#3be9c1af4226473d935cb579de5a0382d5597617"
-  integrity sha512-CJ2Lmui746dYgrlMwYV/L81XWWD9sFVxmdYUTv1drujPmzJh7/mONWpn1Wd05NUTCg26T2+6Nk0xO2Ro/si7jg==
+"@spare/deco-string@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-string/-/deco-string-0.11.16.tgz#7c562816dfc696a546d8fc93ed4ff998cd9df519"
+  integrity sha512-vkdhyix2tu8wmx29VPR4jUKUNrqK8hFi30u5pnAxQVR2jglByOc6XXbuOGpkBLKlB0QxVqsynrNCP9ruwkfCfw==
   dependencies:
     "@analys/enum-mutabilities" "^0.5.0"
-    "@palett/fluo-vector" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@spare/charset" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/fold" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@texting/splitter" "^0.0.6"
+    "@palett/fluo-vector" "^0.8.1"
+    "@palett/presets" "^0.8.1"
+    "@spare/charset" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/fold" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@texting/splitter" "^0.0.10"
     "@typen/nullish" "^0.1.16"
 
-"@spare/deco-table@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-table/-/deco-table-0.11.14.tgz#54bc17d901fc04e2cde11b43517093d2abac2d8d"
-  integrity sha512-u7VRPcM1mS0SUq59Ep9y6SLARC5uFDUE5WXwlwkQjxHwdM0yz1zXqHEvB6XHyjC953RrbVJwGztKc1uNNuThTA==
+"@spare/deco-table@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-table/-/deco-table-0.11.16.tgz#a6a2c8ad2e305cb354fe71ac964fbfd6168a7226"
+  integrity sha512-vLeB5XzrEyYNbN3OToTAujXMsnDaCw8fxZ8SdrrWp9y2tzFx8+tdjEt8q/T51sO1BtOvKIsveYjoDgclh0ycZg==
   dependencies:
-    "@palett/enum-colorant-modes" "^0.7.7"
-    "@palett/fluo-matrix" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@spare/table-margin" "^0.11.14"
-    "@spare/table-padder" "^0.11.14"
-    "@vect/enum-matrix-directions" "^0.3.9"
-    "@vect/matrix" "^0.3.9"
-    "@vect/vector-merge" "^0.3.9"
+    "@palett/enum-colorant-modes" "^0.8.1"
+    "@palett/fluo-matrix" "^0.8.1"
+    "@palett/fluo-vector" "^0.8.1"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@spare/table-margin" "^0.11.16"
+    "@spare/table-padder" "^0.11.16"
+    "@vect/enum-matrix-directions" "^0.3.10"
+    "@vect/matrix" "^0.3.10"
+    "@vect/vector-merge" "^0.3.10"
 
-"@spare/deco-util@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-util/-/deco-util-0.11.14.tgz#e565789674284fb3be62ce351076b7745fa7caf5"
-  integrity sha512-f3PagLaiaEmDyZvI+gWOqUIr6dq1f+mrl5Pp/UMMWF4aUMEjn8q8V1hh/4dYtCotjoSAquFdebTcRCKQLqdCXg==
+"@spare/deco-util@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-util/-/deco-util-0.11.16.tgz#ab644126adba038118b8a9e54d8391e7b806adde"
+  integrity sha512-8EXovGApQLpCGf85OYRykkBWxnCyrH0fVT1kX3l5EhAO6leMJXSI4Z3PlxqjoAzCccm1Sga3lM34jRD+uOOVPw==
   dependencies:
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
 
-"@spare/deco-vector@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco-vector/-/deco-vector-0.11.14.tgz#0518c1cca4f36b45142f291e269b4b64adef7fdb"
-  integrity sha512-ZzNFVegVbhYM70Qvl+3hwlF0t8c+Oaf86iovzA1+QlD08+coz/ESAGCFcccu2YFfMG6KRNi2uU9QaV1cuGDAyA==
+"@spare/deco-vector@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco-vector/-/deco-vector-0.11.16.tgz#97ff278225434772053d67eae27016ed97f8d9c3"
+  integrity sha512-NOX25kyC4Y0Ek/aY12cuAz9afEDY+9kFQ8bOtccFEFeOaaz8hxNPuQw509r4g2WsCRIMbvFKX9JdCpgv8Nb3zw==
   dependencies:
-    "@palett/enum-colorant-modes" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-entries" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@spare/vector-margin" "^0.11.14"
+    "@palett/enum-colorant-modes" "^0.8.1"
+    "@palett/fluo-vector" "^0.8.1"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-entries" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@spare/vector-margin" "^0.11.16"
 
-"@spare/deco@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/deco/-/deco-0.11.14.tgz#2efb97a4a4e3f83f0f46d13ecd40b0c129e3df49"
-  integrity sha512-n5Y3CCiEgE2zno5eufo7o//VENhdw1rQ8K4V+ODMx18hQtYwPI9pCa13UKdnj9jClZwc3N8TiuNxTrIUYf5ScA==
+"@spare/deco@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/deco/-/deco-0.11.16.tgz#47ad1825157699cc731055797ee5417b9505adb6"
+  integrity sha512-OeUVRHmuZHmiQyNJAHLcY9S12Vrb17BKydJvkNcJ2YkBKTD+RhDYjcOVCL8NyoKvA5kMs7oNXxm7wYY0ivNNmw==
   dependencies:
     "@analys/enum-mutabilities" "^0.5.0"
-    "@aryth/comparer" "^0.3.16"
-    "@palett/fluo" "^0.7.7"
-    "@palett/fluo-entries" "^0.7.7"
-    "@palett/fluo-vector" "^0.7.7"
-    "@palett/presets" "^0.7.7"
-    "@spare/bracket" "^0.11.14"
-    "@spare/deco-colors" "^0.11.14"
-    "@spare/deco-config" "^0.11.14"
-    "@spare/deco-date" "^0.11.14"
-    "@spare/deco-func" "^0.11.14"
-    "@spare/deco-string" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/lange" "^0.11.14"
-    "@spare/liner" "^0.11.14"
-    "@spare/padder" "^0.11.14"
-    "@spare/preset-deco" "^0.11.14"
-    "@spare/splitter" "^0.11.14"
+    "@aryth/comparer" "^0.3.19"
+    "@palett/fluo" "^0.8.1"
+    "@palett/fluo-entries" "^0.8.1"
+    "@palett/fluo-vector" "^0.8.1"
+    "@palett/presets" "^0.8.1"
+    "@spare/bracket" "^0.11.16"
+    "@spare/deco-colors" "^0.11.16"
+    "@spare/deco-config" "^0.11.16"
+    "@spare/deco-date" "^0.11.16"
+    "@spare/deco-func" "^0.11.16"
+    "@spare/deco-string" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/lange" "^0.11.16"
+    "@spare/liner" "^0.11.16"
+    "@spare/padder" "^0.11.16"
+    "@spare/preset-deco" "^0.11.16"
+    "@spare/splitter" "^0.11.16"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/enum-object-types" "^0.1.16"
     "@typen/nullish" "^0.1.16"
     "@typen/num-loose" "^0.1.16"
     "@typen/typ" "^0.1.16"
-    "@valjoux/format-date" "^0.2.7"
-    "@valjoux/format-date-time" "^0.2.7"
-    "@vect/column-mapper" "^0.3.9"
-    "@vect/entries-mapper" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
+    "@valjoux/format-date" "^0.2.10"
+    "@valjoux/format-date-time" "^0.2.10"
+    "@vect/column-mapper" "^0.3.10"
+    "@vect/entries-mapper" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@spare/entries-margin@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/entries-margin/-/entries-margin-0.11.14.tgz#d268a8a3ebd365afa767e0b1a6fab5123ca3cfb0"
-  integrity sha512-NZ1MD+1Yzr2TVH/Uw2hBrIFuNlhQwfXXzzUqw31HR5IYZ09pWDvj5JcsWXbZun+vIVb00UWu8Ds9CwrSE3RfHQ==
+"@spare/entries-margin@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/entries-margin/-/entries-margin-0.11.16.tgz#c68fd89db349bdb1d513a7b414167ab6813d45cf"
+  integrity sha512-ibo2VvDLjLwfdnSm1nffYVRq9+QKCe9fUXupvptq6wh6vI2+TT15lx1az7ZI6mGQugPE9h2z0pybiQCrsbAH6w==
   dependencies:
-    "@spare/util" "^0.11.14"
-    "@spare/vector-margin" "^0.11.14"
-    "@vect/entries-margin" "^0.3.9"
+    "@spare/util" "^0.11.16"
+    "@spare/vector-margin" "^0.11.16"
+    "@vect/entries-margin" "^0.3.10"
 
-"@spare/entries-padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/entries-padder/-/entries-padder-0.11.14.tgz#6a6d7e7d1b8cc3c8fbf8451e25f4acf324bdb056"
-  integrity sha512-GOMfIImGLzxXZtPCKqlvtW8YRmbgbghdZUqQTB8wFKz6hRxHKfSGCoGrB8G51JngZ6AvDXiHs1knceWJyh5vww==
+"@spare/entries-padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/entries-padder/-/entries-padder-0.11.16.tgz#780a454787a8daeca23889f3d807020fa3e23364"
+  integrity sha512-ZTyoSFO8/5f4SXXmRiJ/24s4VmePh7m7Map09PXYttCKsieIkQ77Z6DjLxJnB3WQGTPGHD24GJqA8njZnm8FYg==
   dependencies:
-    "@spare/lange" "^0.11.14"
-    "@texting/padder" "^0.0.6"
-    "@vect/entries-indicator" "^0.3.9"
-    "@vect/entries-mapper" "^0.3.9"
-    "@vect/entries-zipper" "^0.3.9"
+    "@spare/lange" "^0.11.16"
+    "@texting/padder" "^0.0.10"
+    "@vect/entries-indicator" "^0.3.10"
+    "@vect/entries-mapper" "^0.3.10"
+    "@vect/entries-zipper" "^0.3.10"
 
-"@spare/enum-brackets@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/enum-brackets/-/enum-brackets-0.11.14.tgz#9213c5ec7a6afde14a340baf1344c401d4a23348"
-  integrity sha512-xoSuBF/cqwK9rjRx5LJH2e/k8WsF6G6GZSpKRI0F2e5bjoAHyNIOTAuHnu5YKGH7zgfMOjdXhAM+VbsLHCN1xQ==
+"@spare/enum-brackets@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/enum-brackets/-/enum-brackets-0.11.16.tgz#dece4bd2654b9a081169352c7be911562d863c55"
+  integrity sha512-bw+RCySJRfeXIScLfwy/iee2IPE1KPH0wzi3Qin0p1UdbA6E4sbfwPjvzwsvNZMdkJZu+CjeCDHS1XQdUL1FKA==
 
-"@spare/enum-chars@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/enum-chars/-/enum-chars-0.11.14.tgz#7ff109a510b35d20d67be4db76eb9d2813b16853"
-  integrity sha512-qm49tojtGZ7Tr+8YYxBmsHQe7ozxHN42czfSpJ5JUCYWJOqBlGgOy4HtAOkvpYYuXLo73LKmmQsIiS4G8Fg44g==
+"@spare/enum-chars@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/enum-chars/-/enum-chars-0.11.16.tgz#11f443fd5f8495bf9a604fd39b5f0977be78853f"
+  integrity sha512-dISlj8cbi/qdhhZdX7ygh11356yPAsZZvRdjnYco0e67+FDBz+U2p0y8AUQja13eSMqXHIS12314FAMM4b/oCg==
 
-"@spare/enum-full-angle-chars@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/enum-full-angle-chars/-/enum-full-angle-chars-0.11.14.tgz#a49c35af08f6ea93073439be20077abfd5e4d5a8"
-  integrity sha512-ui8e0fKoex9yXZd7rDdPBwAw7SWAOwexpoRXSO1/U5GpivmnpifTLAe9A25odFE3aDhwWd9SCsvrkI7Xt58T/A==
+"@spare/enum-full-angle-chars@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/enum-full-angle-chars/-/enum-full-angle-chars-0.11.16.tgz#9a319b1e303b9e2fd62545abbf6a731edf63d5de"
+  integrity sha512-glcxlI/lZKmaVhuXhveP5lrW5bcRUnhYd3CDXYvZIqtOIKczcIqJbA5gFZNi37BIfXGqU3u2ReIkjwjlP80Fzw==
 
-"@spare/enum-quotes@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/enum-quotes/-/enum-quotes-0.11.14.tgz#db8e0cb0f62a2a49f81e31a065b80e206eacc911"
-  integrity sha512-isRNJQkHA52AWZy38K1PdqB7/UB3D14/Wwwni3bus2/Dx8HOyTG645iuBj78mDqjZmwo6Lp23Fb5tWm868rfGg==
+"@spare/enum-quotes@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/enum-quotes/-/enum-quotes-0.11.16.tgz#f905067953d05c2e84ab0fd98098278607673752"
+  integrity sha512-MVq8yZmVxg/Z0xmCtezytKfQQ8Hxfs87ya22Ga855SiL4LmZ32iCK1JJXUtC8b0htjJwCvoGMS3h0Bpa0Y5bAA==
 
-"@spare/field-padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/field-padder/-/field-padder-0.11.14.tgz#c5ad9829e02671090fcf1c06311a31e6d9c38757"
-  integrity sha512-pdruW40n02bIa8PPMj7tvvUXxszJbPCwTg1gBsF5r6evESDpZIxRm0UcuSA93t07Zo8n4W3e5PNDYCNyK3pbcQ==
+"@spare/field-padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/field-padder/-/field-padder-0.11.16.tgz#4c47c4bcef146d6008bfa2e0ceedd7cb5f76f64c"
+  integrity sha512-5sSIlRrPT4w6s452UnT0GJORcq1hVp87B9PyVlh0daEPN5/e74Vkgjcd0Vy05vylYKk18hOZjXESium3tKJicA==
   dependencies:
-    "@aryth/comparer" "^0.3.16"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/enum-full-angle-chars" "^0.11.14"
-    "@spare/fullwidth" "^0.11.14"
-    "@spare/lange" "^0.11.14"
-    "@texting/enum-chars" "^0.0.6"
-    "@texting/enum-chars-fullwidth" "^0.0.6"
-    "@texting/padder" "^0.0.6"
-    "@vect/vector-indicator" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
+    "@aryth/comparer" "^0.3.19"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/enum-full-angle-chars" "^0.11.16"
+    "@spare/fullwidth" "^0.11.16"
+    "@spare/lange" "^0.11.16"
+    "@texting/enum-chars" "^0.0.10"
+    "@texting/enum-chars-fullwidth" "^0.0.10"
+    "@texting/padder" "^0.0.10"
+    "@vect/vector-indicator" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@spare/fold@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/fold/-/fold-0.11.14.tgz#11bd917206bdb148c791431bf6b50f536371aa22"
-  integrity sha512-NQDD4ADexZ0K7ohz6tFvlntf47MgB7RmEZelwymimUNY1ZhHUeGExDEGiHvh3I5j90qfIK1BEeOl7pwQRVIVtQ==
+"@spare/fold@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/fold/-/fold-0.11.16.tgz#e449273397a2a79f4187395c2ba05a214ee2d374"
+  integrity sha512-YaMDj1r0U8bMgF8sn09fpNQXuhf1AsDv63EB0Q0lgBCWuoAax8yRloXFm/bqPavZIIcxrmksQoA0zMNrjLixdA==
   dependencies:
-    "@spare/enum-chars" "^0.11.14"
+    "@spare/enum-chars" "^0.11.16"
 
-"@spare/fullwidth@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/fullwidth/-/fullwidth-0.11.14.tgz#619eeab369bd44a44559d34bd69bcf16ecb633f4"
-  integrity sha512-tegjKDrp3YDDv8Q9w6+xJLUBpLJVxzqqQ4YKmtj2OY5SsqJccR6xfEfBh4u3EIbDH0da6O64C2jDQPKHAgTI1w==
+"@spare/fullwidth@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/fullwidth/-/fullwidth-0.11.16.tgz#f7b948be8874062ae1018e498cb82237c9f94471"
+  integrity sha512-/xhGjc2iQn0n1VxXWNChwEbNpr3soEeqeMl+hf/+vB0hLCeRRnrf64faMdrMCJjsuVuB8IlgwZjx6ZNXbgwqUA==
   dependencies:
-    "@spare/charset" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/enum-full-angle-chars" "^0.11.14"
-    "@spare/lange" "^0.11.14"
+    "@spare/charset" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/enum-full-angle-chars" "^0.11.16"
+    "@spare/lange" "^0.11.16"
 
-"@spare/lange@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/lange/-/lange-0.11.14.tgz#6ba6af53d03b0dd4a95e0cc0b263ab4512078277"
-  integrity sha512-MpctOHV/OApq2Gxahclzdi3rJzusTofemCruerFwX/6MV3Stto8ofr+MnY8QkhP+D2XbOWFVQwxMMTEX63gUdw==
+"@spare/lange@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/lange/-/lange-0.11.16.tgz#7289be2148847d6f468d9c4a88a1df322816afe1"
+  integrity sha512-9sJP8FjCxkH3wfnm4okObFqeLxhH8KA659HZ112nZwB8TeZ6ITabuJBHe3kSFjb4jf4lo/Qh+m9bupjCFIAPMw==
   dependencies:
-    "@spare/regex-charset" "^0.11.14"
+    "@spare/regex-charset" "^0.11.16"
 
-"@spare/liner@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/liner/-/liner-0.11.14.tgz#df86627f0e22bf8100590a014b397791f6d57b4f"
-  integrity sha512-BywvbV9mIB+O48glmOY8n5hL82ha2LzipWBD2bd3htAhv5HShykzEXt/dz8vYZ4v5izgvdzZHAypcbOaqHPrPg==
+"@spare/liner@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/liner/-/liner-0.11.16.tgz#6c5fbb7ed26aaba2f190e23e539d43ea94236997"
+  integrity sha512-Dz2i6iJXNYQVx7qbSCzRtbkEKffVm0xtwp0jnasmkzaheZKYzO9Xh3oZ9RUHtYgH4Lh59vqZKMNY8CDUhoj0kw==
   dependencies:
-    "@spare/bracket" "^0.11.14"
-    "@spare/enum-brackets" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
+    "@spare/bracket" "^0.11.16"
+    "@spare/enum-brackets" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
 
-"@spare/logger@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/logger/-/logger-0.11.14.tgz#96be4305aa87807cb836825ce70a99f1e5797296"
-  integrity sha512-ie0szi+mKJgZsHnjsqc3X76oq23IJ8sgAibd95ZhL9MV0CyBnm6WIZ5cSwN5OLqSjwJH23Hcj79MNjBJ7jG8kg==
+"@spare/logger@^0.11.15":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/logger/-/logger-0.11.16.tgz#2a826ebacb36349cd5a6a5eb1d86d5d0dd008f45"
+  integrity sha512-3E9EMCYiM7Z8hsyRGt+nNlhIa5h+tl59yblTMpW4fbM4dkCm4bD9CK8dRnkodR4ZiOYV11LwyYwtDDubmTB+zw==
   dependencies:
-    "@spare/deco" "^0.11.14"
-    "@spare/deco-crostab" "^0.11.14"
-    "@spare/deco-entries" "^0.11.14"
-    "@spare/deco-flat" "^0.11.14"
-    "@spare/deco-func" "^0.11.14"
-    "@spare/deco-matrix" "^0.11.14"
-    "@spare/deco-object" "^0.11.14"
-    "@spare/deco-pale" "^0.11.14"
-    "@spare/deco-samples" "^0.11.14"
-    "@spare/deco-string" "^0.11.14"
-    "@spare/deco-table" "^0.11.14"
-    "@spare/deco-vector" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/says" "^0.11.14"
-    "@spare/xr" "^0.11.14"
+    "@spare/deco" "^0.11.16"
+    "@spare/deco-crostab" "^0.11.16"
+    "@spare/deco-entries" "^0.11.16"
+    "@spare/deco-flat" "^0.11.16"
+    "@spare/deco-func" "^0.11.16"
+    "@spare/deco-matrix" "^0.11.16"
+    "@spare/deco-object" "^0.11.16"
+    "@spare/deco-pale" "^0.11.16"
+    "@spare/deco-samples" "^0.11.16"
+    "@spare/deco-string" "^0.11.16"
+    "@spare/deco-table" "^0.11.16"
+    "@spare/deco-vector" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/says" "^0.11.16"
+    "@spare/xr" "^0.11.16"
 
-"@spare/matrix-margin@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/matrix-margin/-/matrix-margin-0.11.14.tgz#7b5411a7398ba1d9a6005c7de3f3b1f776fe7522"
-  integrity sha512-h+WH8yyWfOhbbypdRzVGqsqyvvzGRP4OCytJ7oRLX5QILEItMslIkaLqe39UchJ2LkA90ZgMY5j8wYWntdPcnQ==
+"@spare/matrix-margin@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/matrix-margin/-/matrix-margin-0.11.16.tgz#e6b3661a51c7f1f0d0f50f4ae62f3da9b1d79c92"
+  integrity sha512-Zy5Ute8yojoDnb3CVvZOdbYsWGtfED306/6svW1oeYSHIBgj7bV967GRwHBTkzPAIfZMZHl0K+0SbeBFBVAnrg==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@spare/util" "^0.11.14"
-    "@vect/matrix-margin" "^0.3.9"
-    "@vect/matrix-size" "^0.3.9"
-    "@vect/vector-margin" "^0.3.9"
+    "@ject/oneself" "^0.0.12"
+    "@spare/util" "^0.11.16"
+    "@vect/matrix-margin" "^0.3.10"
+    "@vect/matrix-size" "^0.3.10"
+    "@vect/vector-margin" "^0.3.10"
 
-"@spare/matrix-padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/matrix-padder/-/matrix-padder-0.11.14.tgz#b2c1d47d2f3e54e8900c7d41a3bafe279d244ab8"
-  integrity sha512-La5/nxhOK69Hd6FgbQVuOu/AzjBA2ZycjAbCvE1345IbmBAorMclgSk3ENbi4Dmgv2qdGRcPVNy0XUaF9V1tMg==
+"@spare/matrix-padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/matrix-padder/-/matrix-padder-0.11.16.tgz#c617e7cfe985aebefe0ff50f459e5726ed8b18c9"
+  integrity sha512-SSKPCLIPtrdZ0ob8NhviGfLKAoX6NhGbWV/sRdslEYR0jlOkhjXI7CJnhjai4abe5swr6c50CSdBP5qCh92l9g==
   dependencies:
-    "@aryth/comparer" "^0.3.16"
-    "@spare/lange" "^0.11.14"
-    "@texting/padder" "^0.0.6"
-    "@vect/columns-stat" "^0.3.9"
-    "@vect/matrix-zipper" "^0.3.9"
+    "@aryth/comparer" "^0.3.19"
+    "@spare/lange" "^0.11.16"
+    "@texting/padder" "^0.0.10"
+    "@vect/columns-stat" "^0.3.10"
+    "@vect/matrix-zipper" "^0.3.10"
 
-"@spare/padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/padder/-/padder-0.11.14.tgz#aa6b20ba97d367394680cd9a771cdb69a0ba995e"
-  integrity sha512-8HVjK4OecOKB/dAF6Fq+Pxut4FpOwzV9S3txBV85rvCZwnXLDdamnCXqRzL03U6c4GZKdFvvVQ1dEwQBNa/Cvg==
+"@spare/padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/padder/-/padder-0.11.16.tgz#372e5830376e62e919b4e053b866abc8e227cba6"
+  integrity sha512-DbVb1rhNXRAUkHVsNukMCp3n3XmUPrIq2sXY1VjWZGlvS5c4KjCnCKM0irmm28q2ilPrM1+v9bKMW3i5fxdVzQ==
   dependencies:
-    "@spare/charset" "^0.11.14"
-    "@spare/fullwidth" "^0.11.14"
-    "@spare/lange" "^0.11.14"
+    "@spare/charset" "^0.11.16"
+    "@spare/fullwidth" "^0.11.16"
+    "@spare/lange" "^0.11.16"
     "@typen/num-strict" "^0.1.16"
 
-"@spare/phrasing@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/phrasing/-/phrasing-0.11.14.tgz#b9216b9e75955481a6ea1a652a12c5af8c006052"
-  integrity sha512-Efua574Nu/U1ZeBx32zayc5PX7py9nL2eq8IJLfxiXgojAEtoeBrBtxCjVK3nUAOTInijgycDcTwIEYENGOsSw==
+"@spare/phrasing@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/phrasing/-/phrasing-0.11.16.tgz#12db062a523be1e11c9743bf863e7dd41ad2d0db"
+  integrity sha512-9hVlrlH8R7Qi7UDJeizua4tHiSa3UME+op2m+QvPI2gfALFEKAs2TfcXpnfaN57zMzYIdjwYdrZdiwSD+GXSTQ==
   dependencies:
-    "@spare/deco-vector" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/regex-phrasing" "^0.11.14"
-    "@vect/vector-mapper" "^0.3.9"
+    "@spare/deco-vector" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/regex-phrasing" "^0.11.16"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@spare/preset-deco@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/preset-deco/-/preset-deco-0.11.14.tgz#48900d690e6f21c56dce9d5e0973049d2f4eb7b1"
-  integrity sha512-wy5C7V7i1QZl+TAiCr4Uv1sSr7JkOm0y6MsaG0rGIbXVpXuFGolcIDpTHfQVW4KhQB9UV1vMuAeGkadobwm7nw==
+"@spare/preset-deco@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/preset-deco/-/preset-deco-0.11.16.tgz#a045b9245da6df36b7a55e5ca1e34e72b7ca214a"
+  integrity sha512-1dqVCtcvFpl63AYpKCvrJMJ7nHxhtG1TnOtg8igRIzjw7M6HwTF0FTXyc19Ed/VCVqiq2DJbEg0jqIvrAAwgBA==
   dependencies:
-    "@palett/presets" "^0.7.7"
+    "@palett/presets" "^0.8.1"
 
-"@spare/quote@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/quote/-/quote-0.11.14.tgz#64299e8c5d89b22bcd88079497c0fac16c5afdcb"
-  integrity sha512-+UOxy3LG7uqTdz/Yuc8N+jLzoriyG3zvpaHzPKVO2qkWMM9I7d9gJHnfNHGUU8htcxKcqouUb9BJkmsd8U5PLQ==
+"@spare/quote@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/quote/-/quote-0.11.16.tgz#16a67076ae3b45b22cf70586dc2c89805c9ae793"
+  integrity sha512-th8JAWkPCDyznaNGEpscBb6Uui188GGiSCI6WXtPkt1kQ7q3fkR1rh9k49YBh1njWGVetIKIX6egr3v7PZSl9Q==
   dependencies:
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/enum-quotes" "^0.11.14"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/enum-quotes" "^0.11.16"
     "@typen/literal" "^0.1.16"
     "@typen/nullish" "^0.1.16"
 
@@ -1307,229 +1341,229 @@
   resolved "https://registry.yarnpkg.com/@spare/regex-charset/-/regex-charset-0.10.14.tgz#533464eede7b5f7be06752ba198578c1f22ceffb"
   integrity sha512-o1VDwP01+/aQLYlDuMAmn5XR+RYjrzwohyc6hPlWZPDDrg6kqI+5QdO6997KPoL0VwoowHONSskpekKjnTSwzA==
 
-"@spare/regex-charset@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/regex-charset/-/regex-charset-0.11.14.tgz#756c4189fefdfb8c4ad3142879da794a688bd951"
-  integrity sha512-8s8nwCD3V03rOVXAxP/2n9Kfb4UOGrUZuuT0N1sRGr8+SxeWtxMWcWty5bxxtd6HQfWQ9Q738vHKnELyQNFplA==
+"@spare/regex-charset@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/regex-charset/-/regex-charset-0.11.16.tgz#5b186ff267adda82674cf40b0a22db3d327a47ce"
+  integrity sha512-1rOb7p83eIGTmzvINEktTWJzNRE/BzA1cvW+yk6pw+X47y7xcge/RGK1c/8HTRhk0NKt1XffOA7FDZXAzgotLw==
 
-"@spare/regex-phrasing@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/regex-phrasing/-/regex-phrasing-0.11.14.tgz#a1d1cee3b3706df4242d2ca1a245dd194b1e457e"
-  integrity sha512-mUbo5zV0ZZmUI3khrJtmpk0+zvgUVThrR3UxqgIG8bZI1cPoZukxw+ZYVxVZBpGMDZ7rl3U42S+S6s53jW1NiQ==
+"@spare/regex-phrasing@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/regex-phrasing/-/regex-phrasing-0.11.16.tgz#4adc1f639371fcfcba0cdfefe44ae9181abf50a5"
+  integrity sha512-2yBBycu+gAiELiXBkRm5IHHtg2cCP9P2pB8TrjpwjQfUato2Dfbfnv1VyuJBldNaMdpi4TsWaFd2VKIQz9nTpw==
 
-"@spare/ripper@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/ripper/-/ripper-0.11.14.tgz#755503ce8c5a58e8a8f73a0bf80ee2e05c4540fc"
-  integrity sha512-ONz/sXY6g5M+cMPddH/GsMzVvT1GqZp4hqTvvufsdibxRWjRa2o2z0dHSD3NZ3xMV+NUZHEG3/pvFmO/8BFKNA==
+"@spare/ripper@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/ripper/-/ripper-0.11.16.tgz#210d90f5668e7b2d23f24d100f8991d04672dfa5"
+  integrity sha512-3ea98oCwpXB6I5CA42bIS2990FK5Rt99xdqBbZlwZq6YbHyvUEEGvmoMvvrGuqNyPdMMe5TdCepWyp5kOKY9Kg==
   dependencies:
-    "@spare/deco-vector" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/phrasing" "^0.11.14"
+    "@spare/deco-vector" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/phrasing" "^0.11.16"
     "@typen/nullish" "^0.1.16"
 
-"@spare/says@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/says/-/says-0.11.14.tgz#13d2c45f4983b3ff8ebfb270d6ff328054e6a54f"
-  integrity sha512-WLFSkKzaSnKQt8dsWGnQJl6tgtbanU9NK5hMm7//yoIYsN2l07Wgr6GZbv/1utUq7M2GdUp1UWkgdx35LO0kMQ==
+"@spare/says@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/says/-/says-0.11.16.tgz#b20bfa1f88dcc7150ce63171ce5f43a1e0417e59"
+  integrity sha512-woOZMx5XGbFxhsvnbOric/mXZ4Bl36Q+HRLF6whliuVFVHsCeSb2pKqJnKMcApb6IP9To25htNQ86DKXeBX5vA==
   dependencies:
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@palett/enum-font-effects" "^0.7.7"
-    "@palett/flopper" "^0.7.7"
-    "@spare/bracket" "^0.11.14"
-    "@spare/deco-string" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/util" "^0.11.14"
+    "@palett/convert" "^0.8.1"
+    "@palett/dye" "^0.8.1"
+    "@palett/enum-font-effects" "^0.8.1"
+    "@palett/flopper" "^0.8.1"
+    "@spare/bracket" "^0.11.16"
+    "@spare/deco-string" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/util" "^0.11.16"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/enums" "^0.1.16"
-    "@vect/object-mapper" "^0.3.9"
+    "@vect/object-mapper" "^0.3.10"
 
-"@spare/splitter@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/splitter/-/splitter-0.11.14.tgz#7fdc83057b3a056933002bae690fcae64f0716cf"
-  integrity sha512-RLgvPhO1qTtsxij9DUYEn1MO0n/SsQHXPONQWbW1aE9b3GuQG62yj3IckivdLFmTKTNKP7ds/94nYyCCJz9GDw==
+"@spare/splitter@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/splitter/-/splitter-0.11.16.tgz#55fb63c8ffb1e451468d2a31df1b115bbae23fcf"
+  integrity sha512-fYoWa7o+paaXVM3uIlSDTgkLGgqqIWQrFHdQcLrklVr8BMDCvw0hU03yZWwsGXLWqdt41Xprd21bymVYVL+X5A==
   dependencies:
-    "@spare/regex-phrasing" "^0.11.14"
-    "@spare/ripper" "^0.11.14"
+    "@spare/regex-phrasing" "^0.11.16"
+    "@spare/ripper" "^0.11.16"
 
-"@spare/string-value@^0.11.13":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/string-value/-/string-value-0.11.14.tgz#2d93f83a0b8fe0030046d910039887e727235864"
-  integrity sha512-PGwN62+Ke3XmqqnCyIKo5YgSBlMVybMHg+HmB6O0QFI24/qUEhJ5TzIv1drZgQ/7zzwxnqqb7XFWgEWmB9or1w==
+"@spare/string-value@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/string-value/-/string-value-0.11.16.tgz#e24a4a5271d070587c5405e668da487355a99f98"
+  integrity sha512-/Xbc90LmtSsSXwi8yYwBZQH6HSC+aAikGRUUcLwXtEa5kMJPedMHa6Suhj+fSCrDiJ5AbTuLLbyMqsT9FxYuBw==
   dependencies:
     "@typen/enum-data-types" "^0.1.16"
 
-"@spare/string@^0.11.13":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/string/-/string-0.11.14.tgz#0bf08619466afb43ade2f56c65af24a79bcbee30"
-  integrity sha512-BIRXiLHpciZlre0rhuxsw5hrYzcS5BjDyFgbNVwoCTKOOaUGEJ/Gc6Z5fsxpFh9NR6rYVEFSgdh4ridF16KT+g==
+"@spare/string@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/string/-/string-0.11.16.tgz#581389ca35aeaf0729947701bb016806932447dc"
+  integrity sha512-lEAI0V9tX0B8n5YulFDrOpT38MeEs5KlcK05nT9o11wyHv1RXlIDY0Bh8tv3W1sIccAzwInZFP30XXoy9xtxOQ==
   dependencies:
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/util" "^0.11.14"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/util" "^0.11.16"
 
-"@spare/table-margin@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/table-margin/-/table-margin-0.11.14.tgz#58f139f0a7989459d8e0653a76794f6d6cd8c71f"
-  integrity sha512-VTFWDKisgwpui8wt1jRrBFX6bbBavW1L5Gnwnale2OLFbLNQkNrPX0gg+QZQkUvdjZRWilBWzlr2LfXNXac3Qg==
+"@spare/table-margin@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/table-margin/-/table-margin-0.11.16.tgz#6a1f059e122ab93d41c921d120d930dc693bd154"
+  integrity sha512-YH+EOjvuXtj2hmmDNHhOTQ3VZOt63/yd70X9ogHqeibhJfhR2c0iuJqza7VHLZMKA1Kt8tu1kytWjl+KB70nLA==
   dependencies:
-    "@spare/matrix-margin" "^0.11.14"
-    "@spare/vector-margin" "^0.11.14"
+    "@spare/matrix-margin" "^0.11.16"
+    "@spare/vector-margin" "^0.11.16"
 
-"@spare/table-padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/table-padder/-/table-padder-0.11.14.tgz#0a1db885f2f67c8138bd3cace0c4e6631b4fa1dd"
-  integrity sha512-b6daVvRipyIrmNccYHBzfr6PmPTX2XmtN7ngiO3M14eV0VLks1ABLmHApIGL1cQNd3zsBYYdYmtDJg+MyDVCjw==
+"@spare/table-padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/table-padder/-/table-padder-0.11.16.tgz#bc20da553a113f826244a194022bcda61ea210d2"
+  integrity sha512-w5I/webbDQ/n5fvqJLfA/feRcTC5kcUWE7hrMhQ2sRQwuCZB+p0vIWwp/w5LN9E5izxt6JvNklK8FBJa4rywZA==
   dependencies:
-    "@aryth/comparer" "^0.3.16"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/enum-full-angle-chars" "^0.11.14"
-    "@spare/fullwidth" "^0.11.14"
-    "@spare/lange" "^0.11.14"
-    "@spare/matrix-padder" "^0.11.14"
-    "@texting/enum-chars" "^0.0.6"
-    "@texting/enum-chars-fullwidth" "^0.0.6"
-    "@texting/padder" "^0.0.6"
-    "@vect/columns-mapper" "^0.3.9"
-    "@vect/columns-stat" "^0.3.9"
-    "@vect/matrix-mapper" "^0.3.9"
-    "@vect/matrix-transpose" "^0.3.9"
-    "@vect/matrix-zipper" "^0.3.9"
-    "@vect/vector" "^0.3.9"
-    "@vect/vector-indicator" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-stat" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@aryth/comparer" "^0.3.19"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/enum-full-angle-chars" "^0.11.16"
+    "@spare/fullwidth" "^0.11.16"
+    "@spare/lange" "^0.11.16"
+    "@spare/matrix-padder" "^0.11.16"
+    "@texting/enum-chars" "^0.0.10"
+    "@texting/enum-chars-fullwidth" "^0.0.10"
+    "@texting/padder" "^0.0.10"
+    "@vect/columns-mapper" "^0.3.10"
+    "@vect/columns-stat" "^0.3.10"
+    "@vect/matrix-mapper" "^0.3.10"
+    "@vect/matrix-transpose" "^0.3.10"
+    "@vect/matrix-zipper" "^0.3.10"
+    "@vect/vector" "^0.3.10"
+    "@vect/vector-indicator" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-stat" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@spare/translator@^0.11.13", "@spare/translator@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/translator/-/translator-0.11.14.tgz#03c59731e5550c85069809c4c2d752bea76284b9"
-  integrity sha512-QS5FqE7gY8bSUpUDl64mZIP9VPkHJcccNhtyiivAqZ+/iA/JToiQDgTPmUtn6gDA0VsS308Lxj8oRWzLGM/vDw==
+"@spare/translator@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/translator/-/translator-0.11.16.tgz#dff6ed6c8ee43d90e72435bab0ac67af455bc390"
+  integrity sha512-l1X2ljFxRQ6rAWuCc8PmCLi3Xt55eELYXjm6dZ3xPpyKPIE1Q4FJWzNDTIWbjMKLfFuCVBmtr5thpQs51BdsvQ==
 
-"@spare/util@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/util/-/util-0.11.14.tgz#bfa6286d502998b8f3a64ca3bbe3d751176555db"
-  integrity sha512-gZkh4dDbunx2IOZmdLFWMCYsBMi3X10j8rxkAqMar3NkgOdEj2q24WF+ALtjMzbFpui35QCJmMMkKb5h60JRBg==
+"@spare/util@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/util/-/util-0.11.16.tgz#b4c3f84c456f9802d1d0d88b4ec25e72a2a21aae"
+  integrity sha512-6mu+d9unSksnJ0jJbt8mwixsm7UkiKdUY1R6IqIDkCh20RdF/Ef2gD503AV4qgqVbYaYbkFPQU0d41smIim/oQ==
   dependencies:
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/enum-full-angle-chars" "^0.11.14"
-    "@spare/lange" "^0.11.14"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/enum-full-angle-chars" "^0.11.16"
+    "@spare/lange" "^0.11.16"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/num-strict" "^0.1.16"
-    "@vect/matrix" "^0.3.9"
-    "@vect/vector" "^0.3.9"
+    "@vect/matrix" "^0.3.10"
+    "@vect/vector" "^0.3.10"
 
-"@spare/vector-margin@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/vector-margin/-/vector-margin-0.11.14.tgz#a04cc35bba410c6d8c7701180ff61c6b93e4dc44"
-  integrity sha512-tV8LUBFjq0HrKUkFyKhbNmrK+jFbd7DE12GaNlhUl0t8deWgpzBZ8eHY5Jokx4zZAzZ+NBf2phznpL08gpzmpQ==
+"@spare/vector-margin@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/vector-margin/-/vector-margin-0.11.16.tgz#adbcc0f540d2e8cc0cdf03c824d992cf5ea9dae5"
+  integrity sha512-HdYBQIAZQwqLxdG59JzqtvhnAOU+awFKi7coYUh1viFXC61xUmeye6QNyD93GMowPutZOG7ZVyA/W6H50EfRfA==
   dependencies:
-    "@ject/oneself" "^0.0.10"
-    "@spare/util" "^0.11.14"
-    "@vect/vector-margin" "^0.3.9"
+    "@ject/oneself" "^0.0.12"
+    "@spare/util" "^0.11.16"
+    "@vect/vector-margin" "^0.3.10"
 
-"@spare/vector-padder@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/vector-padder/-/vector-padder-0.11.14.tgz#3c76ad0b964cee977448012ae596ff512d637128"
-  integrity sha512-mSOmPCo4XBsTyR4ZYag5Vm6hjq8cJ0pjdb5y/Af6tFnKt1hC4gLPB/IRAi34mU++mu4bX+vOyvPsvMThO5svAw==
+"@spare/vector-padder@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/vector-padder/-/vector-padder-0.11.16.tgz#0be1a5a4b729ac0b2ca40ba7f3156e568b64f449"
+  integrity sha512-C1zkDIWKALnvK/vGVKxbYYTPiw7P6ufMClk1Dq5exGS1HDBjf6l8u3KoWJgDSoxW0zoZvUQ3IFbpAzOzoO1bag==
   dependencies:
-    "@spare/lange" "^0.11.14"
-    "@texting/padder" "^0.0.6"
-    "@vect/vector-indicator" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@spare/lange" "^0.11.16"
+    "@texting/padder" "^0.0.10"
+    "@vect/vector-indicator" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@spare/xr@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@spare/xr/-/xr-0.11.14.tgz#ed722da31cefbbec435d0b6e8395fa8bb9e3eeda"
-  integrity sha512-zJpX10GooY1EB8m8oM7otLhVVpraWVHOkyTtn7ubkdqE+L+akCcNsxwxTFFwVUS4qTkKLFl7B0xXIhad9EvbZQ==
+"@spare/xr@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@spare/xr/-/xr-0.11.16.tgz#cc3d0fd6f70f8c02221b4e4b488b3238ec0eab16"
+  integrity sha512-/fFHwSfqbWqwjKpoqyY4Cn2rix68uU/o9YH58/OcbFh01YNbwhqUTgLUiBo3db5TB6mj4Z11wv6hOq+O/6cGKg==
   dependencies:
-    "@palett/cards" "^0.7.7"
-    "@palett/convert" "^0.7.7"
-    "@palett/dye" "^0.7.7"
-    "@spare/bracket" "^0.11.14"
-    "@spare/charset" "^0.11.14"
-    "@spare/enum-chars" "^0.11.14"
-    "@spare/util" "^0.11.14"
+    "@palett/cards" "^0.8.1"
+    "@palett/convert" "^0.8.1"
+    "@palett/dye" "^0.8.1"
+    "@spare/bracket" "^0.11.16"
+    "@spare/charset" "^0.11.16"
+    "@spare/enum-chars" "^0.11.16"
+    "@spare/util" "^0.11.16"
     "@typen/nullish" "^0.1.16"
-    "@vect/callable" "^0.3.9"
+    "@vect/callable" "^0.3.10"
 
-"@texting/charset-ansi@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/charset-ansi/-/charset-ansi-0.0.6.tgz#449af65b23045e25c6c7cd740486617755f87ee4"
-  integrity sha512-sesoBJZXwItKSS0sY/kz1yjKcwTZJaOtXWKBbg1bwyGEnmuTOWzzcv/0EuDJrIATiLh1/8+YghKENZRxc8Cfew==
+"@texting/charset-ansi@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/charset-ansi/-/charset-ansi-0.0.10.tgz#2f8a6e3a85d48e8855789d306d9901c527874c5d"
+  integrity sha512-LQdZ21h0PDIDJao1HX3IZbl6wx80hylvQUBA09lZ8KeOmFotaguigh4kkwReEERk5somPeaTvksYPYNrbwiJcQ==
   dependencies:
-    "@texting/regex-charset" "^0.0.6"
+    "@texting/regex-charset" "^0.0.10"
 
-"@texting/charset-fullwidth@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/charset-fullwidth/-/charset-fullwidth-0.0.6.tgz#35dc440e8acd8cac7681fb4f032c3364c4d37d0a"
-  integrity sha512-KHJAY2hfsQlR6zht4ToyMb0K0Ni4w8b988t86kVfnNLOuMrD0/4rfLfiuJcGJlRooKgrbFZW0UeIL7cRgBoXig==
+"@texting/charset-fullwidth@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/charset-fullwidth/-/charset-fullwidth-0.0.10.tgz#38437bc9ed1583aa9c315f30bebcf22321a52f14"
+  integrity sha512-ba3886tpFEq2X0n0ojmvET31xX9tlGtlaMxeA71AR8UHi9xerbFDvLs12nHXuzJwbQLKhmz7RPsSpe92tJ0yOA==
   dependencies:
-    "@texting/charset-ansi" "^0.0.6"
-    "@texting/enum-chars" "^0.0.6"
-    "@texting/enum-chars-fullwidth" "^0.0.6"
-    "@texting/lange" "^0.0.6"
+    "@texting/charset-ansi" "^0.0.10"
+    "@texting/enum-chars" "^0.0.10"
+    "@texting/enum-chars-fullwidth" "^0.0.10"
+    "@texting/lange" "^0.0.10"
     "@typen/num-strict" "^0.1.16"
 
-"@texting/charset-halfwidth@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/charset-halfwidth/-/charset-halfwidth-0.0.6.tgz#92168ab1ab38995eb82d0a354c9b532c26619e8f"
-  integrity sha512-bbnxM20OcKOEyCD0zSLRS1YvVsQZpCC4UWc4WS/6aIPEyg7G/Rn2xZjtMLAVbRY1faUECuCjwJZNcrwFyjUphQ==
+"@texting/charset-halfwidth@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/charset-halfwidth/-/charset-halfwidth-0.0.10.tgz#a70d04c0fbf70ba6cccfa46bfcf8d30572dbc21e"
+  integrity sha512-MYyHKrd9xSIcNiAumxCY4S8EVPUYHQKJ2yxzKBC/ahh0xNAK6gaoSRxyv6/sU/yhf4HWxxUcbp1kjg+ewXTL0Q==
   dependencies:
-    "@texting/charset-ansi" "^0.0.6"
-    "@texting/enum-chars-fullwidth" "^0.0.6"
-    "@texting/regex-charset" "^0.0.6"
+    "@texting/charset-ansi" "^0.0.10"
+    "@texting/enum-chars-fullwidth" "^0.0.10"
+    "@texting/regex-charset" "^0.0.10"
 
-"@texting/enum-chars-fullwidth@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/enum-chars-fullwidth/-/enum-chars-fullwidth-0.0.6.tgz#217c57aef51aa2bd3fa823209cd55cc5810cae3d"
-  integrity sha512-VjmccjRsAtbDBu07MDXqLC+hHbbwsSxATWz4TrUhXb/b23nKs0eg/tFa5xyHtz2a/Im4ourgnjG6pxcpKM/OLQ==
+"@texting/enum-chars-fullwidth@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/enum-chars-fullwidth/-/enum-chars-fullwidth-0.0.10.tgz#37a4b6e8a942462415949d5af3f5ef07b147c789"
+  integrity sha512-2BGkd9xUxX43w7Ipn4jQEh/F411NVdvH3VVpS+kD2s2U3Pvm/bmmXSsJTlF2TRIG2/ae2IdXDo+V9H0hX8b12A==
 
-"@texting/enum-chars@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/enum-chars/-/enum-chars-0.0.6.tgz#6bdfca8a68391b2a22671f6447bdcf49d8dde241"
-  integrity sha512-dpUZJ2+ZIJKheJU83d5R2wSs+kRXVNqTUJqSpml/GDG0baLzbFRo67wcgvi6qmdwTZEDCYZTiwc7BySNfo9zRw==
+"@texting/enum-chars@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/enum-chars/-/enum-chars-0.0.10.tgz#2f366523e5a2591f213d143663b7f649d41390d3"
+  integrity sha512-ibI3svOL8pqXy+nd0eM2OiQo6y2ls0Vgf1VnwOBMh0gjFz2l8drsm1rA/3Q7ue/yMJqIQ4+YpP+ZaBf5DLl5Wg==
 
 "@texting/enum-chars@^0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@texting/enum-chars/-/enum-chars-0.0.9.tgz#7babb7acfb63e00008c89c8f06d972e166078da0"
   integrity sha512-G97vmwsj/hm8I7w5VCmcxNiftJc75ACj07Wu5SHxL0FBLigIvH66gQo/A0H3pQOot5DL+6kHB6thQqrOrADM9A==
 
-"@texting/lange@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/lange/-/lange-0.0.6.tgz#f776730ca252c6cb83a25340d4619ab97fd0be41"
-  integrity sha512-8CbininUN9b84WBEHnYDzylpquAoyQwrgFxPdT/0k3D3KLvTPQNFTVM+CdhjQaawjiUcCCmVCt2LgcSqGBuuhg==
+"@texting/lange@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/lange/-/lange-0.0.10.tgz#c11a39ef3f5fd82d31dd9eef7929a507cf26dcab"
+  integrity sha512-4ruErXAEEfdXVMIUTKZhaKoeQ0/Uj6QQAgDmvKusEYpVmkhnGQnKWTR2MCnZX6I7xQTuJMyJ6gBeFIL7JnoD7w==
   dependencies:
-    "@texting/regex-charset" "^0.0.6"
+    "@texting/regex-charset" "^0.0.10"
 
-"@texting/padder@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/padder/-/padder-0.0.6.tgz#fc0af92a0de4f163e3fd0442e3721d93a68ac9f8"
-  integrity sha512-nGl5viQSfO2JGrutbuaMY6O5VhN9XzTVcLjDFkSaqRpWkuUmYSaTkRd8hgfgnoYPd9l64cAVHUvPAFvYtvk9oA==
+"@texting/padder@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/padder/-/padder-0.0.10.tgz#a4a0110fc565087e4bc7716317350ac8530e5777"
+  integrity sha512-i5hPGf2QhabwP9hGdjzY5UwbnoME9+WBFZsoIXyVauWQLcOUFk7x3AkEKEWzfUgzsdKMex8O41lx9dpWRNXVpg==
   dependencies:
-    "@texting/charset-ansi" "^0.0.6"
-    "@texting/charset-fullwidth" "^0.0.6"
-    "@texting/charset-halfwidth" "^0.0.6"
-    "@texting/enum-chars-fullwidth" "^0.0.6"
-    "@texting/lange" "^0.0.6"
+    "@texting/charset-ansi" "^0.0.10"
+    "@texting/charset-fullwidth" "^0.0.10"
+    "@texting/charset-halfwidth" "^0.0.10"
+    "@texting/enum-chars-fullwidth" "^0.0.10"
+    "@texting/lange" "^0.0.10"
     "@typen/num-strict" "^0.1.16"
 
-"@texting/regex-charset@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/regex-charset/-/regex-charset-0.0.6.tgz#181cefbc85116e5ccc55e57199b939b94933b15d"
-  integrity sha512-QM3Lij63sWOAKY4yPr26PyAC3jtvhJMYOQYwRGOx/T5YUvZ7QPEOozEC9kVvsOFP0r+k5OByLD7DBt+5Xrun5A==
+"@texting/regex-charset@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/regex-charset/-/regex-charset-0.0.10.tgz#3095546fec0fcf5301c9bf457bc6d11433e19055"
+  integrity sha512-N/GBZx3LONzXktq2iCjlU9vLA3Edn3d4szYovDk3DfNHidWDO1dan9fJoi3C48t20aOtsBL/I4Ug7oyBcyh4QA==
 
-"@texting/regex-phrasing@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/regex-phrasing/-/regex-phrasing-0.0.6.tgz#44b2367b7d16b4d94175c9e72efa3ff4a3a5d8e5"
-  integrity sha512-3Uh7l/Cd05UaMrLjDZ0jAemEf+meL/hbHxTf2/8sszhKgLE+oZEOhNDqG4LoSSxT2gjF4Cm1kAB0UTGejwTvFw==
+"@texting/regex-phrasing@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/regex-phrasing/-/regex-phrasing-0.0.10.tgz#815beb7be257a8df277eb2dc781d86e45ebe36fd"
+  integrity sha512-l4Tlod4kHAzXWdyonHbvKgeFewCNq5Qwp6AlrFA2cDa0yeSOgcS/ri2fHhvPK25bSUGT1YHIBrMqY2ZFmI3oMA==
 
-"@texting/splitter@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@texting/splitter/-/splitter-0.0.6.tgz#dc2f857782477d783023381021b50cb28e704727"
-  integrity sha512-b40v3b+MxuDDnTB5h7xXyrJqYnLf3uP8/CnDYkquKszEtjDd+RSg+OZ+z+BwQe3p87Dr3zVCIO08vSXdplz2mw==
+"@texting/splitter@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@texting/splitter/-/splitter-0.0.10.tgz#4c50d7ba560611b6b34d3957c5b3e1521c0408ac"
+  integrity sha512-uIJBWm0ZbLmag3iNqYetCnJhWRTL+Ehm7t401Zr/uQLQGR6JVi9ywdu8HuLxeVxpiVqvF6Zk5kN97w2jFS4wdA==
   dependencies:
-    "@texting/regex-phrasing" "^0.0.6"
+    "@texting/regex-phrasing" "^0.0.10"
 
 "@texting/string-value@^0.0.9":
   version "0.0.9"
@@ -1628,360 +1662,360 @@
     "@typen/num-strict" "^0.1.16"
     "@vect/vector-mapper" "^0.3.6"
 
-"@valjoux/convert@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@valjoux/convert/-/convert-0.2.9.tgz#fb0cbc639c896dbf53f13a9b4e3d3ece414a5a67"
-  integrity sha512-RVJWw3scX1DFNzWsXKo2xDUxdlr41qHtrZYCpee0AF1hp6Qt6zJgJHBbw39DiCI8KeQ+f50VD0wK587yFVFkVg==
+"@valjoux/convert@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@valjoux/convert/-/convert-0.2.11.tgz#a48b96918c7db3e0a8fa730beb63e15f8ee47564"
+  integrity sha512-iBsLPoj4DgdkMHfb3owlZfE5Pja+MB5zTrVbR9x6jiY/bhikkqVvFz0mBu6UvcEa6e9kYybaiF+jy/K4/krUEg==
   dependencies:
-    "@valjoux/util-bitwise" "^0.2.9"
+    "@valjoux/util-bitwise" "^0.2.11"
 
-"@valjoux/format-date-time@^0.2.7", "@valjoux/format-date-time@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@valjoux/format-date-time/-/format-date-time-0.2.9.tgz#aff6a674c5be2f231294a5c6281381df2e8031fd"
-  integrity sha512-R6XPMmkoZnwUo5eBrhwt8hjx2uphTsXUIvPmftCFU0NMpF2iBHmVTJyRKbl/Q2+N3QWczajUiySVXXt6aqL5lQ==
+"@valjoux/format-date-time@^0.2.10", "@valjoux/format-date-time@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@valjoux/format-date-time/-/format-date-time-0.2.11.tgz#7175e5d3dc54e6f3707b08755b68ffbc484e7d5a"
+  integrity sha512-eAdgJWr50UDKXRbDfurLTtmhquCnW8KfUUk+NBDEtMoZqiJe1acMA1hpQUDMwksIaPV2CNowzur6mRy5+LMwHA==
   dependencies:
-    "@valjoux/format-date" "^0.2.9"
-    "@valjoux/format-time" "^0.2.9"
+    "@valjoux/format-date" "^0.2.11"
+    "@valjoux/format-time" "^0.2.11"
 
-"@valjoux/format-date@^0.2.7", "@valjoux/format-date@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@valjoux/format-date/-/format-date-0.2.9.tgz#b7e3f9a7ac8856d1ad88a2c7d705a692edc2f9ec"
-  integrity sha512-leaomfiRU3pmntb8//DDSKTnmcoIqLiDspEgy1mDbfdqNCzONUSnrcW/m7C/gleyV3nrK1o6mrD648vhDKUjpA==
+"@valjoux/format-date@^0.2.10", "@valjoux/format-date@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@valjoux/format-date/-/format-date-0.2.11.tgz#7589d4689b5d1ef47397d655fa7a96d2a7c4a0e9"
+  integrity sha512-+q4SkPfnRS9S3YmwDUSyB5OBr4GBwMe3PrEgAVzNIQ1DvJCUK/2UIc4S71MNg4+ITt238Fa6uuPnFGVHirzdoQ==
 
-"@valjoux/format-time@^0.2.7", "@valjoux/format-time@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@valjoux/format-time/-/format-time-0.2.9.tgz#7d4e51a4029e286553fde829b5188d6b7c46413b"
-  integrity sha512-bMX93pI6fre1/hrnmxw/c0qiKemaB23/oJT9QMRSFc9Epyoglrd+IrNWojS2899wfiNwtBuK7Xzf10f2ceB+oQ==
+"@valjoux/format-time@^0.2.10", "@valjoux/format-time@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@valjoux/format-time/-/format-time-0.2.11.tgz#921d41da6cf583568ec2e0c910bf7a56d6e4ea63"
+  integrity sha512-RWGKTvOGfQyrGGzs4rCqqqNxi0gV9akMc7gxuiQLSjpEloeCljb5+70t8XKt8nINztbhZBIVOHHf4e7kwYHagg==
 
-"@valjoux/timestamp-pretty@^0.2.7":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@valjoux/timestamp-pretty/-/timestamp-pretty-0.2.9.tgz#6ed5b6d0c86c65dfa2efbfc0b22483362bae5735"
-  integrity sha512-n8ECwmCpiL67gOioDMNqM3pf3pQmKV111Zt36uwDbi+V4jEj1H9Iy7+vgF2gyqYrjDJIHFIjDPKxlGhhOhNJYA==
+"@valjoux/timestamp-pretty@^0.2.10":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@valjoux/timestamp-pretty/-/timestamp-pretty-0.2.11.tgz#dcf5c8dad725b594f983a3e5bc0842846f1d741d"
+  integrity sha512-ENbvYsa5rzw/u7QxFm5ylzWwNDatNBdlSF/Ygr4uyFx4QZPIlog9ClSbte2AoPlXrn7DIn6Uh9FhVqexpG377g==
   dependencies:
-    "@palett/presets" "^0.7.7"
-    "@palett/projector" "^0.7.7"
-    "@spare/enum-chars" "^0.11.14"
-    "@valjoux/convert" "^0.2.9"
-    "@valjoux/format-date-time" "^0.2.9"
-    "@valjoux/format-time" "^0.2.9"
+    "@palett/presets" "^0.8.3"
+    "@palett/projector" "^0.8.3"
+    "@spare/enum-chars" "^0.11.16"
+    "@valjoux/convert" "^0.2.11"
+    "@valjoux/format-date-time" "^0.2.11"
+    "@valjoux/format-time" "^0.2.11"
 
-"@valjoux/util-bitwise@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@valjoux/util-bitwise/-/util-bitwise-0.2.9.tgz#019fbb4a8219cdf6fbf97d594d2a0fe81306481c"
-  integrity sha512-9uR2cGOo1yDnCV5V6AE015DJ+ezq/cC9JZOKqEIeMLQ2bO0I2985VxmFgNwIYOVobYT/ZIzzXdNq93InELQyGA==
+"@valjoux/util-bitwise@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@valjoux/util-bitwise/-/util-bitwise-0.2.11.tgz#b4a471fad96a5ff3bf72b1c9b7b98900f344c6c6"
+  integrity sha512-Bii4i35sbnZwe5j1diqVtWcXPjdnks+Imuh5IE14nEDFC9SQz5f4EcvGj5nO6tuviMO9RxAcOjZ19FGu5XX7Eg==
 
-"@vect/callable@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/callable/-/callable-0.3.9.tgz#e11131ed77f7f82f721ae1be4c7bc4626aae8316"
-  integrity sha512-AHRLjq+nlmXCvpMutL+MAP5tO4HJcFQvnrue7DFB27a2HAPUrhtPFcDTIzclq8DZhVnvKMSPoAqU3WSDemmFig==
+"@vect/callable@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/callable/-/callable-0.3.10.tgz#473d28b3199d7f0984dfb6ff2f8893826ef22054"
+  integrity sha512-PqGPpyPkwZOgyThB8giHkoMxVHwx1pXcgSK0JNLIvUHzy6r5zK4ezWMHGx2dVFWjPqdZRJ2YbRZwgroq0DCQNw==
 
-"@vect/column-getter@^0.3.8", "@vect/column-getter@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/column-getter/-/column-getter-0.3.9.tgz#1e01a957054589fbd3b130d68be430f39583b1a9"
-  integrity sha512-flFEib/Jsq/89k3YbLv77QL6G3Os8hztGFlf3lrz78p0dQJvpg98bEynvpz3KALqZLIs1UjRgitSsssKu3o77Q==
+"@vect/column-getter@^0.3.10", "@vect/column-getter@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/column-getter/-/column-getter-0.3.10.tgz#fc2ed5c98fe90f94c7b4d4d454c77835056058d2"
+  integrity sha512-mdLFC0E7zcutTbSWOJ0MTDjn4KJkjU820Zsk6/V4VvumnxVMj0JnoFRWsCcjqq14mFWntmjAHFTGQ7XTdttfzw==
   dependencies:
-    "@vect/vector-mapper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@vect/column-indicator@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/column-indicator/-/column-indicator-0.3.9.tgz#2ebc2d812b7e3e1f1b549fe7b5d7aedd06e6fa42"
-  integrity sha512-jIGg+4C71qCffzgpC+H3eGPsjRkHr7n3NjHOP+KzlIXDpP1ILLKuWD/Dkvri3SnNr+PBNSkvIfUuDfp11Qc+qg==
+"@vect/column-indicator@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/column-indicator/-/column-indicator-0.3.10.tgz#b7cda1e23e5c6721f1e0ffe7fc377247ce076c2f"
+  integrity sha512-Aq/U3gSmOit7tzHG/uurcma3sYuRi9chY+AIluTOYRr3gHXArMK7J9nZO9ricyEGuj/XjY2YaygVydOVn66EZg==
   dependencies:
-    "@aryth/comparer" "^0.3.15"
+    "@aryth/comparer" "^0.3.19"
 
-"@vect/column-mapper@^0.3.8", "@vect/column-mapper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/column-mapper/-/column-mapper-0.3.9.tgz#355602b0cbd5c27ea61d90733bd3fc344221e022"
-  integrity sha512-unKhAEDrBLPu7Gb7apgYAs9feSDjP4U7Vvky690MS/JSe0uXKG+G2dI8Yqj4GZXUfvVOQ57Pi2uY0duJp3DvVQ==
+"@vect/column-mapper@^0.3.10", "@vect/column-mapper@^0.3.8", "@vect/column-mapper@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/column-mapper/-/column-mapper-0.3.10.tgz#85eee4d2edbd14776ed55de17356f07a621175ea"
+  integrity sha512-pGKa+emOKu7glkCuiT/0T3l0FoRsxeK4xjRhmiDwNZO6rXvZ802fMHq5aDQLQnl/+N1RogV2NvBDT+AkYcMxXQ==
 
-"@vect/column-quantifier@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/column-quantifier/-/column-quantifier-0.3.9.tgz#fa03c023fb1a160e4b2162cfac6b14ef2af186a8"
-  integrity sha512-ZXWTNMZ11zfvYddrNd20WuJ9Mf0nQg3E2Vkgni1El2VzIb2q/mhA6CaOIO5odb2JdRsAI4IvAQo3EvETigrDgQ==
+"@vect/column-quantifier@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/column-quantifier/-/column-quantifier-0.3.10.tgz#3aa1b34b139c115380ed5d95f4f6270f543bd0ee"
+  integrity sha512-nRGEvs0/loJ3I5v3cmpdeGCFaIOaGlfvO/UPoD6zzIiPad2Qm6xV+ExmzY8D/DpVWc/RIxJzBpZi2mV27/lx9Q==
 
-"@vect/column-zipper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/column-zipper/-/column-zipper-0.3.9.tgz#1aaf0f9327d93ae8781cbf338938566e57230c44"
-  integrity sha512-oQXzrD9r4qNQU7T2BecRg0RH3Djln2cJe8k8N0dNx7DJlSgQ9VJkqmc5xYFtH5bH8TRKSIXKnjEro5bEngl2fw==
+"@vect/column-zipper@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/column-zipper/-/column-zipper-0.3.10.tgz#57735400124c9b56d5da8ac11ca7fc71ac9a6e7a"
+  integrity sha512-2lwGLKN6GHlBu/LPFATiOkXDoXEQeUDfh+GwIkYEXY4PglnG0kpEd363jnLUuhKjMurf3W3vQKMuoW/WFS73sg==
   dependencies:
-    "@vect/matrix-init" "^0.3.9"
+    "@vect/matrix-init" "^0.3.10"
 
 "@vect/column@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/column/-/column-0.3.9.tgz#eef0a37eeb491bc50475d2b2d951d57f53849cf7"
-  integrity sha512-PHbhEdGr7LJenE0K5/lkG5SzxYQ/R9u/UzPoz4uIQry0dLekGwF5Ro0fACG/VFWm2op6iJdvqFTVSE6/V2CuXQ==
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/column/-/column-0.3.10.tgz#1820ab4b69b5459cc97f3341e2981df104225c5f"
+  integrity sha512-MavLfb9VSuJJsvHa2EGCMNY7fmkp0Rcz4vXX8woJGDIwPbr5y+jFAWPFUnovxa3zPICgl3WblL1mAxjAoqkRbw==
   dependencies:
-    "@vect/column-getter" "^0.3.9"
-    "@vect/column-indicator" "^0.3.9"
-    "@vect/column-mapper" "^0.3.9"
-    "@vect/column-quantifier" "^0.3.9"
-    "@vect/column-zipper" "^0.3.9"
+    "@vect/column-getter" "^0.3.10"
+    "@vect/column-indicator" "^0.3.10"
+    "@vect/column-mapper" "^0.3.10"
+    "@vect/column-quantifier" "^0.3.10"
+    "@vect/column-zipper" "^0.3.10"
 
-"@vect/columns-mapper@^0.3.8", "@vect/columns-mapper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/columns-mapper/-/columns-mapper-0.3.9.tgz#3cd45960eb86af023dc2d3453a513bf4512d26b7"
-  integrity sha512-PQ3HgB7uRddTVgWoDdP0vpx/zSonGiHSHRKKkAV0K4WdovEBp358GZGI5UC0QeFyfxF5aRE8nADVwqv3yYSPpQ==
+"@vect/columns-mapper@^0.3.10", "@vect/columns-mapper@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/columns-mapper/-/columns-mapper-0.3.10.tgz#f45dadac64ca8c3066107d6c29db331773d49071"
+  integrity sha512-Ji4EtpHDKAyjSb7mNp8NZvEWfJDECTuFHI5DX48dJxGA4m3aVBMHDlQp5YnAayINArz97xPkmkr8xwODCKHNhw==
   dependencies:
-    "@vect/column-getter" "^0.3.9"
+    "@vect/column-getter" "^0.3.10"
 
-"@vect/columns-select@^0.3.8", "@vect/columns-select@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/columns-select/-/columns-select-0.3.9.tgz#52158accf3edef42a1cc026165e7aa086eccede2"
-  integrity sha512-mXzVPZwUsKU5GonK8fxj8GOC1dKElmZeLaHZ/5kPTnbdIL8XMP7bGgDK6wE/tthg5YR8Lb0I8k+gOBthgVjcpg==
+"@vect/columns-select@^0.3.10", "@vect/columns-select@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/columns-select/-/columns-select-0.3.10.tgz#a16ca423a014d9b04abf9fe6c48b3bec369a8dfc"
+  integrity sha512-teAT+ApgJG1X5j55Hack4kYmWNfpNM0Iy5NR6TugUCiaDMQuq2ipQx9BqnNXWZx4WMGO6Yby95td/T+uIfakwg==
   dependencies:
-    "@vect/column-getter" "^0.3.9"
-    "@vect/column-mapper" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-select" "^0.3.9"
+    "@vect/column-getter" "^0.3.10"
+    "@vect/column-mapper" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-select" "^0.3.10"
 
-"@vect/columns-stat@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/columns-stat/-/columns-stat-0.3.9.tgz#c24c7f4718ae3e1c0c1243dff1d3dfedb764f13a"
-  integrity sha512-wzGuE0ZQZIpHy06dYwHVqTlMuCA7oT6P6ILpUS3ffRQqzXt6UAYMRttK1srVaeFpGK3v5SzkkgvB0T724Wq2AQ==
+"@vect/columns-stat@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/columns-stat/-/columns-stat-0.3.10.tgz#eb0a064fd682898061f93fd1f8a0f50b10a8a1cc"
+  integrity sha512-oLtdrkQ5FjnFPwGlsPJp9P4ppCi24gNXH0rDFv669bm/2GEC82lxGHkereZwElv8flommcO+mxe4amyXQKGzZg==
   dependencies:
     "@typen/enum-data-types" "^0.1.16"
-    "@vect/matrix-size" "^0.3.9"
-    "@vect/vector-init" "^0.3.9"
+    "@vect/matrix-size" "^0.3.10"
+    "@vect/vector-init" "^0.3.10"
 
-"@vect/columns-update@^0.3.8", "@vect/columns-update@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/columns-update/-/columns-update-0.3.9.tgz#30f19b30c5f8fad06509e99e22085c332b16539b"
-  integrity sha512-Yiq/yS7fa8ToS82+/TKt+6oK29MyM0NmbRRD8yD+XGCJZz9nJTsbcvXIeCSKwtxnU2hiHJrLPN5NC+pmdI8l3w==
+"@vect/columns-update@^0.3.10", "@vect/columns-update@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/columns-update/-/columns-update-0.3.10.tgz#a01c27b411c53f6245388b451b4dd9e9054e109c"
+  integrity sha512-sxYEAWPBzyy22scJFwqZrvFAllsCRmA8E7Mo/X6r710lxAtlTd0g+myvllMXq7/67qCCEAUBg7BPFQqyGthpTA==
   dependencies:
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-update" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-update" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@vect/entries-indicator@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/entries-indicator/-/entries-indicator-0.3.9.tgz#34622a25fc5f14bc4862775f91adf5392ff73654"
-  integrity sha512-/sJoyUfp7ygsDAedbo2RWqPXt1ouQtyUMx1z5sfDSD/ZLPVaBcgo8k31f+Ld8/9R/UaCpUacwqHiH7RTkfDpHw==
+"@vect/entries-indicator@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/entries-indicator/-/entries-indicator-0.3.10.tgz#bec9b51c0ad22cc5a48c42a7f53dfe6158fd8c0d"
+  integrity sha512-becg6E4Dqkj9BgdVMSqwzeEhAgXkPH3FkSPJwCarJw4FQS6xVXa7QFKCI6836JmsUYCs5oduYH3mBjLL37+GIw==
   dependencies:
-    "@aryth/comparer" "^0.3.15"
+    "@aryth/comparer" "^0.3.19"
 
-"@vect/entries-init@^0.3.8", "@vect/entries-init@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/entries-init/-/entries-init-0.3.9.tgz#66a8b7358c55e14e10416f9fd442bdb910bf12f1"
-  integrity sha512-7KJ/MbX/pYytJwm+j1nfgQvxFGSVYVUojxOZypSrm4lrUPO6sUKIi57yi8lfc7wZTCdAVZjadAeib/6iuT6qqw==
+"@vect/entries-init@^0.3.10", "@vect/entries-init@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/entries-init/-/entries-init-0.3.10.tgz#66e434bfe62d4bbc24af13bd10044403af1488df"
+  integrity sha512-//V0Zx+rRh03jLC0OCcsiJIJUF8SxoZTxlXuvAbMmQdW7QjbCckFLzCWvXMbxawkfMPHo5hMK6wc7dWzpWG3eQ==
   dependencies:
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
-"@vect/entries-mapper@^0.3.8", "@vect/entries-mapper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/entries-mapper/-/entries-mapper-0.3.9.tgz#d98af394e18edeb95b0b1164af35f75d9f4eb22a"
-  integrity sha512-E8Uc+IEGO8x2ZIRRtqKnv3Va15FSsV5dkYuUIMlFtwjyehkBVyqvGZ7CKfR9HXTQoyhYCmPx83CqRhy3rYQtDQ==
+"@vect/entries-mapper@^0.3.10", "@vect/entries-mapper@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/entries-mapper/-/entries-mapper-0.3.10.tgz#1a6db9d7ac32ca70026f991b1d646ba977625ea0"
+  integrity sha512-c5YbcZejyYZ4TgM5pPt614ZFhtsXgzXR/q/iw80ufVnuNiqfHTYlmnK7OaOyWyFEs+APQbMn7CUNvQm9J1Dc7w==
 
-"@vect/entries-margin@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/entries-margin/-/entries-margin-0.3.9.tgz#8204309e1e7b8005cb0199e64322260999995f07"
-  integrity sha512-c/LVPguozQDnkmmh60M/ixU3O+tkvd1IRSKt9sTg4L/D9Iy3jYj6vfpd6GHEHdwmDTPnchhsMu4HmSIvuibWzQ==
+"@vect/entries-margin@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/entries-margin/-/entries-margin-0.3.10.tgz#caec2d17198654ba594d6b55e92953c371f72144"
+  integrity sha512-lexVpBs180bBymMI/LsKFrHkVxq7Mi8s6iw4oQmF24Y+vUnths3c+eAyU1D0VRDCBkIrVujO3NdG353J5WDK5A==
 
-"@vect/entries-unwind@^0.3.8", "@vect/entries-unwind@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/entries-unwind/-/entries-unwind-0.3.9.tgz#aa11ffeda78ca78750c4c00b12f42e61ae6a2b73"
-  integrity sha512-1oUwSbPMdKuGwSsgovRrMASHOuEUrhi4XmYk4F16P51+CkNLyHkhtAd/rNUyhHMaalhsGRQq1YcM4mtZd7889g==
+"@vect/entries-unwind@^0.3.10", "@vect/entries-unwind@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/entries-unwind/-/entries-unwind-0.3.10.tgz#33d64a5b0ca2cf0f53ad3e06691a1b64c0b97903"
+  integrity sha512-XTVUJbcbaWO0N3PsMbsqZfYclMcT0zNczQm9uHv68UU/06CAAvGqRg8Jod+qdgLiB+l9lxNxBuxEAFZ6Asws8w==
 
-"@vect/entries-zipper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/entries-zipper/-/entries-zipper-0.3.9.tgz#4746e8b9c60dd825cdb1bff8798d64392191a367"
-  integrity sha512-KkbUydJpIzF+jaz1QeTUQGWGwnsPew58HG33DMUVSKBaDmFVWuQFMd2iS3nQsjUrFhYxAYASthHgj/Zfa6Vi6w==
+"@vect/entries-zipper@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/entries-zipper/-/entries-zipper-0.3.10.tgz#8561865461ae77d47f2d00a0057fde698d5f76ac"
+  integrity sha512-Jp4s3YigAKFdO7hezGOT3ja/MbTGwTqFjMvO7S1VVgAHm2aeQh4CM9DXjiqJiIR6GKAeIXhjBCVQYK1kqJY6xg==
 
-"@vect/enum-matrix-directions@^0.3.8", "@vect/enum-matrix-directions@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/enum-matrix-directions/-/enum-matrix-directions-0.3.9.tgz#0d1cd858821212dc4dee4a6c88756051fc4366f7"
-  integrity sha512-EZ9NLdU1bbCl/5W2GWOHisXixu1J90O9xhs2SuaQM3LFbgX+TB5nz4NjRsLK9kLKagIbxSlZzm+HyIAJwotRcg==
+"@vect/enum-matrix-directions@^0.3.10", "@vect/enum-matrix-directions@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/enum-matrix-directions/-/enum-matrix-directions-0.3.10.tgz#d1008b318206395fe505a49b82c424c064c78279"
+  integrity sha512-4G79mQcSDIuUzqYhdVj2I0SwK9BbZQWy7QkWRdQl5H8fdBkMzQL4CXN2qTUBc9g8YEkQ+Le08ULbkXJagHl04w==
 
-"@vect/matrix-indicator@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-indicator/-/matrix-indicator-0.3.9.tgz#b683084d4c923b1304039b93e487bf4a8b82af17"
-  integrity sha512-/1L73E6CbohUfi9O+qxxedRuW9RjrBD18VipjddSjmgo5nwJQqaQhf0pXbG9zfMYTpxEro/2NaPTyr7vorUwzw==
+"@vect/matrix-indicator@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-indicator/-/matrix-indicator-0.3.10.tgz#f59ecb224c16bea080fa715320df57db56d1715b"
+  integrity sha512-vJW+3KhF2TMfgmLLNtPFr2XEkzl8e6JkDhELyB55N8ZekWeJ/VYHzW/bHGeNxA1fzK8ZwBwyB/kqTunxEa7vSA==
   dependencies:
-    "@aryth/comparer" "^0.3.15"
+    "@aryth/comparer" "^0.3.19"
 
-"@vect/matrix-init@^0.3.8", "@vect/matrix-init@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-init/-/matrix-init-0.3.9.tgz#5ae6636534b6ce9a803e917241f54553f82bfb26"
-  integrity sha512-uJ8S3VetbulPeSS2Ix//aBcWZCgM/ifXzdkM/t8JRoexDO8JkjjppP8cPYr9HLkxV1KtfEJJhMb73LmAz77MIQ==
+"@vect/matrix-init@^0.3.10", "@vect/matrix-init@^0.3.8", "@vect/matrix-init@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-init/-/matrix-init-0.3.10.tgz#4caa4008f6a693e14029c2db080ffed153ec1d60"
+  integrity sha512-mQpsiwTszVGmtL4eF1nDd1/orz+Zyp9Q42+RzeWXPe/yqEzAcC+jrtcmE9nMkneTR9d4vXMvqFw1gHbFMHObFA==
   dependencies:
     "@typen/nullish" "^0.1.16"
 
-"@vect/matrix-mapper@^0.3.8", "@vect/matrix-mapper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-mapper/-/matrix-mapper-0.3.9.tgz#b944a885feaf32ac5dae51656879bd8373d197d3"
-  integrity sha512-0eQ0O3XqkGRLegFSk80v2ZrUxfy4BT8rqDrOlSoqOq4TTN/SX+gL4mDjbAwQ0mHNqwENeckj2WEtWnBZKPCPGg==
+"@vect/matrix-mapper@^0.3.10", "@vect/matrix-mapper@^0.3.8", "@vect/matrix-mapper@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-mapper/-/matrix-mapper-0.3.10.tgz#88bc528f7a4d376216966c188effd73cdb59c9b5"
+  integrity sha512-rN3lheJw9S4dvCeYLR3FnSDqw3vCe2D5VFnjN8oq8NaDTTki82b7k4SEZcFRaBlPVWKGcd03cdss3ZG+w95AKg==
 
-"@vect/matrix-margin@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-margin/-/matrix-margin-0.3.9.tgz#d70fbc250af4b50bed49022c9ed998efe23e4e3c"
-  integrity sha512-Go5if6Fy+olUIUK3V0bdCMV3HqU86/2dcYPH4T0jDQCv18d86vkfVsTQ/fmCcXxfoMn+HxOB2KkZ5Ya2kgj5xQ==
+"@vect/matrix-margin@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-margin/-/matrix-margin-0.3.10.tgz#b3b86ac96ac36ccdda3d845410ebfaaf6a30af78"
+  integrity sha512-9nndzWPuHR63hg8G2n0Mzfw7PDiy5Mg3yL47aA/2wZvKbFERChDGYWKQGS/MMhVl3+hA/eNDEPSOe52hLY2xdQ==
   dependencies:
-    "@vect/vector-margin" "^0.3.9"
+    "@vect/vector-margin" "^0.3.10"
 
-"@vect/matrix-quantifier@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-quantifier/-/matrix-quantifier-0.3.9.tgz#4b4025b1fbb88870ff77049ed326c7cdd9f92c81"
-  integrity sha512-BySh8UZ/z2ltyecpB+Lcu0eXNJQAbC2JJFCMIn4O0qiODQcxTBzYxG/YqQY9PGlyh6cMG72rWkksAn6kEi294w==
+"@vect/matrix-quantifier@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-quantifier/-/matrix-quantifier-0.3.10.tgz#e72743dbcb410b727ed399983f65f9a2a730415e"
+  integrity sha512-TuiiEJl9r2rp5Wy5+27dqRABTJE7pijiokI+EPy2zReI45dF4qWqBLmnS3vdBMl944SBI7PR20B7aathmlQUDA==
 
-"@vect/matrix-size@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-size/-/matrix-size-0.3.9.tgz#3dc04bfda34f3b1634cedc98e88d420bf4c02dbd"
-  integrity sha512-KbkDzDL3tBG7IbC8zWNrWmnVVsU5qOE26gSy6mjTcz/cpwu+ANh5s/VxM0w7P5IPxe2yu6NmY/FgqXzqRM5XwQ==
+"@vect/matrix-size@^0.3.10", "@vect/matrix-size@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-size/-/matrix-size-0.3.10.tgz#7171dd17958ea3e5f1ff3bd7f9d4d01b76f5f015"
+  integrity sha512-9Z5fxgc8qFK+4KKT9YHBmsm6LINoncANyrXepoUTvsj007bw97ME1Si8kSI5sE+oibW1SbZUVBqELtXsXXCn6g==
 
-"@vect/matrix-transpose@^0.3.8", "@vect/matrix-transpose@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-transpose/-/matrix-transpose-0.3.9.tgz#c36cc048f35d859b71536fbf1b1a8b89edac5765"
-  integrity sha512-UmZL9pMLZTFhEXpnT7MYRNPRnLE3JxfEzTTo2dC+GWs32FsNrM4TyuDdPcd9n9uLn/m6L4mqxDZpFXGplZh9+A==
+"@vect/matrix-transpose@^0.3.10", "@vect/matrix-transpose@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-transpose/-/matrix-transpose-0.3.10.tgz#a4bc26082d0d25d81cfa7c5545743f4700c0d166"
+  integrity sha512-O2bxU56gkpWLe1fRV735WtUQBJhLrUZz/ViMI9cBiOARNoYopWExZkwI+2hhyQJhUYdyJeT7meGwzyO4gV4ykg==
   dependencies:
-    "@vect/vector-mapper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@vect/matrix-zipper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix-zipper/-/matrix-zipper-0.3.9.tgz#db2c71f7bbc80d3bd73b6dab02c1beb6489c70d3"
-  integrity sha512-k2YwOJxAHDY+GJas14UmC1NyqniHZsOn1R0P6A60AW3nCKpQYw7qQjEkJ92Kufzxaoj1nJTuEtOh9oYjUFuc6w==
+"@vect/matrix-zipper@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix-zipper/-/matrix-zipper-0.3.10.tgz#b4d3d6f8dcb358f9f46ed65a30df32fe64816491"
+  integrity sha512-Fo8CKOvEVI3y3N+08DNpNRYyFMnK/uwC/53LymIJvpLj5SpGPYxpVvpOjrAmhg/WeBfibYsjhrZtM9XKz+RMJw==
 
-"@vect/matrix@^0.3.8", "@vect/matrix@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/matrix/-/matrix-0.3.9.tgz#a0b9aa242ed54ebe846f7f124853b08e454cd8ba"
-  integrity sha512-2FbFOMiHxELZapGythBpDT+/1NLCZ0B8rOtYczrmimdp9y4/45gqNxop+jz7F6W+6ASxywXZteoFOQiuTqoRZw==
+"@vect/matrix@^0.3.10", "@vect/matrix@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/matrix/-/matrix-0.3.10.tgz#290ddac40ad330b838a2a6d1114351d4250bbc1b"
+  integrity sha512-fV2isTU/5qzmtTAwdMwdKQcGsliFBdcB9mIDjcswUgK5j8AYieH36n8QBqyJaWQgtowVZT0RC2ZFpyCX3kcFrw==
   dependencies:
-    "@vect/column-getter" "^0.3.9"
-    "@vect/columns-mapper" "^0.3.9"
-    "@vect/columns-select" "^0.3.9"
-    "@vect/columns-update" "^0.3.9"
-    "@vect/enum-matrix-directions" "^0.3.9"
-    "@vect/matrix-indicator" "^0.3.9"
-    "@vect/matrix-init" "^0.3.9"
-    "@vect/matrix-mapper" "^0.3.9"
-    "@vect/matrix-margin" "^0.3.9"
-    "@vect/matrix-quantifier" "^0.3.9"
-    "@vect/matrix-size" "^0.3.9"
-    "@vect/matrix-transpose" "^0.3.9"
-    "@vect/matrix-zipper" "^0.3.9"
-    "@vect/vector-index" "^0.3.9"
+    "@vect/column-getter" "^0.3.10"
+    "@vect/columns-mapper" "^0.3.10"
+    "@vect/columns-select" "^0.3.10"
+    "@vect/columns-update" "^0.3.10"
+    "@vect/enum-matrix-directions" "^0.3.10"
+    "@vect/matrix-indicator" "^0.3.10"
+    "@vect/matrix-init" "^0.3.10"
+    "@vect/matrix-mapper" "^0.3.10"
+    "@vect/matrix-margin" "^0.3.10"
+    "@vect/matrix-quantifier" "^0.3.10"
+    "@vect/matrix-size" "^0.3.10"
+    "@vect/matrix-transpose" "^0.3.10"
+    "@vect/matrix-zipper" "^0.3.10"
+    "@vect/vector-index" "^0.3.10"
 
 "@vect/object-init@^0.3.8":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/object-init/-/object-init-0.3.9.tgz#d0e5fd390ebf945818cf4914c9cfae5fad8d9117"
-  integrity sha512-sn1n1AeaJdL+sb76klgMOYVYyl/I2C+8JrHJEZSXcwjRzhmw4sYUKPhV0HagwJp2WkKyHTpRUftS4ciVh1Wlag==
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/object-init/-/object-init-0.3.10.tgz#6df585d525ab090e45481fc581e626a9c31a9cdf"
+  integrity sha512-FQag97NztEzN/no1lhLE0aeqp/PYTutJcUcZLyzI4GI2CIP/01Zwa2zsDbK8wCabHwgNI69MGD6BDHyAKHGyLw==
 
-"@vect/object-mapper@^0.3.8", "@vect/object-mapper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/object-mapper/-/object-mapper-0.3.9.tgz#1abe86864dc145e4675574649266148895d94b94"
-  integrity sha512-pSsNU57a1lU9qsk4ProyQT5sHDa61+VPQBA7gN3vT136hoq0H3KzWND+84WI+DQh3m2S6UfQfKOGwirIiGWAoA==
+"@vect/object-mapper@^0.3.10", "@vect/object-mapper@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/object-mapper/-/object-mapper-0.3.10.tgz#e81f81db6cf2b69d31a23d43b911e09c1a793427"
+  integrity sha512-PZ3AMwKGS/dmalsPsZRMnvHKfduzWus3bC4FJUNkvxRMykjGkrUXU1b2SV40prUYpz3GzPBo7jw8z3hevfAkpA==
 
-"@vect/object-select@^0.3.8", "@vect/object-select@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/object-select/-/object-select-0.3.9.tgz#8e7f15db60472f44f073d17335709f05589e3164"
-  integrity sha512-oUqCX0PQY13TOs8MZxj04ov/uini6OOVbTPCwgUJJFRhz/DOyznyIvTiWFAHZrENhtuMZprwzDqSCw5xWyGLZw==
+"@vect/object-select@^0.3.10", "@vect/object-select@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/object-select/-/object-select-0.3.10.tgz#d2c66de2e11878ea694932ecd1c3a3cc850dfcfb"
+  integrity sha512-BqnD88iz58aeNSPJwdwJbyiB2qTkr1vDqsyHzdfni/8QkzIuP/Nj5QhwBPEN4sL9+uiaEVC0uGiwj4JTjB6pvw==
   dependencies:
-    "@aryth/comparer" "^0.3.15"
-    "@aryth/rand" "^0.3.15"
-    "@vect/swap" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
+    "@aryth/comparer" "^0.3.19"
+    "@aryth/rand" "^0.3.19"
+    "@vect/swap" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@vect/object-update@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/object-update/-/object-update-0.3.9.tgz#1d3a9d25f7246dca9386f4d5ca4b35a9fb70e7b8"
-  integrity sha512-aki7aSZieHtMcQCwJ03PRB5YSehjv691VS0r3y2nH3WLtNWm1m5hxRpCQpyIx//wbg5p522RSVrT26pzaTNzEg==
+"@vect/object-update@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/object-update/-/object-update-0.3.10.tgz#a3092504564b42fb955c6b90ae0c53a1b796518f"
+  integrity sha512-qgMlm6EgrXhUjXcWlduOMahP7hwGryWoeWvkVigxC9/ayQhZPfe3p1ASWIA+yAaHpbC1NB1OMXOgIGFNP9NJ3w==
   dependencies:
-    "@vect/swap" "^0.3.9"
+    "@vect/swap" "^0.3.10"
 
-"@vect/swap@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/swap/-/swap-0.3.9.tgz#d6010557ff5e2bdbf78baf2f1d51c44b947ef17c"
-  integrity sha512-KPZG5gFVX6tyEeHA1Iq832nRRwY9B6hTBjVBZy2Sl0DeCgsoGrUu8/QLbuGq9fESj9n7lyf0VCiJORuSv206+Q==
+"@vect/swap@^0.3.10", "@vect/swap@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/swap/-/swap-0.3.10.tgz#308dd19f88c23ea5fd6293b57dd928fa0e243b2e"
+  integrity sha512-RvUQQJxyHnb34LWQkyyUl+mJjbvJCP6jHF5j3zCnfAdEU7JaH1dSr0aKgS9zAwMnILOsdzpZgZBWnzpaTqMBzQ==
 
-"@vect/vector-algebra@^0.3.8", "@vect/vector-algebra@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-algebra/-/vector-algebra-0.3.9.tgz#8696674624600dbb3ae118b5b41f45eb99dea650"
-  integrity sha512-4P2+7ozOMxWa7n0Re4fLqLfIuDpxC7QtqFzou9ad0UX+zW3MktU6qUjyw8W5KB9DdykEng8srwk8P88MCdhiKA==
+"@vect/vector-algebra@^0.3.10", "@vect/vector-algebra@^0.3.8", "@vect/vector-algebra@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-algebra/-/vector-algebra-0.3.10.tgz#e42f6cc02331e20c1043cb11fefc5406c72d39e5"
+  integrity sha512-bigdLByc5137CY9/B6HXpuSSTvN9skwNqwYq1ngNgb+baEN7VbhmgqqPhYlnUxsnuWHEW5UiezZmZ8pzJj5yfg==
   dependencies:
-    "@vect/vector-mapper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@vect/vector-index@^0.3.8", "@vect/vector-index@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-index/-/vector-index-0.3.9.tgz#4a7002b0540c0e406d8f4cee6bf3ebfb16c3d33e"
-  integrity sha512-xFshlfigEVloFzjKv8KQwfIevlq5TfWaqG3fuesS5DDZmYY2is53/Jf+WH9AH1raibRlDlAn21nKD5ou8jnmMw==
+"@vect/vector-index@^0.3.10", "@vect/vector-index@^0.3.8", "@vect/vector-index@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-index/-/vector-index-0.3.10.tgz#2d964e512ef47c1cec841bca2fe96b8454eb7096"
+  integrity sha512-d6X5Luq22TzXXFJ8uxCmGPwDf9obnHDADbYWfhU3QDPkcAePRLfLuxKSBQJ1iqb5ET3iMdtyjjMD/904mxSUnw==
   dependencies:
-    "@vect/vector-mapper" "^0.3.9"
+    "@vect/vector-mapper" "^0.3.10"
 
-"@vect/vector-indicator@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-indicator/-/vector-indicator-0.3.9.tgz#5ec72c73877709782ef0462a548db9881fbc5daf"
-  integrity sha512-D7ceYLVH42b+FRfXeZkcbtwpBFxNxSMU5XqaGP7K6qzOoJgNL39Z5llo3mtldY0uAJKq+/+Lap6Sqg3IQlenjg==
+"@vect/vector-indicator@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-indicator/-/vector-indicator-0.3.10.tgz#2eca5855cb533c488118a080b4b474f10e935632"
+  integrity sha512-vPxh71lWZajkZkoUb0moOQbH/XT09SBkzUo7Efi2tyKs50toS7WSa5mqgf37q7zDEFwmG+VPaqMRnyDqJWwz1A==
   dependencies:
-    "@aryth/comparer" "^0.3.15"
+    "@aryth/comparer" "^0.3.19"
     "@typen/enum-data-types" "^0.1.16"
     "@typen/enum-object-types" "^0.1.16"
 
-"@vect/vector-init@^0.3.8", "@vect/vector-init@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-init/-/vector-init-0.3.9.tgz#63da59e4c7223d0fe1b89e53d27c7adf7ae5ef4e"
-  integrity sha512-W8elJLSdbYe4SG0UUwq7ejDSYE4XFx2WZIrReR17yOKjbS2qI8KgCco4S2VizEU4QSuV38qTDbqS8kuhwBJo2g==
+"@vect/vector-init@^0.3.10", "@vect/vector-init@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-init/-/vector-init-0.3.10.tgz#e66b00bae7d3e215db597247d2e899f09061e6e2"
+  integrity sha512-YPHQFIUTJbrYCR84ErR0bmqERlwVzPc0sSsklXnPltZaUoR1SjLyztwwoiKKD7X5M00BT2ic1/eDR8oxGuaAsA==
   dependencies:
-    "@aryth/math" "^0.3.15"
+    "@aryth/math" "^0.3.19"
     "@typen/nullish" "^0.1.16"
 
-"@vect/vector-mapper@^0.3.6", "@vect/vector-mapper@^0.3.8", "@vect/vector-mapper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-mapper/-/vector-mapper-0.3.9.tgz#92af82e9ead3d73fa34412739e4205ace5fd3557"
-  integrity sha512-thk3TCoQcKH2fSycPZppx7/h+GfVIYlJeAGgsaAhZJUCcIG8hMa7p8IZEL0VHXijGOTHA9VJDF8NI/y9q5uFWQ==
+"@vect/vector-mapper@^0.3.10", "@vect/vector-mapper@^0.3.6", "@vect/vector-mapper@^0.3.8", "@vect/vector-mapper@^0.3.9":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-mapper/-/vector-mapper-0.3.10.tgz#6d621665c284bfc347b8812bdcdd0367efe1d72d"
+  integrity sha512-Ug5jEJNpF2FgRWbqzMzOVrfGHHzw36Envk0w+/glN5qhgJ+4nMWtE7Au0Az9KV4Z4iZclsddeqrThusvJSYGQA==
 
-"@vect/vector-margin@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-margin/-/vector-margin-0.3.9.tgz#d92087ebb0529a0d7bb1e510419c29bb60343214"
-  integrity sha512-SlEyzPQrob5gekhll2TurwBJHy0nAn9kTOauuTCa86gf1JHGOjooY6mIdc0265tw34JD/rls6KCzoVDa7QUhow==
+"@vect/vector-margin@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-margin/-/vector-margin-0.3.10.tgz#434309e1db93247e9bdf21e8c16ea7b5b9b6750a"
+  integrity sha512-zyWoIG164Zw5ygSpLtYdXugYi+6cxeG+dGFQio63IbpJzLndrpS/mIUW20vLVpSKEBvXHP03JXgOyUN1R7sVmw==
 
-"@vect/vector-merge@^0.3.8", "@vect/vector-merge@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-merge/-/vector-merge-0.3.9.tgz#90a4775e9b507de4e9a5f5baafe664071bb4074d"
-  integrity sha512-U4aY4OU34Y0IpPV6Kr44FJLl11l+HXhPck7Y74OjRiUsWZroqQBuoL0r8zxqO5RpTUq2hy25FBX3AM/5Il9AIg==
+"@vect/vector-merge@^0.3.10", "@vect/vector-merge@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-merge/-/vector-merge-0.3.10.tgz#f6f2027778c9d11a1de0606a40c1a0191f0df676"
+  integrity sha512-Wb64ffVMxeU9ZcDFR2vlwmquv1xd+EtLfEquR77P00NgY2/xMMPT7sKEZ/evugMM3vqLNiWZwZFJH7V8352xxA==
 
-"@vect/vector-select@^0.3.8", "@vect/vector-select@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-select/-/vector-select-0.3.9.tgz#9a5f469ca0ce1a603e5dabbd3e7448bb3fd95f12"
-  integrity sha512-DspNUG2fcmwltOdzDN5MOSu6UJupbuRtqBsmMl9PSUYYTAsHXJPI6sQJ32WzdbdieyZKD1OZyrz9lhwg76JaUg==
+"@vect/vector-select@^0.3.10", "@vect/vector-select@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-select/-/vector-select-0.3.10.tgz#5d7801abce318e18bab11291952f8dafd3b3a5eb"
+  integrity sha512-KjwmbAvaJ4wxzMarlDtgD7RBdo7hF4Nfw+RMjNZib5RVpUln+kQLiCdCK7LyvnEdQDptYfF2Dfl63HqFBOuGNQ==
   dependencies:
-    "@aryth/comparer" "^0.3.15"
-    "@aryth/rand" "^0.3.15"
-    "@vect/swap" "^0.3.9"
-    "@vect/vector-update" "^0.3.9"
+    "@aryth/comparer" "^0.3.19"
+    "@aryth/rand" "^0.3.19"
+    "@vect/swap" "^0.3.10"
+    "@vect/vector-update" "^0.3.10"
 
-"@vect/vector-stat@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-stat/-/vector-stat-0.3.9.tgz#d661798f9eef9aa9162b7e113cadfcd0098efc5a"
-  integrity sha512-b0xkBa038eL/n7whirgelD4lXo2xRGWhGhQESY6TUtY3QU6IBmCp3+7/V08RugXGs2FYLiaaDBoiHkBg0jqtmg==
+"@vect/vector-stat@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-stat/-/vector-stat-0.3.10.tgz#8b6a8a36350abf502532c6bfb635a56c71b21b50"
+  integrity sha512-Se97Ba23nWCAxv/KwswIq3CSkAu5TpY7BKJNXBILpFVAFb3OwOYw4HdQMKJxIKksX/2veMViS0yPAjTyiCC2qA==
   dependencies:
     "@typen/enum-data-types" "^0.1.16"
 
-"@vect/vector-update@^0.3.8", "@vect/vector-update@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-update/-/vector-update-0.3.9.tgz#7bb2c7f385c93e0c6a307cdecf5093dfa58ba824"
-  integrity sha512-QeYOMmBudERdKOkJEj/nNmqey4iLNmTbmA/1UD+fiN3yq1rmsMayMsfSXPpxt5w4QyfbMwwPVKHzv/Y37Lpjqw==
+"@vect/vector-update@^0.3.10", "@vect/vector-update@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-update/-/vector-update-0.3.10.tgz#0c3f34eba6cd2ad6d178ed9ad92ac019d95c0734"
+  integrity sha512-CBJSrFcz6oSNfb65NcAOieU1I2T7FK+Kc0Xf/k+308nNlNmQur44H59SQa5+tTzsfdnM1Xvj4Bi6XXmm8/eA4w==
   dependencies:
-    "@vect/swap" "^0.3.9"
+    "@vect/swap" "^0.3.10"
 
-"@vect/vector-zipper@^0.3.8", "@vect/vector-zipper@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector-zipper/-/vector-zipper-0.3.9.tgz#78e624810f5d6c0166d2bfd5c292ac597f089c79"
-  integrity sha512-NyI0fNWhHlKzi1L1Z8usMW5UMes6gwJHKzI0cO6JU0ZoOeH4WGTn4/nStc75GaOBg95K/Z6+uEuFLa7x0hFcCg==
+"@vect/vector-zipper@^0.3.10", "@vect/vector-zipper@^0.3.8":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector-zipper/-/vector-zipper-0.3.10.tgz#614975a6eb5d2e18f9011c3b398e0f8575d0c6b8"
+  integrity sha512-NcnJ27gvtv5T9rZ3MAAUoCCr8wnjYALtsBODKNk4Gyi0Zmvyii9pyKgIp+jbnIUvhsP7NVq/iaNiCA+FghtD3w==
 
-"@vect/vector@^0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@vect/vector/-/vector-0.3.9.tgz#44ef84ef70c4ed1a1ad0d2188ca7dc7e810efc1d"
-  integrity sha512-gKLqdAlT5kVeCFgMFHpzn2xxSCzhqP8ulK5n/SVxX/8XqN1XHYs5HmpHNF17yd9/sbuw9++RAgIkjO57j2RDIQ==
+"@vect/vector@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@vect/vector/-/vector-0.3.10.tgz#2fc06c60aaf6a1986dad018957ef7e830728734e"
+  integrity sha512-O3a5U9+Y54/OC2ZEokElmjSi21fKUsKLd6q59/cFTauBt+9B0ZCa6fAk7GEycsHEYqHd+m6+qOfZ5wwRNS8EqQ==
   dependencies:
-    "@vect/vector-algebra" "^0.3.9"
-    "@vect/vector-index" "^0.3.9"
-    "@vect/vector-indicator" "^0.3.9"
-    "@vect/vector-init" "^0.3.9"
-    "@vect/vector-mapper" "^0.3.9"
-    "@vect/vector-margin" "^0.3.9"
-    "@vect/vector-merge" "^0.3.9"
-    "@vect/vector-select" "^0.3.9"
-    "@vect/vector-update" "^0.3.9"
-    "@vect/vector-zipper" "^0.3.9"
+    "@vect/vector-algebra" "^0.3.10"
+    "@vect/vector-index" "^0.3.10"
+    "@vect/vector-indicator" "^0.3.10"
+    "@vect/vector-init" "^0.3.10"
+    "@vect/vector-mapper" "^0.3.10"
+    "@vect/vector-margin" "^0.3.10"
+    "@vect/vector-merge" "^0.3.10"
+    "@vect/vector-select" "^0.3.10"
+    "@vect/vector-update" "^0.3.10"
+    "@vect/vector-zipper" "^0.3.10"
 
 borel@^0.1.40:
   version "0.1.40"

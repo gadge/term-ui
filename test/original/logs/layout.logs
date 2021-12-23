@@ -1,0 +1,78 @@
+OUT: >> [Program.configIO] [terminal] xterm-256color [tmux] false\n
+-
+OUT: >> [new program] (9,156)\n
+-
+OUT: >> [new node] screen.0 ∈ screen.0\n
+-
+OUT: >> [new node] layout.1 ∈ screen.0\n
+-
+OUT: >> [new node] box.2 ∈ layout.1\n
+-
+OUT: >> [new node] box.3 ∈ layout.1\n
+-
+OUT: >> [new node] box.4 ∈ layout.1\n
+-
+OUT: >> [new node] box.5 ∈ layout.1\n
+-
+OUT: >> [new node] box.6 ∈ layout.1\n
+-
+OUT: >> [new node] box.7 ∈ layout.1\n
+-
+OUT: >> [new node] box.8 ∈ layout.1\n
+-
+OUT: >> [new node] box.9 ∈ layout.1\n
+-
+OUT: >> [new node] box.10 ∈ layout.1\n
+-
+OUT: >> [new node] box.11 ∈ layout.1\n
+-
+OUT: >> [new node] box.12 ∈ layout.1\n
+-
+OUT: >> [new node] box.13 ∈ layout.1\n
+-
+OUT: >> [new node] box.14 ∈ layout.1\n
+-
+OUT: >> [new node] box.15 ∈ layout.1\n
+-
+OUT: >> [new node] box.16 ∈ layout.1\n
+-
+OUT: >> [new node] box.17 ∈ layout.1\n
+-
+OUT: >> [new node] box.18 ∈ layout.1\n
+-
+OUT: >> [new node] box.19 ∈ layout.1\n
+-
+OUT: >> [new node] box.20 ∈ layout.1\n
+-
+OUT: >> [new node] box.21 ∈ layout.1\n
+-
+OUT: >> [new node] box.22 ∈ layout.1\n
+-
+OUT: >> [new node] box.23 ∈ layout.1\n
+-
+OUT: >> [new node] box.24 ∈ screen.0\n
+-
+OUT: >> [new node] box.25 ∈ box.24\n
+-
+OUT: ^[[?1049h^[[?1h^[=^[[1;9r^[[?25l^[[1;1H^[[H^[[2J^[7^[[3;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[4;1H^[[4;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[5;1H^[[5;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[7C^[(0xx^[(B3^[[7C^[(0xx^[(B4^[[7C^[(0xx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[6;1H^[[6;40H^[[34mm^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[34mqqqqqqj^[[m^[[7;1H^[[7;41Hx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[8;1H^[[8;41Hx^[[18Cxmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqj^[[9;1H^[[9;41Hx^[[18Cx^[[10Clqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqk^[(B^[8^[7^[[3;1H^[[65C^[(0lq^[(B ^[[1;31mWARNING^[[m ^[(0qqqqqqqqqqqqqk^[[4;1H^[[4;66Hx^[(B                       ^[(0x^[[5;1H^[[5;66Hx^[[1C^[[1m^[(BTerminfo parse error.^[[m^[[6;1H^[[6;66H^[(0x^[[3C^[(B  ^[[8C  ^[[7;1H^[[7;66H^[(0mqqqqqqqqqqqqqqqqqqqqqqqj^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[5;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[6;1H^[[6;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[7;1H^[[7;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[3C^[(0lq^[[1C^[[1;31m^[(BWARNING^[[1C^[[m^[(0qqqqqqqqqqqqqkx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[8;1H^[[8;40H^[[34mx^[[mx^[[18Cxx^[[4Cx^[[23Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[9;1H^[[9;40H^[[34mx^[[mx^[[18Cxx^[[4Cx^[[1C^[[1m^[(BTerminfo parse error.^[[1C^[[m^[(0xx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[[18Cxmqqqqx^[[23Cxmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B     ^[[m^[(0mqqqqqqqqqqqqqqqqqqqqqqqjqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mm^[[mx^[[18Cx^[[34mqqqqqqqqqq^[[mx^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[34mqqqqqqj^[[m^[[13;1H^[[13;41Hx^[[18Cx^[[10Cx^[[8Cxx^[[18Cxx^[[8Cx^[[14;1H^[[14;41Hx^[[18Cx^[[10Cx^[[8Cxx^[[18Cxx^[[8Cx^[[15;1H^[[15;41Hmqqqqqqqqqqqqqqqqqqj^[[10Cmqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[16;1H^[[16;41Hlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[17;1H^[[17;41Hx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[6;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[7;1H^[[7;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[8;1H^[[8;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[3C^[(0lq^[[1C^[[1;31m^[(BWARNING^[[1C^[[m^[(0qqqqqqqqqqqqqkx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[9;1H^[[9;40H^[[34mx^[[mx^[[18Cxx^[[4Cx^[[23Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[[18Cxx^[[4Cx^[[1C^[[1m^[(BTerminfo parse error.^[[1C^[[m^[(0xx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cxmqqqqx^[[23Cxmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B     ^[[m^[(0mqqqqqqqqqqqqqqqqqqqqqqqjqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[13;1H^[[13;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[14;1H^[[14;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[15;1H^[[15;40H^[[34mm^[[mx^[[18Cx^[[34mqqqqqqqqqq^[[mx^[[8Cxx^[[18Cxx^[[8Cx^[[34mqqqqqqj^[[m^[[16;1H^[[16;41Hmqqqqqqqqqqqqqqqqqqj^[[10Cmqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[17;1H^[[17;41Hlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[18;1H^[[18;41Hx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[[19;1H^[[19;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[20;1H^[[20;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[(B^[8
+-
+OUT: ^[7^[[8;1H^[[8;66H  ^[[1C ^[(0xx^[(B3   ^[[1C   ^[(0xx^[(B4       ^[(0x^[[9;1H^[[9;66H^[(B ^[[3C^[(0xx^[[8Cxx^[[10;1H^[[10;66H^[(B ^[[1C  ^[(0xx^[(B        ^[(0xx^[(B       ^[[11;1H^[[11;66H^[(0qqqqjmqqqqqqqqjmqqqqqqqqj^[[12;1H^[[12;66H^[[41m^[(B     ^[[m^[(0l^[[8Ckl^[[8Cq^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[7;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[8;1H^[[8;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[9;1H^[[9;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[7C^[(0xx^[(B3^[[7C^[(0xx^[(B4^[[7C^[(0xx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mx^[[mx^[[18Cxmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[13;1H^[[13;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0lqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[14;1H^[[14;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[15;1H^[[15;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[16;1H^[[16;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[17;1H^[[17;40H^[[34mm^[[mmqqqqqqqqqqqqqqqqqqj^[[34mqqqqqqqqqq^[[mmqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[34mqqqqqqj^[[m^[[18;1H^[[18;41Hlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[19;1H^[[19;41Hx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[[20;1H^[[20;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[21;1H^[[21;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[22;1H^[[22;41Hmqqqqqqqqjx^[[18Cxmqqqqqqqqjmqqqqqqqqqqqqqqqqqqjmqqqqqqqqj^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[7;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[8;1H^[[8;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[9;1H^[[9;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[7C^[(0xx^[(B3^[[7C^[(0xx^[(B4^[[7C^[(0xx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mx^[[mx^[[18Cxmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[13;1H^[[13;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0lqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[14;1H^[[14;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[15;1H^[[15;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[16;1H^[[16;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[17;1H^[[17;40H^[[34mm^[[mmqqqqqqqqqqqqqqqqqqj^[[34mqqqqqqqqqq^[[mmqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[34mqqqqqqj^[[m^[[18;1H^[[18;41Hlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[19;1H^[[19;41Hx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[[20;1H^[[20;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[21;1H^[[21;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[22;1H^[[22;41Hmqqqqqqqqjx^[[18Cxmqqqqqqqqjmqqqqqqqqqqqqqqqqqqjmqqqqqqqqj^[[23;1H^[[23;41Hlqqqqqqqqqqqqqqqqqqk^[[9Cxlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqk^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[7;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[8;1H^[[8;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[9;1H^[[9;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[7C^[(0xx^[(B3^[[7C^[(0xx^[(B4^[[7C^[(0xx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mx^[[mx^[[18Cxmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[13;1H^[[13;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0lqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[14;1H^[[14;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[15;1H^[[15;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[16;1H^[[16;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[17;1H^[[17;40H^[[34mx^[[mmqqqqqqqqqqqqqqqqqqj^[[41m^[(B          ^[[m^[(0mqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[18;1H^[[18;40H^[[34mm^[[mlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[34mqqqqqqj^[[m^[[19;1H^[[19;41Hx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[[20;1H^[[20;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[21;1H^[[21;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[22;1H^[[22;41Hmqqqqqqqqjx^[[18Cxmqqqqqqqqjmqqqqqqqqqqqqqqqqqqjmqqqqqqqqj^[[23;1H^[[23;41Hlqqqqqqqqqqqqqqqqqqk^[[9Cxlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[24;1H^[[24;41Hx^[(B12^[[16C^[(0x^[[9Cxx^[(B20^[[16C^[(0xx^[(B16^[[6C^[(0xx^[(B22^[[6C^[(0x^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[7;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[8;1H^[[8;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[9;1H^[[9;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[7C^[(0xx^[(B3^[[7C^[(0xx^[(B4^[[7C^[(0xx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mx^[[mx^[[18Cxmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[13;1H^[[13;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0lqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[14;1H^[[14;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[15;1H^[[15;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[16;1H^[[16;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[17;1H^[[17;40H^[[34mx^[[mmqqqqqqqqqqqqqqqqqqj^[[41m^[(B          ^[[m^[(0mqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[18;1H^[[18;40H^[[34mm^[[mlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[34mqqqqqqj^[[m^[[19;1H^[[19;41Hx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[[20;1H^[[20;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[21;1H^[[21;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[22;1H^[[22;41Hmqqqqqqqqjx^[[18Cxmqqqqqqqqjmqqqqqqqqqqqqqqqqqqjmqqqqqqqqj^[[23;1H^[[23;41Hlqqqqqqqqqqqqqqqqqqk^[[9Cxlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[24;1H^[[24;41Hx^[(B12^[[16C^[(0x^[[9Cxx^[(B20^[[16C^[(0xx^[(B16^[[6C^[(0xx^[(B22^[[6C^[(0x^[[25;1H^[[25;41Hx^[[18Cx^[[9Cxx^[[18Cxx^[[8Cxx^[[8Cx^[(B^[8
+-
+OUT: ^[[H^[[2J^[7^[[8;1H^[[39C^[[34m^[(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk^[[m^[[9;1H^[[9;40H^[[34mx^[[mlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[10;1H^[[10;40H^[[34mx^[[mx^[(B1^[[17C^[(0xx^[(B2^[[7C^[(0xx^[(B3^[[7C^[(0xx^[(B4^[[7C^[(0xx^[(B5^[[7C^[(0xx^[(B6^[[7C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[11;1H^[[11;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[12;1H^[[12;40H^[[34mx^[[mx^[[18Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[13;1H^[[13;40H^[[34mx^[[mx^[[18Cxmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqjmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[14;1H^[[14;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0lqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[15;1H^[[15;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[(B9^[[7C^[(0xx^[(B10^[[16C^[(0xx^[(B11^[[6C^[(0x^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[16;1H^[[16;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[17;1H^[[17;40H^[[34mx^[[mx^[[18Cx^[[41m^[(B          ^[[m^[(0x^[[8Cxx^[[18Cxx^[[8Cx^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[18;1H^[[18;40H^[[34mx^[[mmqqqqqqqqqqqqqqqqqqj^[[41m^[(B          ^[[m^[(0mqqqqqqqqjx^[[18Cxmqqqqqqqqj^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[19;1H^[[19;40H^[[34mx^[[mlqqqqqqqqklqqqqqqqqqqqqqqqqqqklqqqqqqqqkx^[[18Cxlqqqqqqqqk^[[41m^[(B      ^[[m^[[34m^[(0x^[[m^[[20;1H^[[20;40H^[[34mm^[[mx^[(B7^[[7C^[(0xx^[(B8^[[17C^[(0xx^[(B14^[[6C^[(0xx^[[18Cxx^[(B17^[[6C^[(0x^[[34mqqqqqqj^[[m^[[21;1H^[[21;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[22;1H^[[22;41Hx^[[8Cxx^[[18Cxx^[[8Cxx^[[18Cxx^[[8Cx^[[23;1H^[[23;41Hmqqqqqqqqjx^[[18Cxmqqqqqqqqjmqqqqqqqqqqqqqqqqqqjmqqqqqqqqj^[[24;1H^[[24;41Hlqqqqqqqqqqqqqqqqqqk^[[9Cxlqqqqqqqqqqqqqqqqqqklqqqqqqqqklqqqqqqqqk^[[25;1H^[[25;41Hx^[(B12^[[16C^[(0x^[[9Cxx^[(B20^[[16C^[(0xx^[(B16^[[6C^[(0xx^[(B22^[[6C^[(0x^[[26;1H^[[26;41Hx^[[18Cx^[[9Cxx^[[18Cxx^[[8Cxx^[[8Cx^[(B^[8
+-
+IN: q
+-
+OUT: ^[[?1l^[>^[[1;26r^[[?12l^[[?25h^[[H^[[2J^[[?1049l
+-

@@ -6,16 +6,19 @@
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
+  "scripts": {
+    "upint": "yarn upgrade-interactive"
+  },
   "dependencies": {
     "@geia/enum-signals": "^0.0.19",
-    "@typen/enum-data-types": "^0.1.16",
-    "@texting/enum-chars": "^0.0.9",
+    "@ject/mixin": "^0.0.11",
     "@pres/enum-control-chars": "^0.1.8",
     "@pres/enum-csi-codes": "^0.1.8",
     "@pres/enum-events": "^0.1.8",
-    "@vect/vector-index": "^0.3.9",
-    "@ject/mixin": "^0.0.11",
-    "@pres/program": "^0.1.8"
+    "@pres/program": "^0.1.8",
+    "@texting/enum-chars": "^0.0.9",
+    "@typen/enum-data-types": "^0.1.16",
+    "@vect/vector-index": "^0.3.9"
   },
   "preferGlobal": false,
   "repository": "git://github.com/chjj/blessed.git",
